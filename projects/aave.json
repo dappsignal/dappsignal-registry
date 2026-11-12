@@ -4,7 +4,7 @@
     "name":  "Aave",
     "tagline":  "Non-custodial lending and borrowing money market.",
     "description":  "Aave is a non-custodial liquidity market protocol where users supply and borrow assets against collateral. This listing tracks the Aave v3 pool contract on Ethereum to measure on-chain activity. Coverage is limited to the mapped contract and does not represent all protocol activity.",
-    "logo_url":  "https://aave.com/favicon.ico",
+    "logo_url":  "https://app.aave.com/favicon.ico",
     "website_url":  "https://aave.com",
     "social_links":  {
                          "x":  "https://x.com/aaveaave"
