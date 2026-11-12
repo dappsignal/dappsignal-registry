@@ -4,7 +4,7 @@
     "name":  "ENS",
     "tagline":  "Ethereum Name Service: decentralized naming for wallets and sites.",
     "description":  "Ethereum Name Service maps human-readable names like name.eth to wallet addresses and other resources through a decentralized registry. This listing tracks the ENS registry contract on Ethereum to measure registration and resolver activity. Coverage is limited to the mapped contract.",
-    "logo_url":  "https://ens.domains/favicon.ico",
+    "logo_url":  "https://app.ens.domains/favicon.ico",
     "website_url":  "https://ens.domains",
     "social_links":  {
                          "x":  "https://x.com/ensdomains"
