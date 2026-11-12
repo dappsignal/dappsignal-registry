@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "slug": "jupiter",
+  "name": "Jupiter",
+  "tagline": "Solana swap aggregator routing across liquidity sources.",
+  "description": "Jupiter aggregates liquidity across Solana DEXs to route swaps with best-price execution. This listing tracks the Jupiter v6 aggregator program to measure on-chain activity. Coverage is limited to the mapped program and does not represent all protocol activity.",
+  "logo_url": "https://jup.ag/favicon.ico",
+  "website_url": "https://jup.ag",
+  "social_links": { "x": "https://x.com/JupiterExchange", "github": "https://github.com/jup-ag" },
+  "primary_category_id": "defi",
+  "subcategory_id": "dex-trading",
+  "tags": ["dex", "aggregator"],
+  "chains": [
+    { "chain_id": "solana", "addresses": [ { "address": "JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4", "address_kind": "program" } ] }
+  ]
+}
