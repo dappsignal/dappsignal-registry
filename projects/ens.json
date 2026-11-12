@@ -1,0 +1,29 @@
+{
+    "schema_version":  1,
+    "slug":  "ens",
+    "name":  "ENS",
+    "tagline":  "Ethereum Name Service: decentralized naming for wallets and sites.",
+    "description":  "Ethereum Name Service maps human-readable names like name.eth to wallet addresses and other resources through a decentralized registry. This listing tracks the ENS registry contract on Ethereum to measure registration and resolver activity. Coverage is limited to the mapped contract.",
+    "logo_url":  "https://ens.domains/favicon.ico",
+    "website_url":  "https://ens.domains",
+    "social_links":  {
+                         "x":  "https://x.com/ensdomains"
+                     },
+    "primary_category_id":  "infrastructure",
+    "subcategory_id":  "identity",
+    "tags":  [
+                 "identity",
+                 "names"
+             ],
+    "chains":  [
+                   {
+                       "chain_id":  "ethereum",
+                       "addresses":  [
+                                         {
+                                             "address_kind":  "contract",
+                                             "address":  "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e"
+                                         }
+                                     ]
+                   }
+               ]
+}
