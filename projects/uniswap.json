@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "slug": "uniswap",
+  "name": "Uniswap",
+  "tagline": "Decentralized trading protocol with concentrated liquidity.",
+  "description": "Uniswap is a decentralized exchange protocol for swapping tokens and providing liquidity. This listing tracks selected Uniswap v3 position manager contracts on Ethereum, Base, and BNB Smart Chain to measure on-chain activity. Coverage is limited to the mapped contracts and does not represent all protocol activity.",
+  "logo_url": "https://uniswap.org/favicon.ico",
+  "website_url": "https://uniswap.org",
+  "social_links": { "x": "https://x.com/Uniswap", "github": "https://github.com/Uniswap" },
+  "primary_category_id": "defi",
+  "subcategory_id": "dex-trading",
+  "tags": ["dex", "amm"],
+  "chains": [
+    { "chain_id": "ethereum", "addresses": [ { "address": "0xC36442b4a4522E871399CD717aBDD847Ab11FE88", "address_kind": "contract" } ] },
+    { "chain_id": "base", "addresses": [ { "address": "0x03a520b32C04BF3bEEf7BEb72E919cf822Ed34f1", "address_kind": "contract" } ] },
+    { "chain_id": "bnb-smart-chain", "addresses": [ { "address": "0x7b8A01B39D58278b5DE7e48c8449c9f4F5170613", "address_kind": "contract" } ] }
+  ]
+}
