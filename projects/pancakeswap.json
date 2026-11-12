@@ -4,7 +4,7 @@
     "name":  "PancakeSwap",
     "tagline":  "Multichain DEX and DeFi suite with syrup pools.",
     "description":  "PancakeSwap is a decentralized exchange and DeFi suite originating on BNB Smart Chain, offering swaps, liquidity provision, staking, and farming. This listing tracks the PancakeSwap swap router on BNB Smart Chain to measure on-chain activity. Coverage is limited to the mapped contract and does not represent all protocol activity.",
-    "logo_url":  "https://pancakeswap.finance/favicon.ico",
+    "logo_url":  "https://assets.coingecko.com/coins/images/12632/large/pancakeswap-cake-logo_(1).png",
     "website_url":  "https://pancakeswap.finance",
     "social_links":  {
                          "x":  "https://x.com/PancakeSwap"
