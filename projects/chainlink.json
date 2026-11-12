@@ -4,7 +4,7 @@
     "name":  "Chainlink",
     "tagline":  "Decentralized oracle network delivering price feeds and data.",
     "description":  "Chainlink is a decentralized oracle network providing price feeds, proof of reserve, and cross-chain data to smart contracts. This listing tracks the LINK token contract on Ethereum as its primary on-chain footprint. Coverage is limited to the mapped contract and does not represent oracle feed activity.",
-    "logo_url":  "https://chain.link/favicon.ico",
+    "logo_url":  "https://docs.chain.link/favicon.ico",
     "website_url":  "https://chain.link",
     "social_links":  {
                          "x":  "https://x.com/chainlink"
