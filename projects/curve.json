@@ -1,0 +1,29 @@
+{
+    "schema_version":  1,
+    "slug":  "curve",
+    "name":  "Curve",
+    "tagline":  "Stablecoin and correlated-asset AMM with deep liquidity.",
+    "description":  "Curve is a decentralized exchange optimized for stablecoin and correlated-asset swaps with low slippage and deep liquidity. This listing tracks the Curve 3pool contract on Ethereum to measure on-chain activity. Coverage is limited to the mapped contract and does not represent all protocol activity.",
+    "logo_url":  "https://curve.finance/favicon.ico",
+    "website_url":  "https://curve.finance",
+    "social_links":  {
+                         "x":  "https://x.com/CurveFinance"
+                     },
+    "primary_category_id":  "defi",
+    "subcategory_id":  "dex-trading",
+    "tags":  [
+                 "dex",
+                 "stableswap"
+             ],
+    "chains":  [
+                   {
+                       "chain_id":  "ethereum",
+                       "addresses":  [
+                                         {
+                                             "address_kind":  "contract",
+                                             "address":  "0xbEbc44782C7dB0a1A60Cb6fe97d0b483032FF1C7"
+                                         }
+                                     ]
+                   }
+               ]
+}
