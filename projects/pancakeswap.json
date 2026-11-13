@@ -3,7 +3,7 @@
     "slug":  "pancakeswap",
     "name":  "PancakeSwap",
     "tagline":  "Multichain DEX and DeFi suite with syrup pools.",
-    "description":  "PancakeSwap is a decentralized exchange and DeFi suite originating on BNB Smart Chain, offering swaps, liquidity provision, staking, and farming. This listing tracks the PancakeSwap swap router on BNB Smart Chain to measure on-chain activity. Coverage is limited to the mapped contract and does not represent all protocol activity.",
+    "description":  "PancakeSwap is a decentralized exchange and DeFi suite originating on BNB Smart Chain, offering swaps, liquidity provision, staking, and farming across multiple chains. This listing tracks PancakeSwap routing contracts on BNB Smart Chain, Ethereum, and Base, and the PancakeSwap AMM program on Solana, to measure on-chain activity. Coverage is limited to the mapped addresses and does not represent all protocol activity.",
     "logo_url":  "https://assets.coingecko.com/coins/images/12632/large/pancakeswap-cake-logo_(1).png",
     "website_url":  "https://pancakeswap.finance",
     "social_links":  {
@@ -22,6 +22,33 @@
                                          {
                                              "address_kind":  "contract",
                                              "address":  "0x10ED43C718714eb63d5aA57B78B54704E256024E"
+                                         }
+                                     ]
+                   },
+                   {
+                       "chain_id":  "ethereum",
+                       "addresses":  [
+                                         {
+                                             "address_kind":  "contract",
+                                             "address":  "0x13f4EA83D0bd40E75C8222255bc855a974568Dd4"
+                                         }
+                                     ]
+                   },
+                   {
+                       "chain_id":  "base",
+                       "addresses":  [
+                                         {
+                                             "address_kind":  "contract",
+                                             "address":  "0x13f4EA83D0bd40E75C8222255bc855a974568Dd4"
+                                         }
+                                     ]
+                   },
+                   {
+                       "chain_id":  "solana",
+                       "addresses":  [
+                                         {
+                                             "address_kind":  "program",
+                                             "address":  "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA"
                                          }
                                      ]
                    }
