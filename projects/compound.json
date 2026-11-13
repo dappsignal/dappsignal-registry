@@ -4,7 +4,7 @@
     "name":  "Compound",
     "tagline":  "Algorithmic money market protocol on Ethereum.",
     "description":  "Compound is an algorithmic, autonomous interest rate protocol for supplying and borrowing crypto assets. This listing tracks the Compound v2 comptroller contract on Ethereum to measure on-chain activity. Coverage is limited to the mapped contract and does not represent all protocol activity.",
-    "logo_url":  "https://compound.finance/favicon.ico",
+    "logo_url":  "https://assets.coingecko.com/coins/images/10775/large/COMP.png",
     "website_url":  "https://compound.finance",
     "social_links":  {
                          "x":  "https://x.com/compoundfinance"
