@@ -1,0 +1,29 @@
+{
+    "schema_version":  1,
+    "slug":  "1inch",
+    "name":  "1inch",
+    "tagline":  "DEX aggregator routing across liquidity sources.",
+    "description":  "1inch is a decentralized exchange aggregator that routes swaps across multiple liquidity sources to find the best price. This listing tracks the 1inch router on BNB Smart Chain. Coverage is limited to the mapped contract and does not represent all routing activity.",
+    "logo_url":  "https://app.1inch.io/favicon.ico",
+    "website_url":  "https://app.1inch.io",
+    "social_links":  {
+                         "x":  "https://x.com/1inch"
+                     },
+    "primary_category_id":  "defi",
+    "subcategory_id":  "dex-trading",
+    "tags":  [
+                 "aggregator",
+                 "dex"
+             ],
+    "chains":  [
+                   {
+                       "chain_id":  "bnb-smart-chain",
+                       "addresses":  [
+                                         {
+                                             "address_kind":  "contract",
+                                             "address":  "0x1111111254EEB25477B68fb85Ed929f73A960582"
+                                         }
+                                     ]
+                   }
+               ]
+}
