@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "slug": "safe",
+  "name": "Safe",
+  "tagline": "Multisig and smart account infrastructure for self-custody.",
+  "description": "Safe (formerly Gnosis Safe) is a smart-account platform for multisig wallets and programmable custody, used by individuals, DAOs, and protocols across chains. This listing tracks the Safe proxy factory on Ethereum, Base, and BNB Smart Chain to measure on-chain activity. Coverage is limited to the mapped contracts and does not represent all Safe deployments.",
+  "logo_url": "https://app.safe.global/favicon.ico",
+  "website_url": "https://safe.global",
+  "social_links": { "x": "https://x.com/safe" },
+  "primary_category_id": "wallets",
+  "tags": ["multisig", "smart-accounts"],
+  "chains": [
+    { "chain_id": "ethereum", "addresses": [ { "address": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2", "address_kind": "contract" } ] },
+    { "chain_id": "base", "addresses": [ { "address": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2", "address_kind": "contract" } ] },
+    { "chain_id": "bnb-smart-chain", "addresses": [ { "address": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2", "address_kind": "contract" } ] }
+  ]
+}
