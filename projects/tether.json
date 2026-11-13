@@ -24,6 +24,15 @@
                                              "address":  "0xdAC17F958D2ee523a2206206994597C13D831ec7"
                                          }
                                      ]
+                   },
+                   {
+                       "chain_id":  "solana",
+                       "addresses":  [
+                                         {
+                                             "address_kind":  "account",
+                                             "address":  "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
+                                         }
+                                     ]
                    }
                ]
 }
