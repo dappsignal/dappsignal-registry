@@ -1,0 +1,38 @@
+{
+    "schema_version":  1,
+    "slug":  "circle",
+    "name":  "Circle (USDC)",
+    "tagline":  "Issuer of USDC, a fully reserved dollar stablecoin.",
+    "description":  "Circle issues USDC, a fully reserved dollar-denominated stablecoin used for payments and settlement across chains. This listing tracks the USDC token contract on Ethereum and the USDC mint account on Solana. Coverage is limited to the mapped addresses and does not represent activity on other chains.",
+    "logo_url":  "https://app.circle.com/favicon.ico",
+    "website_url":  "https://www.circle.com",
+    "social_links":  {
+                         "x":  "https://x.com/circle"
+                     },
+    "primary_category_id":  "defi",
+    "subcategory_id":  "stablecoins",
+    "tags":  [
+                 "stablecoin",
+                 "payments"
+             ],
+    "chains":  [
+                   {
+                       "chain_id":  "ethereum",
+                       "addresses":  [
+                                         {
+                                             "address_kind":  "contract",
+                                             "address":  "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+                                         }
+                                     ]
+                   },
+                   {
+                       "chain_id":  "solana",
+                       "addresses":  [
+                                         {
+                                             "address_kind":  "account",
+                                             "address":  "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+                                         }
+                                     ]
+                   }
+               ]
+}
