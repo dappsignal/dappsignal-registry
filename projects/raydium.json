@@ -1,0 +1,29 @@
+{
+    "schema_version":  1,
+    "slug":  "raydium",
+    "name":  "Raydium",
+    "tagline":  "Solana AMM and liquidity layer for the ecosystem.",
+    "description":  "Raydium is an automated market maker and liquidity provider on Solana, combining an on-chain order book with AMM pools. This listing tracks the Raydium AMM v4 program. Coverage is limited to the mapped program and does not represent all protocol activity.",
+    "logo_url":  "https://raydium.io/favicon.ico",
+    "website_url":  "https://raydium.io",
+    "social_links":  {
+                         "x":  "https://x.com/RaydiumProtocol"
+                     },
+    "primary_category_id":  "defi",
+    "subcategory_id":  "dex-trading",
+    "tags":  [
+                 "dex",
+                 "amm"
+             ],
+    "chains":  [
+                   {
+                       "chain_id":  "solana",
+                       "addresses":  [
+                                         {
+                                             "address_kind":  "program",
+                                             "address":  "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+                                         }
+                                     ]
+                   }
+               ]
+}
