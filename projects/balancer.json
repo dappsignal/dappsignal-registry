@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "slug": "balancer",
+  "name": "Balancer",
+  "tagline": "Programmable liquidity AMM with weighted and stable pools.",
+  "description": "Balancer is a decentralized exchange and automated market maker protocol with customizable weighted, stable, and boosted pools. This listing tracks the Balancer v2 Vault on Base, the contract that settles all pool swaps and liquidity changes. Coverage is limited to the mapped contract and does not represent all protocol activity.",
+  "logo_url": "https://docs.balancer.fi/favicon.ico",
+  "website_url": "https://balancer.fi",
+  "social_links": { "x": "https://x.com/Balancer", "docs": "https://docs.balancer.fi" },
+  "primary_category_id": "defi",
+  "subcategory_id": "dex-trading",
+  "tags": ["dex", "amm"],
+  "chains": [
+    { "chain_id": "base", "addresses": [ { "address": "0xBA12222222228d8Ba445958A75a0704d566BF2C8", "address_kind": "contract" } ] }
+  ]
+}
