@@ -11,6 +11,6 @@
   "subcategory_id": "derivatives",
   "tags": ["perpetuals", "order-book", "referral-rewards"],
   "chains": [
-    { "chain_id": "bnb-smart-chain", "addresses": [ { "address": "0xbf542b6d25100d55fa80fd042a7a99550eefa2f9", "address_kind": "account" } ] }
+    { "chain_id": "bnb-smart-chain", "addresses": [ { "address": "0xbf542b6d25100d55fa80fd042a7a99550eefa2f9", "address_kind": "contract" } ] }
   ]
 }
