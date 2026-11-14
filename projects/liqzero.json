@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "slug": "liqzero",
+  "name": "LiqZero",
+  "tagline": "Decentralized perpetual futures exchange on Orderly Network with built-in referral rewards: create codes, share commissions, and trade with deep liquidity.",
+  "description": "LiqZero.com is a next-generation decentralized exchange for perpetual futures trading, offering low fees, deep liquidity, and seamless on-chain execution through Orderly Network's omnichain order book. LiqZero adds a referral-rewards layer: users create referral codes, customize how commissions are shared with invitees, and earn from direct and indirect trades with an adjustable split. The non-custodial interface covers trading, swaps, prediction markets, portfolios, and vaults. Coverage note: execution currently runs on Orderly Network's shared infrastructure; the mapped BNB address is LiqZero's broker settlement account (an EIP-7702 delegated account), so on-chain activity metrics stay limited until a project-specific contract scope becomes trackable.",
+  "logo_url": "https://liqzero.com/favicon.webp",
+  "website_url": "https://liqzero.com",
+  "social_links": { "x": "https://x.com/LiqZerocom", "docs": "https://liqzero.com/docs" },
+  "primary_category_id": "defi",
+  "subcategory_id": "derivatives",
+  "tags": ["perpetuals", "order-book", "referral-rewards"],
+  "chains": [
+    { "chain_id": "bnb-smart-chain", "addresses": [ { "address": "0xbf542b6d25100d55fa80fd042a7a99550eefa2f9", "address_kind": "account" } ] }
+  ]
+}
