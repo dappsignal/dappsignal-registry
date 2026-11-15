@@ -3,7 +3,7 @@
   "slug": "wormhole",
   "name": "Wormhole",
   "tagline": "Cross-chain messaging and asset-transfer infrastructure.",
-  "description": "Cross-chain messaging and asset-transfer infrastructure. Activity coverage is limited to Wrapped Token Transfer bridge.",
+  "description": "Cross-chain messaging and asset-transfer infrastructure. Mapped deployments include Wormhole Token Bridge wrapped-token transfer events. Coverage is limited to these selected contracts and does not represent all protocol activity or complete history.",
   "logo_url": "https://wormhole.com/favicon.ico?favicon.00arheyd-cs4p.ico",
   "website_url": "https://wormhole.com/",
   "social_links": {},
@@ -45,6 +45,96 @@
         {
           "address": "wormDTUJ6AWPNvk59vGQbDvGJmqbDTdgWgAqcLBCgUb",
           "address_kind": "program"
+        }
+      ]
+    },
+    {
+      "chain_id": "arbitrum",
+      "addresses": [
+        {
+          "address": "0x0b2402144Bb366A632D14B83F244D2e0e21bD39c",
+          "address_kind": "contract",
+          "start_position": 524354889
+        }
+      ]
+    },
+    {
+      "chain_id": "avalanche",
+      "addresses": [
+        {
+          "address": "0x0e082F06FF657D94310cB8cE8B0D9a04541d8052",
+          "address_kind": "contract",
+          "start_position": 100359220
+        }
+      ]
+    },
+    {
+      "chain_id": "berachain",
+      "addresses": [
+        {
+          "address": "0x3Ff72741fd67D6AD0668d93B41a09248F4700560",
+          "address_kind": "contract",
+          "start_position": 28849791
+        }
+      ]
+    },
+    {
+      "chain_id": "ink",
+      "addresses": [
+        {
+          "address": "0x3Ff72741fd67D6AD0668d93B41a09248F4700560",
+          "address_kind": "contract",
+          "start_position": 61215986
+        }
+      ]
+    },
+    {
+      "chain_id": "monad",
+      "addresses": [
+        {
+          "address": "0x0B2719cdA2F10595369e6673ceA3Ee2EDFa13BA7",
+          "address_kind": "contract",
+          "start_position": 122353233
+        }
+      ]
+    },
+    {
+      "chain_id": "optimism",
+      "addresses": [
+        {
+          "address": "0x1D68124e65faFC907325e3EDbF8c4d84499DAa8b",
+          "address_kind": "contract",
+          "start_position": 159557755
+        }
+      ]
+    },
+    {
+      "chain_id": "polygon",
+      "addresses": [
+        {
+          "address": "0x5a58505a96D1dbf8dF91cB21B54419FC36e93fdE",
+          "address_kind": "contract",
+          "start_position": 97339246
+        }
+      ]
+    },
+    {
+      "chain_id": "unichain",
+      "addresses": [
+        {
+          "address": "0x3Ff72741fd67D6AD0668d93B41a09248F4700560",
+          "address_kind": "contract",
+          "start_position": 63966027
+        }
+      ]
+    },
+    {
+      "chain_id": "world-chain",
+      "addresses": [
+        {
+          "address": "0xc309275443519adca74c9136b02A38eF96E3a1f6",
+          "address_kind": "contract",
+          "start_position": 37689327
         }
       ]
     }

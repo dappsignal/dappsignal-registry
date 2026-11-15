@@ -3,7 +3,7 @@
   "slug": "across",
   "name": "Across",
   "tagline": "Intent-based asset transfers and cross-chain settlement.",
-  "description": "Intent-based asset transfers and cross-chain settlement. Activity coverage is limited to SpokePool.",
+  "description": "Intent-based asset transfers and cross-chain settlement. Mapped deployments include SpokePool deposit and relay settlement events. Coverage is limited to these selected contracts and does not represent all protocol activity or complete history.",
   "logo_url": "https://across.to/favicon.svg",
   "website_url": "https://across.to/",
   "social_links": {
@@ -38,6 +38,146 @@
         {
           "address": "0x4e8E101924eDE233C13e2D8622DC8aED2872d505",
           "address_kind": "contract"
+        }
+      ]
+    },
+    {
+      "chain_id": "arbitrum",
+      "addresses": [
+        {
+          "address": "0xe35e9842fceaCA96570B734083f4a58e8F7C5f2A",
+          "address_kind": "contract",
+          "start_position": 524353544
+        }
+      ]
+    },
+    {
+      "chain_id": "arc",
+      "addresses": [
+        {
+          "address": "0x9b4A302A548c7e313c2b74C461db7b84d3074A84",
+          "address_kind": "contract",
+          "start_position": 31308625
+        }
+      ]
+    },
+    {
+      "chain_id": "avalanche",
+      "addresses": [
+        {
+          "address": "0xFE9D541c92E4e90437C7152A00244886dE37a658",
+          "address_kind": "contract",
+          "start_position": 100358819
+        }
+      ]
+    },
+    {
+      "chain_id": "hyperevm",
+      "addresses": [
+        {
+          "address": "0x35E63eA3eb0fb7A3bc543C71FB66412e1F6B0E04",
+          "address_kind": "contract",
+          "start_position": 51298059
+        }
+      ]
+    },
+    {
+      "chain_id": "ink",
+      "addresses": [
+        {
+          "address": "0xeF684C38F94F48775959ECf2012D7E864ffb9dd4",
+          "address_kind": "contract",
+          "start_position": 61215690
+        }
+      ]
+    },
+    {
+      "chain_id": "linea",
+      "addresses": [
+        {
+          "address": "0x7E63A5f1a8F0B4d0934B2f2327DAED3F6bb2ee75",
+          "address_kind": "contract",
+          "start_position": 32609961
+        }
+      ]
+    },
+    {
+      "chain_id": "monad",
+      "addresses": [
+        {
+          "address": "0xd2ecb3afe598b746F8123CaE365a598DA831A449",
+          "address_kind": "contract",
+          "start_position": 122351905
+        }
+      ]
+    },
+    {
+      "chain_id": "optimism",
+      "addresses": [
+        {
+          "address": "0x6f26Bf09B1C792e3228e5467807a900A503c0281",
+          "address_kind": "contract",
+          "start_position": 159557553
+        }
+      ]
+    },
+    {
+      "chain_id": "plasma",
+      "addresses": [
+        {
+          "address": "0x50039fAEfebef707cFD94D6d462fE6D10B39207a",
+          "address_kind": "contract",
+          "start_position": 37770715
+        }
+      ]
+    },
+    {
+      "chain_id": "polygon",
+      "addresses": [
+        {
+          "address": "0x9295ee1d8C5b022Be115A2AD3c30C72E34e7F096",
+          "address_kind": "contract",
+          "start_position": 97338978
+        }
+      ]
+    },
+    {
+      "chain_id": "robinhood-chain",
+      "addresses": [
+        {
+          "address": "0xD29C85F15DF544bA632C9E25829fd29d767d7978",
+          "address_kind": "contract",
+          "start_position": 114673406
+        }
+      ]
+    },
+    {
+      "chain_id": "unichain",
+      "addresses": [
+        {
+          "address": "0x09aea4b2242abC8bb4BB78D537A67a245A7bEC64",
+          "address_kind": "contract",
+          "start_position": 63965623
+        }
+      ]
+    },
+    {
+      "chain_id": "world-chain",
+      "addresses": [
+        {
+          "address": "0x09aea4b2242abC8bb4BB78D537A67a245A7bEC64",
+          "address_kind": "contract",
+          "start_position": 37689129
+        }
+      ]
+    },
+    {
+      "chain_id": "zksync-era",
+      "addresses": [
+        {
+          "address": "0xE0B015E54d54fc84a6cB9B666099c46adE9335FF",
+          "address_kind": "contract",
+          "start_position": 72942109
         }
       ]
     }

@@ -3,14 +3,88 @@
   "slug": "balancer",
   "name": "Balancer",
   "tagline": "Programmable liquidity AMM with weighted and stable pools.",
-  "description": "Balancer is a decentralized exchange and automated market maker protocol with customizable weighted, stable, and boosted pools. This listing tracks the Balancer v2 Vault on Base, the contract that settles all pool swaps and liquidity changes. Coverage is limited to the mapped contract and does not represent all protocol activity.",
+  "description": "Programmable liquidity AMM with weighted and stable pools. Mapped deployments include Balancer v2 Vault swap and liquidity events; Balancer v3 Vault swap and liquidity events. Coverage is limited to these selected contracts and does not represent all protocol activity or complete history.",
   "logo_url": "https://docs.balancer.fi/favicon.ico",
   "website_url": "https://balancer.fi",
-  "social_links": { "x": "https://x.com/Balancer", "docs": "https://docs.balancer.fi" },
+  "social_links": {
+    "x": "https://x.com/Balancer",
+    "docs": "https://docs.balancer.fi"
+  },
   "primary_category_id": "defi",
   "subcategory_id": "dex-trading",
-  "tags": ["dex", "amm"],
+  "tags": [
+    "dex",
+    "amm"
+  ],
   "chains": [
-    { "chain_id": "base", "addresses": [ { "address": "0xBA12222222228d8Ba445958A75a0704d566BF2C8", "address_kind": "contract" } ] }
+    {
+      "chain_id": "base",
+      "addresses": [
+        {
+          "address": "0xBA12222222228d8Ba445958A75a0704d566BF2C8",
+          "address_kind": "contract"
+        }
+      ]
+    },
+    {
+      "chain_id": "polygon",
+      "addresses": [
+        {
+          "address": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+          "address_kind": "contract",
+          "start_position": 97339246
+        }
+      ]
+    },
+    {
+      "chain_id": "arbitrum",
+      "addresses": [
+        {
+          "address": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+          "address_kind": "contract",
+          "start_position": 524354889
+        }
+      ]
+    },
+    {
+      "chain_id": "optimism",
+      "addresses": [
+        {
+          "address": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+          "address_kind": "contract",
+          "start_position": 159557755
+        }
+      ]
+    },
+    {
+      "chain_id": "avalanche",
+      "addresses": [
+        {
+          "address": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+          "address_kind": "contract",
+          "start_position": 100359220
+        }
+      ]
+    },
+    {
+      "chain_id": "gnosis",
+      "addresses": [
+        {
+          "address": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+          "address_kind": "contract",
+          "start_position": 49285988
+        }
+      ]
+    },
+    {
+      "chain_id": "hyperevm",
+      "addresses": [
+        {
+          "address": "0xbA1333333333a1BA1108E8412f11850A5C319bA9",
+          "address_kind": "contract",
+          "start_position": 51298395
+        }
+      ]
+    }
   ]
 }

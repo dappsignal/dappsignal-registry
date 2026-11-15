@@ -3,7 +3,7 @@
   "slug": "manifold",
   "name": "Manifold",
   "tagline": "Creator-owned NFT contracts and publishing tools for digital art.",
-  "description": "Creator-owned NFT contracts and publishing tools for digital art. The displayed immutable Creator Core implementations are reference addresses only. Creator NFTs use separate proxy contracts, so implementation calls are not counted as creator activity.",
+  "description": "Creator-owned NFT contracts and publishing tools for digital art. Selected Manifold ERC721 Edition v7 and ERC1155 Edition v7 claim extensions are measured. Immutable Creator Core implementations remain reference-only; separate creator proxy NFTs are not aggregated.",
   "logo_url": "https://manifold.xyz/assets/logo/favicon-black.svg",
   "website_url": "https://manifold.xyz/",
   "social_links": {
@@ -27,6 +27,46 @@
           "address": "0xE9FF7CA11280553Af56d04Ecb8Be6B8c4468DCB2",
           "address_kind": "contract",
           "track_metrics": false
+        },
+        {
+          "address": "0x23aa05A271dEbfFaa3D75739af5581f744B326e4",
+          "address_kind": "contract",
+          "start_position": 26417691
+        },
+        {
+          "address": "0x26bbEa7803dCac346d5F5F135b57cf2C752a02BE",
+          "address_kind": "contract",
+          "start_position": 26417691
+        }
+      ]
+    },
+    {
+      "chain_id": "base",
+      "addresses": [
+        {
+          "address": "0x23aa05A271dEbfFaa3D75739af5581f744B326e4",
+          "address_kind": "contract",
+          "start_position": 57619531
+        },
+        {
+          "address": "0x26bbEa7803dCac346d5F5F135b57cf2C752a02BE",
+          "address_kind": "contract",
+          "start_position": 57619531
+        }
+      ]
+    },
+    {
+      "chain_id": "optimism",
+      "addresses": [
+        {
+          "address": "0x23aa05A271dEbfFaa3D75739af5581f744B326e4",
+          "address_kind": "contract",
+          "start_position": 159557659
+        },
+        {
+          "address": "0x26bbEa7803dCac346d5F5F135b57cf2C752a02BE",
+          "address_kind": "contract",
+          "start_position": 159557659
         }
       ]
     }

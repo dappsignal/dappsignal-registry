@@ -3,7 +3,7 @@
   "slug": "morpho",
   "name": "Morpho",
   "tagline": "Permissionless lending markets and curated lending vaults.",
-  "description": "Permissionless lending markets and curated lending vaults. Activity coverage is limited to Morpho Blue singleton.",
+  "description": "Permissionless lending markets and curated lending vaults. Mapped deployments include Morpho Blue market events. Coverage is limited to these selected contracts and does not represent all protocol activity or complete history.",
   "logo_url": "https://morpho.org/favicon.ico",
   "website_url": "https://morpho.org/",
   "social_links": {
@@ -30,6 +30,146 @@
         {
           "address": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
           "address_kind": "contract"
+        }
+      ]
+    },
+    {
+      "chain_id": "polygon",
+      "addresses": [
+        {
+          "address": "0x1bF0c2541F820E775182832f06c0B7Fc27A25f67",
+          "address_kind": "contract",
+          "start_position": 97338978
+        }
+      ]
+    },
+    {
+      "chain_id": "arbitrum",
+      "addresses": [
+        {
+          "address": "0x6c247b1F6182318877311737BaC0844bAa518F5e",
+          "address_kind": "contract",
+          "start_position": 524353544
+        }
+      ]
+    },
+    {
+      "chain_id": "optimism",
+      "addresses": [
+        {
+          "address": "0xce95AfbB8EA029495c66020883F87aaE8864AF92",
+          "address_kind": "contract",
+          "start_position": 159557553
+        }
+      ]
+    },
+    {
+      "chain_id": "world-chain",
+      "addresses": [
+        {
+          "address": "0xE741BC7c34758b4caE05062794E8Ae24978AF432",
+          "address_kind": "contract",
+          "start_position": 37689219
+        }
+      ]
+    },
+    {
+      "chain_id": "scroll",
+      "addresses": [
+        {
+          "address": "0x2d012EdbAdc37eDc2BC62791B666f9193FDF5a55",
+          "address_kind": "contract",
+          "start_position": 35731687
+        }
+      ]
+    },
+    {
+      "chain_id": "ink",
+      "addresses": [
+        {
+          "address": "0x857f3EefE8cbda3Bc49367C996cd664A880d3042",
+          "address_kind": "contract",
+          "start_position": 61215600
+        }
+      ]
+    },
+    {
+      "chain_id": "unichain",
+      "addresses": [
+        {
+          "address": "0x8f5ae9CddB9f68de460C77730b018Ae7E04a140A",
+          "address_kind": "contract",
+          "start_position": 63965623
+        }
+      ]
+    },
+    {
+      "chain_id": "sonic",
+      "addresses": [
+        {
+          "address": "0xd6c916eB7542D0Ad3f18AEd0FCBD50C582cfa95f",
+          "address_kind": "contract",
+          "start_position": 82592025
+        }
+      ]
+    },
+    {
+      "chain_id": "hyperevm",
+      "addresses": [
+        {
+          "address": "0x68e37dE8d93d3496ae143F2E900490f6280C57cD",
+          "address_kind": "contract",
+          "start_position": 51297969
+        }
+      ]
+    },
+    {
+      "chain_id": "linea",
+      "addresses": [
+        {
+          "address": "0x6B0D716aC0A45536172308e08fC2C40387262c9F",
+          "address_kind": "contract",
+          "start_position": 32609871
+        }
+      ]
+    },
+    {
+      "chain_id": "monad",
+      "addresses": [
+        {
+          "address": "0xD5D960E8C380B724a48AC59E2DfF1b2CB4a1eAee",
+          "address_kind": "contract",
+          "start_position": 122351905
+        }
+      ]
+    },
+    {
+      "chain_id": "bnb-smart-chain",
+      "addresses": [
+        {
+          "address": "0x01b0Bd309AA75547f7a37Ad7B1219A898E67a83a",
+          "address_kind": "contract",
+          "start_position": 133665393
+        }
+      ]
+    },
+    {
+      "chain_id": "arc",
+      "addresses": [
+        {
+          "address": "0x34CD04070dD72b14E241112F6d83812Df5Af7fCD",
+          "address_kind": "contract",
+          "start_position": 31308240
+        }
+      ]
+    },
+    {
+      "chain_id": "robinhood-chain",
+      "addresses": [
+        {
+          "address": "0x9D53d5E3bd5E8d4Cbfa6DB1ca238AEA02E651010",
+          "address_kind": "contract",
+          "start_position": 114673406
         }
       ]
     }

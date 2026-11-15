@@ -3,7 +3,7 @@
   "slug": "aragon",
   "name": "Aragon",
   "tagline": "On-chain DAO creation, permissions and governance infrastructure.",
-  "description": "On-chain DAO creation, permissions and governance infrastructure. This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics.",
+  "description": "On-chain DAO creation, permissions and governance infrastructure. Selected official Aragon OSx DAO registry proxies are measured. Registry events cover DAO registration and updates, not all voting and treasury activity in separately deployed DAOs.",
   "logo_url": "https://cdn.prod.website-files.com/6ae0998d13a07b0ac9a986e9/6aedd06be1458810b212d400_ar-social-icon-white.png",
   "website_url": "https://www.aragon.org/",
   "social_links": {},
@@ -14,11 +14,93 @@
   "chains": [
     {
       "chain_id": "ethereum",
-      "addresses": []
+      "addresses": [
+        {
+          "address": "0x7a62da7B56fB3bfCdF70E900787010Bc4c9Ca42e",
+          "address_kind": "contract",
+          "start_position": 26417676
+        }
+      ]
     },
     {
       "chain_id": "base",
-      "addresses": []
+      "addresses": [
+        {
+          "address": "0xeB98a71d69a1e12B62c10368D9dA5364CE0f7178",
+          "address_kind": "contract",
+          "start_position": 57618618
+        }
+      ]
+    },
+    {
+      "chain_id": "bnb-smart-chain",
+      "addresses": [
+        {
+          "address": "0xB5146Fd572C669ABC353902e43F47fda4609E38A",
+          "address_kind": "contract",
+          "start_position": 133665393
+        }
+      ]
+    },
+    {
+      "chain_id": "polygon",
+      "addresses": [
+        {
+          "address": "0x96E54098317631641703404C06A5afAD89da7373",
+          "address_kind": "contract",
+          "start_position": 97338978
+        }
+      ]
+    },
+    {
+      "chain_id": "arbitrum",
+      "addresses": [
+        {
+          "address": "0xB5146Fd572C669ABC353902e43F47fda4609E38A",
+          "address_kind": "contract",
+          "start_position": 524353544
+        }
+      ]
+    },
+    {
+      "chain_id": "optimism",
+      "addresses": [
+        {
+          "address": "0xDAb3AB22cdd41ab299d7D674714Ca94e9B63F9dD",
+          "address_kind": "contract",
+          "start_position": 159557553
+        }
+      ]
+    },
+    {
+      "chain_id": "avalanche",
+      "addresses": [
+        {
+          "address": "0xe076b37971b80689540426d7B8c739338aA21Bac",
+          "address_kind": "contract",
+          "start_position": 100358819
+        }
+      ]
+    },
+    {
+      "chain_id": "linea",
+      "addresses": [
+        {
+          "address": "0xB2CCCB4d7ec56F992219BCF4abe2E7F02003443e",
+          "address_kind": "contract",
+          "start_position": 32609871
+        }
+      ]
+    },
+    {
+      "chain_id": "zksync-era",
+      "addresses": [
+        {
+          "address": "0xE7351bA0DDCc52249F27353893BcDBC74229e99d",
+          "address_kind": "contract",
+          "start_position": 72942109
+        }
+      ]
     }
   ]
 }

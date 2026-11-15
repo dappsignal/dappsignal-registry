@@ -1,56 +1,186 @@
 {
-    "schema_version":  1,
-    "slug":  "circle",
-    "name":  "Circle (USDC)",
-    "tagline":  "Issuer of USDC, a fully reserved dollar stablecoin.",
-    "description":  "Circle issues USDC, a fully reserved dollar-denominated stablecoin used for payments and settlement across chains. This listing tracks the USDC token contract on Ethereum and the USDC mint account on Solana. Coverage is limited to the mapped addresses and does not represent activity on other chains.",
-    "logo_url":  "https://app.circle.com/favicon.ico",
-    "website_url":  "https://www.circle.com",
-    "social_links":  {
-                         "x":  "https://x.com/circle"
-                     },
-    "primary_category_id":  "defi",
-    "subcategory_id":  "stablecoins",
-    "tags":  [
-                 "stablecoin",
-                 "payments"
-             ],
-    "chains":  [
-                   {
-                       "chain_id":  "ethereum",
-                       "addresses":  [
-                                         {
-                                             "address_kind":  "contract",
-                                             "address":  "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
-                                         }
-                                     ]
-                   },
-                   {
-                       "chain_id":  "solana",
-                       "addresses":  [
-                                         {
-                                             "address_kind":  "account",
-                                             "address":  "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
-                                         }
-                                     ]
-                   },
-                   {
-                       "chain_id":  "base",
-                       "addresses":  [
-                                         {
-                                             "address_kind":  "contract",
-                                             "address":  "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
-                                         }
-                                     ]
-                   },
-                   {
-                       "chain_id":  "bnb-smart-chain",
-                       "addresses":  [
-                                         {
-                                             "address_kind":  "contract",
-                                             "address":  "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
-                                         }
-                                     ]
-                   }
-               ]
+  "schema_version": 1,
+  "slug": "circle",
+  "name": "Circle (USDC)",
+  "tagline": "Issuer of USDC, a fully reserved dollar stablecoin.",
+  "description": "Issuer of USDC, a fully reserved dollar stablecoin. Mapped deployments include Native USDC transfer events. Coverage is limited to these selected contracts and does not represent all protocol activity or complete history.",
+  "logo_url": "https://app.circle.com/favicon.ico",
+  "website_url": "https://www.circle.com",
+  "social_links": {
+    "x": "https://x.com/circle"
+  },
+  "primary_category_id": "defi",
+  "subcategory_id": "stablecoins",
+  "tags": [
+    "stablecoin",
+    "payments"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address_kind": "contract",
+          "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+        }
+      ]
+    },
+    {
+      "chain_id": "solana",
+      "addresses": [
+        {
+          "address_kind": "account",
+          "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        }
+      ]
+    },
+    {
+      "chain_id": "base",
+      "addresses": [
+        {
+          "address_kind": "contract",
+          "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+        }
+      ]
+    },
+    {
+      "chain_id": "bnb-smart-chain",
+      "addresses": [
+        {
+          "address_kind": "contract",
+          "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
+        }
+      ]
+    },
+    {
+      "chain_id": "arbitrum",
+      "addresses": [
+        {
+          "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+          "address_kind": "contract",
+          "start_position": 524354271
+        }
+      ]
+    },
+    {
+      "chain_id": "arc",
+      "addresses": [
+        {
+          "address": "0x3600000000000000000000000000000000000000",
+          "address_kind": "contract",
+          "start_position": 31308715
+        }
+      ]
+    },
+    {
+      "chain_id": "avalanche",
+      "addresses": [
+        {
+          "address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+          "address_kind": "contract",
+          "start_position": 100359114
+        }
+      ]
+    },
+    {
+      "chain_id": "hyperevm",
+      "addresses": [
+        {
+          "address": "0xb88339CB7199b77E23DB6E890353E22632Ba630f",
+          "address_kind": "contract",
+          "start_position": 51298286
+        }
+      ]
+    },
+    {
+      "chain_id": "ink",
+      "addresses": [
+        {
+          "address": "0x2D270e6886d130D724215A266106e6832161EAEd",
+          "address_kind": "contract",
+          "start_position": 61215880
+        }
+      ]
+    },
+    {
+      "chain_id": "monad",
+      "addresses": [
+        {
+          "address": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
+          "address_kind": "contract",
+          "start_position": 122352684
+        }
+      ]
+    },
+    {
+      "chain_id": "optimism",
+      "addresses": [
+        {
+          "address": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+          "address_kind": "contract",
+          "start_position": 159557749
+        }
+      ]
+    },
+    {
+      "chain_id": "plasma",
+      "addresses": [
+        {
+          "address": "0x2d661C89D812261039AF9764eceaAee884f5F67F",
+          "address_kind": "contract",
+          "start_position": 37770820
+        }
+      ]
+    },
+    {
+      "chain_id": "polygon",
+      "addresses": [
+        {
+          "address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+          "address_kind": "contract",
+          "start_position": 97339207
+        }
+      ]
+    },
+    {
+      "chain_id": "sonic",
+      "addresses": [
+        {
+          "address": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894",
+          "address_kind": "contract",
+          "start_position": 82592300
+        }
+      ]
+    },
+    {
+      "chain_id": "unichain",
+      "addresses": [
+        {
+          "address": "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
+          "address_kind": "contract",
+          "start_position": 63965925
+        }
+      ]
+    },
+    {
+      "chain_id": "world-chain",
+      "addresses": [
+        {
+          "address": "0x79A02482A880bCe3F13E09da970dC34dB4cD24D1",
+          "address_kind": "contract",
+          "start_position": 37689319
+        }
+      ]
+    },
+    {
+      "chain_id": "zksync-era",
+      "addresses": [
+        {
+          "address": "0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4",
+          "address_kind": "contract",
+          "start_position": 72942291
+        }
+      ]
+    }
+  ]
 }

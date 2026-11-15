@@ -56,3 +56,7 @@ The owner approved adding every suitable project from the proposed catalog. The 
 See [the source and mainnet verification record](catalog-review-2026-11-15.json) for each project's classification, supported chains, official source URLs, selected address roles, bytecode/account checks, and exclusions. The 66 added address mappings were checked against mainnet identity and live code/account existence. Manifold's two immutable implementations are display-only; proxy activity cannot be inferred from implementation calls. Software/services without a verified dedicated activity address are profile listings with empty mappings under the existing policy.
 
 These are bounded catalog mappings, not exhaustive protocol metrics or approval of archive coverage, historical USD valuation, endorsements, investment suitability, or chain-wide usage attribution. Existing projects and their reviewed tracking settings are unchanged. External image availability can change; the application handles unavailable logos with its existing fallback.
+
+## Reviewed network expansion
+
+The schema supports 24 mainnets, including Polygon and HyperEVM. See the [22-profile audit and added deployments](reviews/2026-11-15-evm-profile-audit.md) for the full network list, newly measurable profiles, exclusions and bounded verification evidence. A listed network does not imply full protocol coverage or archive completeness.

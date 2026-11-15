@@ -3,7 +3,7 @@
   "slug": "space-id",
   "name": "SPACE ID",
   "tagline": "Web3 domain registration and identity tools, including .bnb names.",
-  "description": "Web3 domain registration and identity tools, including .bnb names. This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics.",
+  "description": "Web3 domain registration and identity tools, including .bnb names. Official SPACE ID .bnb and .arb name registries are measured. Registry ownership and resolver events cover these namespaces, not every name service integrated by the SDK.",
   "logo_url": "https://static.space.id/favicon.ico",
   "website_url": "https://www.space.id/",
   "social_links": {
@@ -17,7 +17,23 @@
   "chains": [
     {
       "chain_id": "bnb-smart-chain",
-      "addresses": []
+      "addresses": [
+        {
+          "address": "0x08CEd32a7f3eeC915Ba84415e9C07a7286977956",
+          "address_kind": "contract",
+          "start_position": 133666336
+        }
+      ]
+    },
+    {
+      "chain_id": "arbitrum",
+      "addresses": [
+        {
+          "address": "0x4a067EE58e73ac5E4a43722E008DFdf65B2bF348",
+          "address_kind": "contract",
+          "start_position": 524355065
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "slug": "beefy",
   "name": "Beefy",
   "tagline": "Multichain yield vaults and automated compounding tools.",
-  "description": "Multichain yield vaults and automated compounding tools. Activity coverage is limited to BeefyWrapper.",
+  "description": "Multichain yield vaults and automated compounding tools. Mapped deployments include Selected Beefy ERC4626 wrapper deposit and withdrawal events. Coverage is limited to these selected contracts and does not represent all protocol activity or complete history.",
   "logo_url": "https://beefy.com/favicon-32x32.png?v=0db6b4a852066745600f76703c0c3464",
   "website_url": "https://beefy.com/",
   "social_links": {},
@@ -37,6 +37,46 @@
         {
           "address": "0x85B792C67cEe281064eb7A3AF0Fe2A76E9a7849e",
           "address_kind": "contract"
+        }
+      ]
+    },
+    {
+      "chain_id": "arbitrum",
+      "addresses": [
+        {
+          "address": "0x48bF3a071098a09C7D00379b4DBC69Ab6Da83a36",
+          "address_kind": "contract",
+          "start_position": 524354889
+        }
+      ]
+    },
+    {
+      "chain_id": "avalanche",
+      "addresses": [
+        {
+          "address": "0x1Fa046d28FF749b9D7CF7E9a41BEecd1260F11eD",
+          "address_kind": "contract",
+          "start_position": 100359220
+        }
+      ]
+    },
+    {
+      "chain_id": "optimism",
+      "addresses": [
+        {
+          "address": "0x182be93E1C0C4d305fe43bD093292F21fd679797",
+          "address_kind": "contract",
+          "start_position": 159557755
+        }
+      ]
+    },
+    {
+      "chain_id": "polygon",
+      "addresses": [
+        {
+          "address": "0x7e778f4cF8c7C43FB2F3C9C0b4Ce7CB7c2bad978",
+          "address_kind": "contract",
+          "start_position": 97339246
         }
       ]
     }

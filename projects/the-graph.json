@@ -3,7 +3,7 @@
   "slug": "the-graph",
   "name": "The Graph",
   "tagline": "Blockchain indexing and data-query infrastructure for application developers.",
-  "description": "Blockchain indexing and data-query infrastructure for application developers. This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics.",
+  "description": "Blockchain indexing and data-query infrastructure for application developers. Selected Graph Horizon payment and escrow contracts on Arbitrum are measured. Settlement transactions are not a count of queries or all network users.",
   "logo_url": "https://storage.thegraph.com/favicons/64x64.png",
   "website_url": "https://thegraph.com/",
   "social_links": {},
@@ -28,6 +28,21 @@
     {
       "chain_id": "solana",
       "addresses": []
+    },
+    {
+      "chain_id": "arbitrum",
+      "addresses": [
+        {
+          "address": "0x7Aae8ae011927BC36Cb4d0d3e81f2E6E30daE06D",
+          "address_kind": "contract",
+          "start_position": 524353544
+        },
+        {
+          "address": "0xf6Fcc27aAf1fcD8B254498c9794451d82afC673E",
+          "address_kind": "contract",
+          "start_position": 524353544
+        }
+      ]
     }
   ]
 }

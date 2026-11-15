@@ -3,7 +3,7 @@
   "slug": "clanker",
   "name": "Clanker",
   "tagline": "Token creation and launch infrastructure on Base.",
-  "description": "Token creation and launch infrastructure on Base. Activity coverage is limited to V5 factory.",
+  "description": "Token creation and launch infrastructure on Base. Mapped deployments include Clanker v5 Factory token launch events; Clanker v5 Hook token launch events. Coverage is limited to these selected contracts and does not represent all protocol activity or complete history.",
   "logo_url": "https://www.clanker.world/favicon.ico?favicon.0m9f-frop6ea7.ico",
   "website_url": "https://www.clanker.world/",
   "social_links": {
@@ -20,6 +20,11 @@
         {
           "address": "0x572e88D3cD7f23E4241EB6ceDD96667271bF09A0",
           "address_kind": "contract"
+        },
+        {
+          "address": "0x5E320eA6278107968C119942E57d876c5F922AcC",
+          "address_kind": "contract",
+          "start_position": 57618618
         }
       ]
     },
@@ -29,6 +34,56 @@
         {
           "address": "0xcA111dcdd2cE924c3378d6514fDCbC46217bcA16",
           "address_kind": "contract"
+        },
+        {
+          "address": "0xA8F0c64D5E5CF05379c13263EbdD03e8A835EACC",
+          "address_kind": "contract",
+          "start_position": 133665393
+        }
+      ]
+    },
+    {
+      "chain_id": "monad",
+      "addresses": [
+        {
+          "address": "0xcA111dcdd2cE924c3378d6514fDCbC46217bcA16",
+          "address_kind": "contract",
+          "start_position": 122351905
+        },
+        {
+          "address": "0x58E0cE0ba45002DFF608e2f04C0B88075eD4aAcC",
+          "address_kind": "contract",
+          "start_position": 122351905
+        }
+      ]
+    },
+    {
+      "chain_id": "robinhood-chain",
+      "addresses": [
+        {
+          "address": "0xcA111dcdd2cE924c3378d6514fDCbC46217bcA16",
+          "address_kind": "contract",
+          "start_position": 114673406
+        },
+        {
+          "address": "0x565189a6780D1a50FC1792F64db8e4881119AaCC",
+          "address_kind": "contract",
+          "start_position": 114673406
+        }
+      ]
+    },
+    {
+      "chain_id": "arc",
+      "addresses": [
+        {
+          "address": "0xcA111dcdd2cE924c3378d6514fDCbC46217bcA16",
+          "address_kind": "contract",
+          "start_position": 31308240
+        },
+        {
+          "address": "0x565189a6780D1a50FC1792F64db8e4881119AaCC",
+          "address_kind": "contract",
+          "start_position": 31308240
         }
       ]
     }

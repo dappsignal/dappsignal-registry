@@ -1,29 +1,204 @@
 {
-    "schema_version":  1,
-    "slug":  "compound",
-    "name":  "Compound",
-    "tagline":  "Algorithmic money market protocol on Ethereum.",
-    "description":  "Compound is an algorithmic, autonomous interest rate protocol for supplying and borrowing crypto assets. This listing tracks the Compound v2 comptroller contract on Ethereum to measure on-chain activity. Coverage is limited to the mapped contract and does not represent all protocol activity.",
-    "logo_url":  "https://assets.coingecko.com/coins/images/10775/large/COMP.png",
-    "website_url":  "https://compound.finance",
-    "social_links":  {
-                         "x":  "https://x.com/compoundfinance"
-                     },
-    "primary_category_id":  "defi",
-    "subcategory_id":  "lending",
-    "tags":  [
-                 "lending",
-                 "money-market"
-             ],
-    "chains":  [
-                   {
-                       "chain_id":  "ethereum",
-                       "addresses":  [
-                                         {
-                                             "address_kind":  "contract",
-                                             "address":  "0x3d9819210A31b4961b30EF54bE2aeD79B9c9Cd3B"
-                                         }
-                                     ]
-                   }
-               ]
+  "schema_version": 1,
+  "slug": "compound",
+  "name": "Compound",
+  "tagline": "Algorithmic money market protocol on Ethereum.",
+  "description": "Algorithmic money market protocol on Ethereum. Mapped deployments include Compound III Comet proxy supply, withdrawal, borrow and liquidation events. Coverage is limited to these selected contracts and does not represent all protocol activity or complete history.",
+  "logo_url": "https://assets.coingecko.com/coins/images/10775/large/COMP.png",
+  "website_url": "https://compound.finance",
+  "social_links": {
+    "x": "https://x.com/compoundfinance"
+  },
+  "primary_category_id": "defi",
+  "subcategory_id": "lending",
+  "tags": [
+    "lending",
+    "money-market"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address_kind": "contract",
+          "address": "0x3d9819210A31b4961b30EF54bE2aeD79B9c9Cd3B"
+        },
+        {
+          "address": "0x207158a267CBD2598BB3d611D8CBdEE2709F2F8C",
+          "address_kind": "contract",
+          "start_position": 26417708
+        },
+        {
+          "address": "0xc3d688B66703497DAA19211EEdff47f25384cdc3",
+          "address_kind": "contract",
+          "start_position": 26417708
+        },
+        {
+          "address": "0x5D409e56D886231aDAf00c8775665AD0f9897b56",
+          "address_kind": "contract",
+          "start_position": 26417708
+        },
+        {
+          "address": "0x3Afdc9BCA9213A35503b077a6072F3D0d5AB0840",
+          "address_kind": "contract",
+          "start_position": 26417708
+        },
+        {
+          "address": "0xe85Dc543813B8c2CFEaAc371517b925a166a9293",
+          "address_kind": "contract",
+          "start_position": 26417708
+        },
+        {
+          "address": "0xA17581A9E3356d9A858b789D68B4d866e593aE94",
+          "address_kind": "contract",
+          "start_position": 26417708
+        },
+        {
+          "address": "0x3D0bb1ccaB520A66e607822fC55BC921738fAFE3",
+          "address_kind": "contract",
+          "start_position": 26417708
+        }
+      ]
+    },
+    {
+      "chain_id": "optimism",
+      "addresses": [
+        {
+          "address": "0x2e44e174f7D53F0212823acC11C01A11d58c5bCB",
+          "address_kind": "contract",
+          "start_position": 159557755
+        },
+        {
+          "address": "0x995E394b8B2437aC8Ce61Ee0bC610D617962B214",
+          "address_kind": "contract",
+          "start_position": 159557755
+        },
+        {
+          "address": "0xE36A30D249f7761327fd973001A32010b521b6Fd",
+          "address_kind": "contract",
+          "start_position": 159557755
+        }
+      ]
+    },
+    {
+      "chain_id": "unichain",
+      "addresses": [
+        {
+          "address": "0x2c7118c4C88B9841FCF839074c26Ae8f035f2921",
+          "address_kind": "contract",
+          "start_position": 63966027
+        },
+        {
+          "address": "0x6C987dDE50dB1dcDd32Cd4175778C2a291978E2a",
+          "address_kind": "contract",
+          "start_position": 63966027
+        }
+      ]
+    },
+    {
+      "chain_id": "polygon",
+      "addresses": [
+        {
+          "address": "0xF25212E676D1F7F89Cd72fFEe66158f541246445",
+          "address_kind": "contract",
+          "start_position": 97339246
+        },
+        {
+          "address": "0xaeB318360f27748Acb200CE616E389A6C9409a07",
+          "address_kind": "contract",
+          "start_position": 97339246
+        }
+      ]
+    },
+    {
+      "chain_id": "ronin",
+      "addresses": [
+        {
+          "address": "0x4006eD4097Ee51c09A04c3B0951D28CCf19e6DFE",
+          "address_kind": "contract",
+          "start_position": 63622759
+        },
+        {
+          "address": "0xc0Afdbd1cEB621Ef576BA969ce9D4ceF78Dbc0c0",
+          "address_kind": "contract",
+          "start_position": 63622759
+        }
+      ]
+    },
+    {
+      "chain_id": "mantle",
+      "addresses": [
+        {
+          "address": "0x606174f62cd968d8e684c645080fa694c1D7786E",
+          "address_kind": "contract",
+          "start_position": 103291991
+        }
+      ]
+    },
+    {
+      "chain_id": "base",
+      "addresses": [
+        {
+          "address": "0x784efeB622244d2348d4F2522f8860B96fbEcE89",
+          "address_kind": "contract",
+          "start_position": 57620528
+        },
+        {
+          "address": "0x9c4ec768c28520B50860ea7a15bd7213a9fF58bf",
+          "address_kind": "contract",
+          "start_position": 57620528
+        },
+        {
+          "address": "0xb125E6687d4313864e53df431d5425969c15Eb2F",
+          "address_kind": "contract",
+          "start_position": 57620528
+        },
+        {
+          "address": "0x2c776041CCFe903071AF44aa147368a9c8EEA518",
+          "address_kind": "contract",
+          "start_position": 57620528
+        },
+        {
+          "address": "0x46e6b214b524310239732D51387075E0e70970bf",
+          "address_kind": "contract",
+          "start_position": 57620528
+        }
+      ]
+    },
+    {
+      "chain_id": "arbitrum",
+      "addresses": [
+        {
+          "address": "0xA5EDBDD9646f8dFF606d7448e414884C7d905dCA",
+          "address_kind": "contract",
+          "start_position": 524354889
+        },
+        {
+          "address": "0x9c4ec768c28520B50860ea7a15bd7213a9fF58bf",
+          "address_kind": "contract",
+          "start_position": 524354889
+        },
+        {
+          "address": "0xd98Be00b5D27fc98112BdE293e487f8D4cA57d07",
+          "address_kind": "contract",
+          "start_position": 524354889
+        },
+        {
+          "address": "0x6f7D514bbD4aFf3BcD1140B7344b32f063dEe486",
+          "address_kind": "contract",
+          "start_position": 524354889
+        }
+      ]
+    },
+    {
+      "chain_id": "scroll",
+      "addresses": [
+        {
+          "address": "0xB2f97c1Bd3bf02f5e74d13f02E3e26F93D77CE44",
+          "address_kind": "contract",
+          "start_position": 35731721
+        }
+      ]
+    }
+  ]
 }
