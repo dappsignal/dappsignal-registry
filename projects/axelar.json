@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "slug": "axelar",
+  "name": "Axelar",
+  "tagline": "Interoperability and cross-chain application messaging.",
+  "description": "Interoperability and cross-chain application messaging. Selected Ethereum and Base Gateway events; not every Axelar chain or all end users. Coverage begins at the reviewed listing block and is partial; it is not complete historical or protocol-wide usage.",
+  "logo_url": "https://cdn.prod.website-files.com/65d241582635a0233e69af40/661c7db53a5fd239efa1fa8a_favicon.png",
+  "website_url": "https://axelar.network",
+  "social_links": {},
+  "primary_category_id": "bridges",
+  "tags": [
+    "bridges"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address_kind": "contract",
+          "address": "0x4F4495243837681061C4743b74B3eEdf548D56A5",
+          "start_position": 26420600
+        }
+      ]
+    },
+    {
+      "chain_id": "base",
+      "addresses": [
+        {
+          "address_kind": "contract",
+          "address": "0xe432150cce91c13a887f7D836923d5597adD8E31",
+          "start_position": 57790201
+        }
+      ]
+    }
+  ]
+}

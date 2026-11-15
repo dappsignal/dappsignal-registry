@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "slug": "polymarket",
+  "name": "Polymarket",
+  "tagline": "Prediction markets for trading on real-world outcomes.",
+  "description": "Prediction markets for trading on real-world outcomes. Selected Polygon CTF and V2 exchange settlement events; transaction signers may be relayers, not all traders. Coverage begins at the reviewed listing block and is partial; it is not complete historical or protocol-wide usage.",
+  "logo_url": "https://polymarket.com/icons/favicon-32x32.png",
+  "website_url": "https://polymarket.com",
+  "social_links": {},
+  "primary_category_id": "prediction-markets",
+  "tags": [
+    "prediction-markets"
+  ],
+  "chains": [
+    {
+      "chain_id": "polygon",
+      "addresses": [
+        {
+          "address_kind": "contract",
+          "address": "0xE111180000d2663C0091e4f400237545B87B996B",
+          "start_position": 97361940
+        },
+        {
+          "address_kind": "contract",
+          "address": "0xe2222d279d744050d28e00520010520000310F59",
+          "start_position": 97361940
+        },
+        {
+          "address_kind": "contract",
+          "address": "0xe3333700cA9d93003F00f0F71f8515005F6c00Aa",
+          "start_position": 97361940
+        }
+      ]
+    }
+  ]
+}

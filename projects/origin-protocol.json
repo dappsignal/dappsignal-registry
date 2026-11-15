@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "slug": "origin-protocol",
+  "name": "Origin Protocol",
+  "tagline": "Yield-bearing assets backed by on-chain strategies.",
+  "description": "Yield-bearing assets backed by on-chain strategies. Selected Ethereum OETH and Sonic OS vault events; not every Origin product, strategy or token holder. Coverage begins at the reviewed listing block and is partial; it is not complete historical or protocol-wide usage.",
+  "logo_url": "https://www.originprotocol.com/favicon.ico",
+  "website_url": "https://originprotocol.com",
+  "social_links": {},
+  "primary_category_id": "defi",
+  "tags": [
+    "yield"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address_kind": "contract",
+          "address": "0x39254033945AA2E4809Cc2977E7087BEE48bd7Ab",
+          "start_position": 26420600
+        }
+      ]
+    },
+    {
+      "chain_id": "sonic",
+      "addresses": [
+        {
+          "address_kind": "contract",
+          "address": "0xa3c0eCA00D2B76b4d1F170b0AB3FdeA16C180186",
+          "start_position": 82611172
+        }
+      ]
+    }
+  ],
+  "subcategory_id": "yield"
+}

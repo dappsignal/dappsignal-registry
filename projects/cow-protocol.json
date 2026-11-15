@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "slug": "cow-protocol",
+  "name": "CoW Protocol",
+  "tagline": "Intent-based trading with batch auction settlement.",
+  "description": "Intent-based trading with batch auction settlement. Selected Ethereum and Gnosis settlement events; transaction senders can be solvers, not individual traders. Coverage begins at the reviewed listing block and is partial; it is not complete historical or protocol-wide usage.",
+  "logo_url": "https://cow.fi/favicon-light-mode.png",
+  "website_url": "https://cow.fi",
+  "social_links": {},
+  "primary_category_id": "defi",
+  "tags": [
+    "dex-trading"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address_kind": "contract",
+          "address": "0x9008D19f58AAbD9eD0D60971565AA8510560ab41",
+          "start_position": 26420600
+        }
+      ]
+    },
+    {
+      "chain_id": "gnosis",
+      "addresses": [
+        {
+          "address_kind": "contract",
+          "address": "0x9008D19f58AAbD9eD0D60971565AA8510560ab41",
+          "start_position": 49292641
+        }
+      ]
+    }
+  ],
+  "subcategory_id": "dex-trading"
+}

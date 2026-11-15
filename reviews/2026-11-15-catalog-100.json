@@ -1,0 +1,894 @@
+{
+  "reviewed_at": "2026-11-15T13:13:48.522Z",
+  "catalog_before": 81,
+  "catalog_after": 100,
+  "added_profiles": 19,
+  "added_tracked_mappings": 25,
+  "owner_authorization": "Add popular projects to 100; verify official mainnet addresses; preserve existing checkpoints without skipping history.",
+  "budget_usd": 0,
+  "method": "Official first-party deployment documentation or repositories plus mainnet chain identity, non-empty bytecode and a bounded single-block eth_getLogs read. Pairs and Rocket Pool deposit address resolved by read-only factory/registry eth_call.",
+  "existing_manifests_unchanged": {
+    "1inch.json": "6f7d028ed4c4f009fcd920c15fbd564938e46f3c7a87067070b8bd9e6c8abf93",
+    "aave.json": "33f7a0c1adbcd655350cf67d13e4c10491432556ad84b6ae1fb38765cef82dd9",
+    "across.json": "1b1d34bd325ff968f402d756cffa7ccc3567f41d4f494c877b7330995e3b7cdd",
+    "alchemy.json": "5ecbe8f60c9aa533887cedf9ebd5bfa18703e64f88be38208f6dc92bc2c60bc5",
+    "ankr.json": "f7e335f39b17bcb7568fed28d94653239b0143cc726d97abb5194b1005f05fa9",
+    "api3.json": "30df7b91620b79b27f0df3494e489b24115d59e99ef77775f429339dee8305ac",
+    "aragon.json": "c2d0a8ac3076f138082da9f4a4933a55f0a5a5d5032f34bcca72368a24a11e00",
+    "art-blocks.json": "b6f826c47acd4b73d278e2a3a8677c78a87cb7600962b0e828b5d8a7989ad729",
+    "balancer.json": "abe2673f8a7b689c570b19a463720e635ae175c2a04cf81b1e436a3497e6b766",
+    "beefy.json": "8d9ba0828e035657574c86674a12a1723cbca8c013ad0047f4c024a567c09ca5",
+    "blackrock-buidl.json": "dbfbc85eb6c7b454020e0f8fef611ea1e2b13bb83bf9db0a3c7b0173c45d2ecf",
+    "bored-ape-yacht-club.json": "b1c466e0e83139b856c15139dc2e88b1adfefdc84ee5432e6661df769d57e49d",
+    "chainlink.json": "153144b5eee67e8acc0f0330805ebd0c0bf2623df44cba0c7a339fff3ad1ddab",
+    "circle.json": "5972a64ed4810295a87793fdf2042d652057979c6c276572824a33e3b5c1dea9",
+    "clanker.json": "b0b2019260ef370b998caf3da7f17ce3ec5bd9fdc25bd89a1f8656a4df602b4d",
+    "clearpool.json": "0f8117e46adde9314a173a063947ea36890192b9524d38f1b8cbc0c5fc4f2f67",
+    "compound.json": "9e1134283a4c303269ac51b508d38c48e3cbe7eb2c14a1689100d1818fb97d7e",
+    "cryptopunks.json": "abb370e1174f9575909277fb89cc25face9eed42510acad338e4b5a9c6190517",
+    "curve.json": "4e1776f28685b582b81fcd33d61adfb66e01f178ac1d031af94d78fab8544ba7",
+    "decentraland.json": "079434f066596402f5ff9e2dbd76ed7146c74c4a30ada506af2b8c97fe521fd6",
+    "dune.json": "8b4fbd46d2483f1aca09b9ef5005b52a84ddfc2b9947fed725daabda90d44478",
+    "eas.json": "e4795eda9379a794df8a2129df054797fbff6ba7e78ed0fb77e6ef08ca455597",
+    "elizaos.json": "349a95c4d7c3a2841485bf3c29d831d10481ba4f03e77c795b40bb8251c93679",
+    "ens.json": "54db5ef53e337d3b15934acc8c74c17803147599b4ffe4868ca90d1788e3964d",
+    "ethena.json": "1183065681dc2f9e6604290785f64891696e2aae77bbf8100b97736775df3d9d",
+    "farcaster.json": "a61f092218e14eb360903a513371b93492635391551a7d112c9a73013e1fff84",
+    "four-meme.json": "7d0893d4ddc35659926d4795b6514523d4818850ca0bf5a0b943d43be26a9ae4",
+    "helium.json": "78d881b374b55c3f9098791074017ace085a464ae43a33c84f578b7b9430ac56",
+    "hivemapper.json": "db7783ca2f33d24e108569a4657e501211eb7f013aeb4a21ed9ce18963f6bc5f",
+    "io-net.json": "48d2f79ecdcafcdd8e0723b9de3430a9632477a415f86710140242f8a08092d1",
+    "jito.json": "e5a278eac07aae8e1cb45aecc25572694798bb9d45ba6b4cbdf68d01a612e083",
+    "jupiter.json": "8d41849223920a5ca7a6b30c5c2b4b3a688dff32be31604a198a4d26c54a6105",
+    "lido.json": "aa6c31590d6a2e46d69e046f1df3a694e2d417ae66965d5f44c815f0b76dc537",
+    "limitless.json": "20082e65f78aefc33f977a921bc907ef43fc4070538982f559907514527a2fe7",
+    "liqzero.json": "97128bd56217fc6c8ab9f0c8f6c1645172b3efec527bc72e4353b050e7b5698d",
+    "magicblock.json": "c5ceff79c74e06b6cdeb100b8e8644f1dcbf55e2f0756f6fc2aaf0977df7b0da",
+    "makerdao.json": "dfa8048e19101cb4bfed37e3e3b4b26c849f4c15ebe8ab8681fbe5d868bbb3f1",
+    "manifold.json": "5943be30a9ba2c22c8d52dbfa9a01918f99e88f48cc48949f4c694fcfdcaa8d5",
+    "maple-finance.json": "78d67dd6544fe0d299396eafe62537ad52bec8eca76a0173c6a33df13d611415",
+    "matrixdock-gold.json": "0f849f3275696a70f4515fc09571f4fdf203b8b116fb7726fe0a21306b1345f3",
+    "metamask.json": "b898f5f458b2d23981ba288b69e95e1abbe9e17c0b55e701432cabcc76cca2d1",
+    "meteora.json": "a08306cfa5790b6eb1f81264981f03e784f8a49357ca3decdfcc0a4d1a33b34d",
+    "moonpay-commerce.json": "1b97d001f1e9de989b9055188724ba21de69a4eb566433b5d8ee67848946af80",
+    "morpho.json": "b8029da566272e7f8abb09e5ae242c7db3cfaae235c591bc97c86d740c043db7",
+    "natix-network.json": "18174a106c3b0cd04cd1156a8ff79a2aa38dc033123ac216d726b32ca95c97fe",
+    "nosana.json": "e90390daa909111554c90895d5bff450aa278704db079c40a6e929989905d820",
+    "ondo-finance.json": "5cfe97421bd001f8858cd78996b0222b9120138dc0f80b4d56725647caff003f",
+    "opensea.json": "f0d35a4997690f409bff07afc77b7d8afff56222213a778f5def8fb53387cb99",
+    "orca.json": "73abb5ba3d59e02f5ee0c4936bd6338d0d3b7ec778694bef2578bb5521eed955",
+    "pancakeswap.json": "a324e0cc95438ee3f6d8a3db4b4649f8a4f12e37ade7e1aa349c12e8cd9cc558",
+    "pax-gold.json": "d390d934385320f8967c1609de8f631a79d772c3d1835de75711d022f1e535dd",
+    "paypal-usd.json": "05200757741294f9074473b0c780f537114b43abd6bb6af5d400576ded023602",
+    "phantom.json": "7e5e8a2ce88aac7fe7551cedf7fd989fdc22db42a8f34047f53bf828f43390d4",
+    "pocket-network.json": "ee283d127938f3bafd293373de4596756e7c7f0c9fad984db7f2fcb45250d573",
+    "predict-fun.json": "75c4a87f3122153a4fea110a238489d3f49c650da33d826ca32fb3be80e4cce8",
+    "pump-fun.json": "0e0c88965f11b6324da27cc5eb89de0855cbd3fdd0586ce0062b93544c38beff",
+    "pyth-network.json": "17ae30fb1e1a3e2fc34cb4a1922f49f7c8f0aaa27510b18c92cc5518d7a17385",
+    "raydium.json": "2ea71a26b9b4c4775945730d16703e00e07e549369b1f8d9cb926933aa51395d",
+    "render-network.json": "ccff9efab2b810daaa3b37269e3e83ae04174d02368b00e7abd355cb823e9224",
+    "request-network.json": "07ed9e5bd0335ea662af13598a22c5d101cc3a51593dfb24d4f941127d01ae25",
+    "roam.json": "49d7cd8d85e0841b1ee111c0ee4ad458f2953d9d9f6b0c8f5de11fb2427611ee",
+    "safe.json": "fa7a6a052208a20e1e460909efed8118f80514356847a289e87b7fcc7355f9f7",
+    "sequence.json": "d1ff6883494df6850c173b4b1a572997b1e7eff5128cc622a73bf3899cabf613",
+    "snapshot.json": "c4fa8139c5e0a1d648f917450d3e67a505b8085c82b4f9680948f36e947107fa",
+    "space-id.json": "38fd6a74767f5f8d1f281bc3455c71da5e3be2f91f337cc25c07f508f900f5c2",
+    "star-atlas.json": "8ca2591f2b73cd48b003487d9a11c952676dd8eb43a034c0f698033e08c3e5be",
+    "stepn.json": "fb05080ce6ee1255302e8c8af593a1da37233d4985af938eee30480e6c0c07ae",
+    "synfutures.json": "143b0bf2d9fd96e9d531f22a42add134d81cdc66d2d2a96ba61d3caa9c1860c9",
+    "synthetix.json": "b5b3b9e2634cf98b4062df06aefb4d2cfe82ea1462bd705c99ad656432f130ac",
+    "tensor.json": "c79bd0a5f03e7fd4952b76f6341c1449d394fedf5038f527e8fa9dd4ea763685",
+    "tether-gold.json": "c14bd757eca5919a7edfdfb84fafcd21f80966922ae09b0978e5121d671f6724",
+    "tether.json": "2324b7353534f385e565a123c22b8e12bc9f19b3d6129e5ae7e54bae55e38c77",
+    "the-graph.json": "844d91d39f3ef4d7531e3132c03166c0896cd7787ed73a6489e4bc2c04e41f16",
+    "the-sandbox.json": "686be14e2ef39ca33e1e4af3abe28372c2d22a5762bc7e2144c6c3f8635f02ac",
+    "thirdweb.json": "0e873ef251071475f04f02b22f73f04f25035d7fb6e270071cb0f1d73b483b84",
+    "uniswap.json": "9092acdf62c7b3d551f70dc94cca6d0b2660392e669af10cc7e4a2a0bf4af5f8",
+    "venus.json": "578a3f92e1754dd9622ad5e170f77d1360a48a25e891e15a8c58146f25647df3",
+    "virtuals-protocol.json": "b50ef6b4c624adb3991ab052371ea8b493fb09d4ca1c58518e24d9bb41ed10b1",
+    "wormhole.json": "fcfd648878cb5fc2c7963b81ad89c1f653ac12fd74cb358ce27e42ff736afa9a",
+    "yearn.json": "cfeb869bf53b88e654db03288a988de3b60b091cac4717b70ba0bef760c022ad",
+    "zora.json": "aa4963b29933d41565749681894335c125ff7488c04cd3abe17cc33324d4a940"
+  },
+  "projects": [
+    {
+      "slug": "gmx",
+      "name": "GMX",
+      "source": "https://docs.gmx.io/docs/api/contracts/addresses/",
+      "scope": "Selected GMX V2 EventEmitter contracts record protocol events; transaction signers can be keepers and are not all traders.",
+      "chains": [
+        "arbitrum",
+        "avalanche"
+      ]
+    },
+    {
+      "slug": "pendle",
+      "name": "Pendle",
+      "source": "https://raw.githubusercontent.com/pendle-finance/pendle-core-v2-public/main/deployments/1-core.json",
+      "scope": "Selected Ethereum router events only; not all Pendle markets or complete protocol activity.",
+      "chains": [
+        "ethereum"
+      ]
+    },
+    {
+      "slug": "benqi",
+      "name": "BENQI",
+      "source": "https://docs.benqi.fi/resources/contracts",
+      "scope": "Selected sAVAX mint, transfer and staking-contract activity; not all BENQI lending or individual stakers.",
+      "chains": [
+        "avalanche"
+      ]
+    },
+    {
+      "slug": "spark",
+      "name": "Spark",
+      "source": "https://raw.githubusercontent.com/sparkdotfi/spark-address-registry/master/src/SparkLend.sol",
+      "scope": "Selected SparkLend Ethereum Pool lending events; not the entire Spark ecosystem.",
+      "chains": [
+        "ethereum"
+      ]
+    },
+    {
+      "slug": "fluid",
+      "name": "Fluid",
+      "source": "https://github.com/Instadapp/fluid-contracts-public/blob/404d73f91e6806f881f8dabeb30494f93f9e99b7/contracts/oracleV2/common/dexShareResolver.sol",
+      "scope": "Selected Ethereum Liquidity contract events; signers may be intermediary contracts or aggregators.",
+      "chains": [
+        "ethereum"
+      ]
+    },
+    {
+      "slug": "euler",
+      "name": "Euler",
+      "source": "https://raw.githubusercontent.com/euler-xyz/euler-interfaces/master/EulerChains.json",
+      "scope": "Selected Ethereum Vault Connector events only; not all vault activity or unique borrowers.",
+      "chains": [
+        "ethereum"
+      ]
+    },
+    {
+      "slug": "kyberswap",
+      "name": "KyberSwap",
+      "source": "https://raw.githubusercontent.com/KyberNetwork/kyberswap-documentation/main/developer-guide/aggregator-api/contracts.md",
+      "scope": "Selected Ethereum aggregator router events only; underlying pool activity is not attributed in full.",
+      "chains": [
+        "ethereum"
+      ]
+    },
+    {
+      "slug": "velodrome",
+      "name": "Velodrome",
+      "source": "https://raw.githubusercontent.com/velodrome-finance/contracts/main/README.md",
+      "scope": "Selected WETH/USDC volatile pool resolved from the official V2 factory; not all pools or the full protocol.",
+      "chains": [
+        "optimism"
+      ]
+    },
+    {
+      "slug": "aerodrome",
+      "name": "Aerodrome",
+      "source": "https://raw.githubusercontent.com/aerodrome-finance/contracts/main/README.md",
+      "scope": "Selected WETH/USDC volatile pool resolved from the official V2 factory; not all Aerodrome pools or Slipstream.",
+      "chains": [
+        "base"
+      ]
+    },
+    {
+      "slug": "quickswap",
+      "name": "QuickSwap",
+      "source": "https://docs.quickswap.exchange/overview/contracts-and-addresses",
+      "scope": "Selected WPOL/bridged-USDC V2 pair resolved from the official factory; not all pools or V3 activity.",
+      "chains": [
+        "polygon"
+      ]
+    },
+    {
+      "slug": "sushiswap",
+      "name": "SushiSwap",
+      "source": "https://github.com/sushiswap/sushi-data/blob/da427b86ca85a46560fe409abc409cbeed05040e/constants.js",
+      "scope": "Selected Ethereum WETH/USDC V2 pair resolved from the official factory; not all Sushi versions, pools or chains.",
+      "chains": [
+        "ethereum"
+      ]
+    },
+    {
+      "slug": "cow-protocol",
+      "name": "CoW Protocol",
+      "source": "https://docs.cow.fi/cow-protocol/reference/contracts/core",
+      "scope": "Selected Ethereum and Gnosis settlement events; transaction senders can be solvers, not individual traders.",
+      "chains": [
+        "ethereum",
+        "gnosis"
+      ]
+    },
+    {
+      "slug": "polymarket",
+      "name": "Polymarket",
+      "source": "https://docs.polymarket.com/resources/contract-addresses",
+      "scope": "Selected Polygon CTF and V2 exchange settlement events; transaction signers may be relayers, not all traders.",
+      "chains": [
+        "polygon"
+      ]
+    },
+    {
+      "slug": "axie-infinity",
+      "name": "Axie Infinity",
+      "source": "https://github.com/axieinfinity/smart-contract-tracker/blob/c37dac1686d403a614326827313e99f0a47683ce/contracts/axie/axie-core.json",
+      "scope": "Selected Ronin Axie NFT mint and transfer events; not off-chain gameplay, active players or all game interactions.",
+      "chains": [
+        "ronin"
+      ]
+    },
+    {
+      "slug": "layerzero",
+      "name": "LayerZero",
+      "source": "https://github.com/LayerZero-Labs/devtools/blob/4973ba8bef7b0fdf7268469abea3ea50dbd4bbd8/examples/oft-hyperliquid/scripts/OFTProfilerExample.s.sol",
+      "scope": "Selected Arbitrum EndpointV2 messaging events; not all chains, applications or end users.",
+      "chains": [
+        "arbitrum"
+      ]
+    },
+    {
+      "slug": "stargate-finance",
+      "name": "Stargate Finance",
+      "source": "https://stargateprotocol.gitbook.io/stargate/v2-developer-docs/technical-reference/mainnet-contracts",
+      "scope": "Selected Polygon V2 USDC pool bridge events; not every Stargate deployment or transferred asset.",
+      "chains": [
+        "polygon"
+      ]
+    },
+    {
+      "slug": "axelar",
+      "name": "Axelar",
+      "source": "https://raw.githubusercontent.com/axelarnetwork/axelar-contract-deployments/main/axelar-chains-config/info/mainnet.json",
+      "scope": "Selected Ethereum and Base Gateway events; not every Axelar chain or all end users.",
+      "chains": [
+        "ethereum",
+        "base"
+      ]
+    },
+    {
+      "slug": "rocket-pool",
+      "name": "Rocket Pool",
+      "source": "https://github.com/rocket-pool/RPIPs/blob/593e4ff2415d255f7dd655e0a91984a3ef01f8bf/RPIPs/RPIP-2.md",
+      "scope": "Selected current Ethereum deposit pool resolved from RocketStorage; not all minipools or token holders.",
+      "chains": [
+        "ethereum"
+      ]
+    },
+    {
+      "slug": "origin-protocol",
+      "name": "Origin Protocol",
+      "source": "https://raw.githubusercontent.com/OriginProtocol/origin-dollar/master/contracts/utils/addresses.js",
+      "scope": "Selected Ethereum OETH and Sonic OS vault events; not every Origin product, strategy or token holder.",
+      "chains": [
+        "ethereum",
+        "sonic"
+      ]
+    }
+  ],
+  "mainnet_verifications": [
+    {
+      "slug": "gmx",
+      "chain": "avalanche",
+      "address": "0xDb17B211c34240B014ab6d61d4A31FA0C0e20c26",
+      "role": "EventEmitter",
+      "source": "https://docs.gmx.io/docs/api/contracts/addresses/",
+      "chainId": 43114,
+      "checkedAt": "2026-11-15T13:13:39.013Z",
+      "head": 100392576,
+      "startPosition": 100392546,
+      "bytecodeBytes": 7998,
+      "bytecodeSha256": "5fb4be3212686430a983c6cf48e5b4e9448e8a5bee4dc5446aeb583452839aaa",
+      "sampleLogs": 0,
+      "verified": true
+    },
+    {
+      "slug": "gmx",
+      "chain": "arbitrum",
+      "address": "0xC8ee91A54287DB53897056e12D9819156D3822Fb",
+      "role": "EventEmitter",
+      "source": "https://docs.gmx.io/docs/api/contracts/addresses/",
+      "chainId": 42161,
+      "checkedAt": "2026-11-15T13:13:39.048Z",
+      "head": 524469690,
+      "startPosition": 524469660,
+      "bytecodeBytes": 7998,
+      "bytecodeSha256": "014ea89894100f06f0ac38dd9fd6ac54bad736211a26dd4c15477563d0f795cc",
+      "sampleLogs": 0,
+      "verified": true
+    },
+    {
+      "slug": "benqi",
+      "chain": "avalanche",
+      "address": "0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE",
+      "role": "sAVAX",
+      "source": "https://docs.benqi.fi/resources/contracts",
+      "chainId": 43114,
+      "checkedAt": "2026-11-15T13:13:39.419Z",
+      "head": 100392576,
+      "startPosition": 100392546,
+      "bytecodeBytes": 2141,
+      "bytecodeSha256": "8ab7e41c0ab40cab1e96af6ed539f074fba821fae835561c2d861293cfc98063",
+      "sampleLogs": 0,
+      "verified": true
+    },
+    {
+      "slug": "layerzero",
+      "chain": "arbitrum",
+      "address": "0x1a44076050125825900e736c501f859c50fE728c",
+      "role": "EndpointV2",
+      "source": "https://github.com/LayerZero-Labs/devtools/blob/4973ba8bef7b0fdf7268469abea3ea50dbd4bbd8/examples/oft-hyperliquid/scripts/OFTProfilerExample.s.sol",
+      "chainId": 42161,
+      "checkedAt": "2026-11-15T13:13:39.436Z",
+      "head": 524469690,
+      "startPosition": 524469660,
+      "bytecodeBytes": 24005,
+      "bytecodeSha256": "796450642eb1f8c3b638413533bf41754433ffa0c5b4380805cc1014b95b54e9",
+      "sampleLogs": 0,
+      "verified": true
+    },
+    {
+      "slug": "pendle",
+      "chain": "ethereum",
+      "address": "0x888888888889758F76e7103c6CbF23ABbF58F946",
+      "role": "PendleRouter",
+      "source": "https://raw.githubusercontent.com/pendle-finance/pendle-core-v2-public/main/deployments/1-core.json",
+      "chainId": 1,
+      "checkedAt": "2026-11-15T13:13:40.455Z",
+      "head": 26420630,
+      "startPosition": 26420600,
+      "bytecodeBytes": 287,
+      "bytecodeSha256": "87e92a0847e2e3d0f37d809a2dfa898a1bf4cefe708e441a37a45b344f1b70a9",
+      "sampleLogs": 0,
+      "verified": true
+    },
+    {
+      "slug": "velodrome",
+      "chain": "optimism",
+      "address": "0xf4f2657ae744354baca871e56775e5083f7276ab",
+      "role": "Selected WETH/USDC V2 volatile pool",
+      "source": "https://raw.githubusercontent.com/velodrome-finance/contracts/main/README.md",
+      "chainId": 10,
+      "checkedAt": "2026-11-15T13:13:40.665Z",
+      "head": 159574821,
+      "startPosition": 159574791,
+      "bytecodeBytes": 45,
+      "bytecodeSha256": "cbc864a3d4a5ba49dd0b1449fe24f07066d5502123ec10b8e090424d0052aa70",
+      "sampleLogs": 0,
+      "verified": true
+    },
+    {
+      "slug": "spark",
+      "chain": "ethereum",
+      "address": "0xC13e21B648A5Ee794902342038FF3aDAB66BE987",
+      "role": "SparkLend Pool",
+      "source": "https://raw.githubusercontent.com/sparkdotfi/spark-address-registry/master/src/SparkLend.sol",
+      "chainId": 1,
+      "checkedAt": "2026-11-15T13:13:41.087Z",
+      "head": 26420630,
+      "startPosition": 26420600,
+      "bytecodeBytes": 2400,
+      "bytecodeSha256": "f0492e716cb48180a920286492f20fd4ee41a4c894016e43c915f239cc7f2c5f",
+      "sampleLogs": 0,
+      "verified": true
+    },
+    {
+      "slug": "fluid",
+      "chain": "ethereum",
+      "address": "0x52Aa899454998Be5b000Ad077a46Bbe360F4e497",
+      "role": "Fluid Liquidity",
+      "source": "https://github.com/Instadapp/fluid-contracts-public/blob/404d73f91e6806f881f8dabeb30494f93f9e99b7/contracts/oracleV2/common/dexShareResolver.sol",
+      "chainId": 1,
+      "checkedAt": "2026-11-15T13:13:41.707Z",
+      "head": 26420630,
+      "startPosition": 26420600,
+      "bytecodeBytes": 4462,
+      "bytecodeSha256": "f5b2b6f809316f5fe69569613abc4f6fabe54cea85bb5d68c0ff6d1db21e1c37",
+      "sampleLogs": 5,
+      "verified": true
+    },
+    {
+      "slug": "aerodrome",
+      "chain": "base",
+      "address": "0xcdac0d6c6c59727a65f871236188350531885c43",
+      "role": "Selected WETH/USDC V2 volatile pool",
+      "source": "https://raw.githubusercontent.com/aerodrome-finance/contracts/main/README.md",
+      "chainId": 8453,
+      "checkedAt": "2026-11-15T13:13:41.983Z",
+      "head": 57790231,
+      "startPosition": 57790201,
+      "bytecodeBytes": 45,
+      "bytecodeSha256": "682b06907fbb4997f72338e07d6565a082ba229437c6106de3e458e682e80557",
+      "sampleLogs": 0,
+      "verified": true
+    },
+    {
+      "slug": "euler",
+      "chain": "ethereum",
+      "address": "0x0C9a3dd6b8F28529d72d7f9cE918D493519EE383",
+      "role": "Ethereum Vault Connector",
+      "source": "https://raw.githubusercontent.com/euler-xyz/euler-interfaces/master/EulerChains.json",
+      "chainId": 1,
+      "checkedAt": "2026-11-15T13:13:42.328Z",
+      "head": 26420630,
+      "startPosition": 26420600,
+      "bytecodeBytes": 21989,
+      "bytecodeSha256": "241e15b136b6829df71e64de20367778dbeadca9bbb8beefdee3a7ff79751d18",
+      "sampleLogs": 0,
+      "verified": true
+    },
+    {
+      "slug": "axelar",
+      "chain": "base",
+      "address": "0xe432150cce91c13a887f7D836923d5597adD8E31",
+      "role": "AxelarGateway",
+      "source": "https://raw.githubusercontent.com/axelarnetwork/axelar-contract-deployments/main/axelar-chains-config/info/mainnet.json",
+      "chainId": 8453,
+      "checkedAt": "2026-11-15T13:13:42.395Z",
+      "head": 57790231,
+      "startPosition": 57790201,
+      "bytecodeBytes": 1264,
+      "bytecodeSha256": "b3c8e5d9c256238381f1add01f7d36e5a8817d89d951b2458e5df04253da50cb",
+      "sampleLogs": 0,
+      "verified": true
+    },
+    {
+      "slug": "kyberswap",
+      "chain": "ethereum",
+      "address": "0x6868d319c8c9a78f7d39dc3602c5c917315132d7",
+      "role": "KSAggregationRouterV3",
+      "source": "https://raw.githubusercontent.com/KyberNetwork/kyberswap-documentation/main/developer-guide/aggregator-api/contracts.md",
+      "chainId": 1,
+      "checkedAt": "2026-11-15T13:13:42.926Z",
+      "head": 26420630,
+      "startPosition": 26420600,
+      "bytecodeBytes": 16858,
+      "bytecodeSha256": "71e05e8dcdc9a431f25222d5b9d6fe470a6e36cdb95f61cc15b7aed5d9ad74ee",
+      "sampleLogs": 0,
+      "verified": true
+    },
+    {
+      "slug": "sushiswap",
+      "chain": "ethereum",
+      "address": "0x397ff1542f962076d0bfe58ea045ffa2d347aca0",
+      "role": "Selected V2 pair",
+      "source": "https://github.com/sushiswap/sushi-data/blob/da427b86ca85a46560fe409abc409cbeed05040e/constants.js",
+      "chainId": 1,
+      "checkedAt": "2026-11-15T13:13:43.532Z",
+      "head": 26420630,
+      "startPosition": 26420600,
+      "bytecodeBytes": 9079,
+      "bytecodeSha256": "272874b1f3ebd8e7ff823209d45962f8057a750d789229d09d1d4150b0efc0b1",
+      "sampleLogs": 0,
+      "verified": true
+    },
+    {
+      "slug": "quickswap",
+      "chain": "polygon",
+      "address": "0x6e7a5fafcec6bb1e78bae2a1f0b612012bf14827",
+      "role": "Selected V2 pair",
+      "source": "https://docs.quickswap.exchange/overview/contracts-and-addresses",
+      "chainId": 137,
+      "checkedAt": "2026-11-15T13:13:43.913Z",
+      "head": 97361970,
+      "startPosition": 97361940,
+      "bytecodeBytes": 11293,
+      "bytecodeSha256": "b15a5b4d48ea9e90dbcebef56aa44aa1795dc6a162512be8c34820b18a15ce9e",
+      "sampleLogs": 0,
+      "verified": true
+    },
+    {
+      "slug": "cow-protocol",
+      "chain": "ethereum",
+      "address": "0x9008D19f58AAbD9eD0D60971565AA8510560ab41",
+      "role": "GPv2Settlement",
+      "source": "https://docs.cow.fi/cow-protocol/reference/contracts/core",
+      "chainId": 1,
+      "checkedAt": "2026-11-15T13:13:44.138Z",
+      "head": 26420630,
+      "startPosition": 26420600,
+      "bytecodeBytes": 16165,
+      "bytecodeSha256": "ff9de93cb289c5116ea32f03d37e58642776d6a70d8948fd53606da1a9de4da1",
+      "sampleLogs": 5,
+      "verified": true
+    },
+    {
+      "slug": "polymarket",
+      "chain": "polygon",
+      "address": "0xE111180000d2663C0091e4f400237545B87B996B",
+      "role": "Prediction-market exchange",
+      "source": "https://docs.polymarket.com/resources/contract-addresses",
+      "chainId": 137,
+      "checkedAt": "2026-11-15T13:13:44.329Z",
+      "head": 97361970,
+      "startPosition": 97361940,
+      "bytecodeBytes": 21037,
+      "bytecodeSha256": "fd185b97a4b11d77246055232d365d6e58a60b2f7487cf4430f84f596fc9519c",
+      "sampleLogs": 53,
+      "verified": true
+    },
+    {
+      "slug": "axelar",
+      "chain": "ethereum",
+      "address": "0x4F4495243837681061C4743b74B3eEdf548D56A5",
+      "role": "AxelarGateway",
+      "source": "https://raw.githubusercontent.com/axelarnetwork/axelar-contract-deployments/main/axelar-chains-config/info/mainnet.json",
+      "chainId": 1,
+      "checkedAt": "2026-11-15T13:13:44.754Z",
+      "head": 26420630,
+      "startPosition": 26420600,
+      "bytecodeBytes": 1205,
+      "bytecodeSha256": "28b80f5e462aa20f2d6be64a1b1c59346a1a7562df623da38e603c000f577a7e",
+      "sampleLogs": 0,
+      "verified": true
+    },
+    {
+      "slug": "polymarket",
+      "chain": "polygon",
+      "address": "0xe2222d279d744050d28e00520010520000310F59",
+      "role": "Prediction-market exchange",
+      "source": "https://docs.polymarket.com/resources/contract-addresses",
+      "chainId": 137,
+      "checkedAt": "2026-11-15T13:13:44.916Z",
+      "head": 97361970,
+      "startPosition": 97361940,
+      "bytecodeBytes": 21037,
+      "bytecodeSha256": "bae8806b141a9079bfe2b28f7c37b274e82616432537d4c6467ad4ef8d696540",
+      "sampleLogs": 12,
+      "verified": true
+    },
+    {
+      "slug": "rocket-pool",
+      "chain": "ethereum",
+      "address": "0xce15294273cfb9d9b628f4d61636623decdf4fdc",
+      "role": "RocketStorage-resolved deposit pool",
+      "source": "https://github.com/rocket-pool/RPIPs/blob/593e4ff2415d255f7dd655e0a91984a3ef01f8bf/RPIPs/RPIP-2.md",
+      "chainId": 1,
+      "checkedAt": "2026-11-15T13:13:45.351Z",
+      "head": 26420630,
+      "startPosition": 26420600,
+      "bytecodeBytes": 22228,
+      "bytecodeSha256": "052409b05cdd734c57e2e5f142dbfccf2d21897e0123043963b9d06fa16c24e8",
+      "sampleLogs": 0,
+      "verified": true
+    },
+    {
+      "slug": "polymarket",
+      "chain": "polygon",
+      "address": "0xe3333700cA9d93003F00f0F71f8515005F6c00Aa",
+      "role": "Prediction-market exchange",
+      "source": "https://docs.polymarket.com/resources/contract-addresses",
+      "chainId": 137,
+      "checkedAt": "2026-11-15T13:13:45.650Z",
+      "head": 97361970,
+      "startPosition": 97361940,
+      "bytecodeBytes": 61,
+      "bytecodeSha256": "3b4fbfe032bcbb59db2ca04c9ba515c338fa2576425e8346046224553818ab3a",
+      "sampleLogs": 0,
+      "verified": true
+    },
+    {
+      "slug": "origin-protocol",
+      "chain": "ethereum",
+      "address": "0x39254033945AA2E4809Cc2977E7087BEE48bd7Ab",
+      "role": "OETHVaultProxy",
+      "source": "https://raw.githubusercontent.com/OriginProtocol/origin-dollar/master/contracts/utils/addresses.js",
+      "chainId": 1,
+      "checkedAt": "2026-11-15T13:13:45.975Z",
+      "head": 26420630,
+      "startPosition": 26420600,
+      "bytecodeBytes": 2416,
+      "bytecodeSha256": "6d64ad06771b2414642e4b2d8cb95af20a790e139e3d66bb7ff1a98f11234311",
+      "sampleLogs": 0,
+      "verified": true
+    },
+    {
+      "slug": "stargate-finance",
+      "chain": "polygon",
+      "address": "0x9Aa02D4Fae7F58b8E8f34c66E756cC734DAc7fe4",
+      "role": "StargatePoolUSDC V2",
+      "source": "https://stargateprotocol.gitbook.io/stargate/v2-developer-docs/technical-reference/mainnet-contracts",
+      "chainId": 137,
+      "checkedAt": "2026-11-15T13:13:46.278Z",
+      "head": 97361970,
+      "startPosition": 97361940,
+      "bytecodeBytes": 23555,
+      "bytecodeSha256": "181dbf457c114aea4d619ea5fec2408485bb8ea304c65c96ace4342ff05e2958",
+      "sampleLogs": 0,
+      "verified": true
+    },
+    {
+      "slug": "cow-protocol",
+      "chain": "gnosis",
+      "address": "0x9008D19f58AAbD9eD0D60971565AA8510560ab41",
+      "role": "GPv2Settlement",
+      "source": "https://docs.cow.fi/cow-protocol/reference/contracts/core",
+      "chainId": 100,
+      "checkedAt": "2026-11-15T13:13:47.323Z",
+      "head": 49292671,
+      "startPosition": 49292641,
+      "bytecodeBytes": 16165,
+      "bytecodeSha256": "a27bc6becb316392002fa146886c434b37f97bc79d9ff4dc8aad42a454041c6d",
+      "sampleLogs": 0,
+      "verified": true
+    },
+    {
+      "slug": "axie-infinity",
+      "chain": "ronin",
+      "address": "0x32950db2a7164ae833121501c797d79e7b79d74c",
+      "role": "Axie NFT core",
+      "source": "https://github.com/axieinfinity/smart-contract-tracker/blob/c37dac1686d403a614326827313e99f0a47683ce/contracts/axie/axie-core.json",
+      "chainId": 2020,
+      "checkedAt": "2026-11-15T13:13:47.892Z",
+      "head": 63639820,
+      "startPosition": 63639790,
+      "bytecodeBytes": 2921,
+      "bytecodeSha256": "4c4f9f349bdc60c386364414c0c99390a76c78f818ba9f435dc354fe85d21396",
+      "sampleLogs": 0,
+      "verified": true
+    },
+    {
+      "slug": "origin-protocol",
+      "chain": "sonic",
+      "address": "0xa3c0eCA00D2B76b4d1F170b0AB3FdeA16C180186",
+      "role": "OSonicVaultProxy",
+      "source": "https://raw.githubusercontent.com/OriginProtocol/origin-dollar/master/contracts/utils/addresses.js",
+      "chainId": 146,
+      "checkedAt": "2026-11-15T13:13:48.522Z",
+      "head": 82611202,
+      "startPosition": 82611172,
+      "bytecodeBytes": 2404,
+      "bytecodeSha256": "9bf5a728679b8d95c05ff1c5049d667fdf33a0cc35e6ab089a70429e07337ff2",
+      "sampleLogs": 0,
+      "verified": true
+    }
+  ],
+  "factory_registry_resolutions": [
+    {
+      "slug": "velodrome",
+      "chain": "optimism",
+      "factory": "0xF1046053aa5682b4F9a81b5481394DA16BE5FF5a",
+      "method": "getPool",
+      "tokens": [
+        "0x4200000000000000000000000000000000000006",
+        "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85"
+      ],
+      "address": "0xf4f2657ae744354baca871e56775e5083f7276ab"
+    },
+    {
+      "slug": "aerodrome",
+      "chain": "base",
+      "factory": "0x420DD381b31aEf6683db6B902084cB0FFECe40Da",
+      "method": "getPool",
+      "tokens": [
+        "0x4200000000000000000000000000000000000006",
+        "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+      ],
+      "address": "0xcdac0d6c6c59727a65f871236188350531885c43"
+    },
+    {
+      "slug": "quickswap",
+      "chain": "polygon",
+      "factory": "0x5757371414417b8C6CAad45bAeF941aBc7d3Ab32",
+      "method": "getPair",
+      "tokens": [
+        "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+        "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+      ],
+      "address": "0x6e7a5fafcec6bb1e78bae2a1f0b612012bf14827"
+    },
+    {
+      "slug": "sushiswap",
+      "chain": "ethereum",
+      "factory": "0xC0aEE478e3658e2610c5F7A4A2E1777cE9e4f2Ac",
+      "method": "getPair",
+      "tokens": [
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+      ],
+      "address": "0x397ff1542f962076d0bfe58ea045ffa2d347aca0"
+    },
+    {
+      "slug": "rocket-pool",
+      "registry": "0x1d8f8f00cfa6758d7bE78336684788Fb0ee0Fa46",
+      "key": "0x65dd923ddfc8d8ae6088f80077201d2403cbd565f0ba25e09841e2799ec90bb2",
+      "address": "0xce15294273cfb9d9b628f4d61636623decdf4fdc"
+    }
+  ],
+  "websites_and_logos": [
+    {
+      "slug": "spark",
+      "website": "https://spark.finance",
+      "checkedAt": "2026-11-15T13:13:29.135Z",
+      "status": 200,
+      "finalUrl": "https://spark.finance/",
+      "logo": "https://spark.finance/favicon.png",
+      "logoStatus": 200,
+      "logoType": "image/png"
+    },
+    {
+      "slug": "gmx",
+      "website": "https://gmx.io",
+      "checkedAt": "2026-11-15T13:13:29.023Z",
+      "status": 200,
+      "finalUrl": "https://gmx.io/",
+      "logo": "https://gmx.io/favicon/apple-icon-57x57.png",
+      "logoStatus": 200,
+      "logoType": "image/png"
+    },
+    {
+      "slug": "benqi",
+      "website": "https://benqi.fi",
+      "checkedAt": "2026-11-15T13:13:29.133Z",
+      "status": 200,
+      "finalUrl": "https://benqi.fi/",
+      "logo": "https://benqi.fi/public/images/favicon.svg",
+      "logoStatus": 200,
+      "logoType": "image/svg+xml"
+    },
+    {
+      "slug": "euler",
+      "website": "https://euler.finance",
+      "checkedAt": "2026-11-15T13:13:29.717Z",
+      "status": 200,
+      "finalUrl": "https://euler.finance/",
+      "logo": "https://euler.finance/favicon.ico?favicon.35jn7trvjmi2p.ico",
+      "logoStatus": 200,
+      "logoType": "image/x-icon"
+    },
+    {
+      "slug": "pendle",
+      "website": "https://pendle.finance",
+      "checkedAt": "2026-11-15T13:13:29.131Z",
+      "status": 200,
+      "finalUrl": "https://www.pendle.finance/",
+      "logo": "https://www.pendle.finance/favicon.ico",
+      "logoStatus": 200,
+      "logoType": "image/vnd.microsoft.icon"
+    },
+    {
+      "slug": "fluid",
+      "website": "https://www.fluid.io",
+      "checkedAt": "2026-11-15T13:13:29.667Z",
+      "status": 200,
+      "finalUrl": "https://fluid.io/",
+      "logo": "https://fluid.io/favicon.ico",
+      "logoStatus": 200,
+      "logoType": "image/vnd.microsoft.icon"
+    },
+    {
+      "slug": "velodrome",
+      "website": "https://velodrome.finance",
+      "checkedAt": "2026-11-15T13:13:30.303Z",
+      "status": 200,
+      "finalUrl": "https://velodrome.finance/",
+      "logo": "https://velodrome.finance/images/VELO/favicon.ico",
+      "logoStatus": 200,
+      "logoType": "image/vnd.microsoft.icon"
+    },
+    {
+      "slug": "aerodrome",
+      "website": "https://aerodrome.finance",
+      "checkedAt": "2026-11-15T13:13:30.394Z",
+      "status": 200,
+      "finalUrl": "https://aerodrome.finance/",
+      "logo": "https://aerodrome.finance/images/AERO/favicon.ico",
+      "logoStatus": 200,
+      "logoType": "image/vnd.microsoft.icon"
+    },
+    {
+      "slug": "kyberswap",
+      "website": "https://kyberswap.com",
+      "checkedAt": "2026-11-15T13:13:30.106Z",
+      "status": 200,
+      "finalUrl": "https://kyberswap.com/",
+      "logo": "https://kyberswap.com/favicon.ico?version=v",
+      "logoStatus": 200,
+      "logoType": "image/x-icon"
+    },
+    {
+      "slug": "quickswap",
+      "website": "https://quickswap.exchange",
+      "checkedAt": "2026-11-15T13:13:30.615Z",
+      "status": 200,
+      "finalUrl": "https://quickswap.exchange/",
+      "logo": "https://quickswap.exchange/icon.ico",
+      "logoStatus": 200,
+      "logoType": "image/vnd.microsoft.icon"
+    },
+    {
+      "slug": "cow-protocol",
+      "website": "https://cow.fi",
+      "checkedAt": "2026-11-15T13:13:30.901Z",
+      "status": 200,
+      "finalUrl": "https://cow.fi/",
+      "logo": "https://cow.fi/favicon-light-mode.png",
+      "logoStatus": 200,
+      "logoType": "image/png"
+    },
+    {
+      "slug": "axie-infinity",
+      "website": "https://axieinfinity.com",
+      "checkedAt": "2026-11-15T13:13:31.248Z",
+      "status": 403,
+      "finalUrl": "https://axieinfinity.com/"
+    },
+    {
+      "slug": "layerzero",
+      "website": "https://layerzero.network",
+      "checkedAt": "2026-11-15T13:13:31.408Z",
+      "status": 200,
+      "finalUrl": "https://layerzero.network/",
+      "logo": "https://layerzero.network/favicon.ico",
+      "logoStatus": 200,
+      "logoType": "image/vnd.microsoft.icon"
+    },
+    {
+      "slug": "polymarket",
+      "website": "https://polymarket.com",
+      "checkedAt": "2026-11-15T13:13:31.193Z",
+      "status": 200,
+      "finalUrl": "https://polymarket.com/",
+      "logo": "https://polymarket.com/icons/favicon-32x32.png",
+      "logoStatus": 200,
+      "logoType": "image/png"
+    },
+    {
+      "slug": "sushiswap",
+      "website": "https://sushi.com",
+      "checkedAt": "2026-11-15T13:13:30.762Z",
+      "status": 200,
+      "finalUrl": "https://www.sushi.com/ethereum/swap",
+      "logo": "https://www.sushi.com/safari-pinned-tab.svg?v=1",
+      "logoStatus": 200,
+      "logoType": "image/svg+xml"
+    },
+    {
+      "slug": "rocket-pool",
+      "website": "https://rocketpool.net",
+      "checkedAt": "2026-11-15T13:13:31.924Z",
+      "status": 200,
+      "finalUrl": "https://rocketpool.net/",
+      "logo": "https://rocketpool.net/favicon-32x32.png",
+      "logoStatus": 200,
+      "logoType": "image/png"
+    },
+    {
+      "slug": "stargate-finance",
+      "website": "https://stargate.finance",
+      "checkedAt": "2026-11-15T13:13:31.874Z",
+      "status": 200,
+      "finalUrl": "https://stargate.finance/",
+      "logo": "https://stargate.finance/static/favicons/favicon-light.svg",
+      "logoStatus": 200,
+      "logoType": "image/svg+xml"
+    },
+    {
+      "slug": "origin-protocol",
+      "website": "https://originprotocol.com",
+      "checkedAt": "2026-11-15T13:13:32.218Z",
+      "status": 200,
+      "finalUrl": "https://www.originprotocol.com/",
+      "logo": "https://www.originprotocol.com/favicon.ico",
+      "logoStatus": 200,
+      "logoType": "image/vnd.microsoft.icon"
+    },
+    {
+      "slug": "axelar",
+      "website": "https://axelar.network",
+      "checkedAt": "2026-11-15T13:13:31.898Z",
+      "status": 200,
+      "finalUrl": "https://www.axelar.network/",
+      "logo": "https://cdn.prod.website-files.com/65d241582635a0233e69af40/661c7db53a5fd239efa1fa8a_favicon.png",
+      "logoStatus": 200,
+      "logoType": "image/png"
+    }
+  ],
+  "limits": [
+    "Selected mappings do not represent all protocol usage, unique end users, active game players or complete historical coverage.",
+    "For each new mapping start_position is the checked mainnet head minus 30 blocks; these are newly listed addresses, never replacement positions for existing checkpoints.",
+    "Axie Infinity website returned HTTP 403 during this check; the first-party axieinfinity/smart-contract-tracker confirms the Ronin deployment. A generic DappSignal icon is used until an official image is accessible.",
+    "No API keys, Helius, paid providers, signed transactions or purchases were used."
+  ]
+}

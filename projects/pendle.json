@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "slug": "pendle",
+  "name": "Pendle",
+  "tagline": "Trade and manage tokenized yield positions.",
+  "description": "Trade and manage tokenized yield positions. Selected Ethereum router events only; not all Pendle markets or complete protocol activity. Coverage begins at the reviewed listing block and is partial; it is not complete historical or protocol-wide usage.",
+  "logo_url": "https://www.pendle.finance/favicon.ico",
+  "website_url": "https://pendle.finance",
+  "social_links": {},
+  "primary_category_id": "defi",
+  "tags": [
+    "yield"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address_kind": "contract",
+          "address": "0x888888888889758F76e7103c6CbF23ABbF58F946",
+          "start_position": 26420600
+        }
+      ]
+    }
+  ],
+  "subcategory_id": "yield"
+}

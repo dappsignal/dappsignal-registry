@@ -60,3 +60,7 @@ These are bounded catalog mappings, not exhaustive protocol metrics or approval 
 ## Reviewed network expansion
 
 The schema supports 24 mainnets, including Polygon and HyperEVM. See the [22-profile audit and added deployments](reviews/2026-11-15-evm-profile-audit.md) for the full network list, newly measurable profiles, exclusions and bounded verification evidence. A listed network does not imply full protocol coverage or archive completeness.
+
+## Catalog reaches 100
+
+The owner-directed [100-project review](reviews/2026-11-15-catalog-100.md) adds 19 profiles and 25 mainnet mappings with official sources, bounded on-chain checks and unchanged existing manifests. Selected activity remains partial rather than full protocol or historical coverage.

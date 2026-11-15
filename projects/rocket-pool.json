@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "slug": "rocket-pool",
+  "name": "Rocket Pool",
+  "tagline": "Decentralized Ethereum staking and liquid staking.",
+  "description": "Decentralized Ethereum staking and liquid staking. Selected current Ethereum deposit pool resolved from RocketStorage; not all minipools or token holders. Coverage begins at the reviewed listing block and is partial; it is not complete historical or protocol-wide usage.",
+  "logo_url": "https://rocketpool.net/favicon-32x32.png",
+  "website_url": "https://rocketpool.net",
+  "social_links": {},
+  "primary_category_id": "defi",
+  "tags": [
+    "liquid-staking"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address_kind": "contract",
+          "address": "0xce15294273cfb9d9b628f4d61636623decdf4fdc",
+          "start_position": 26420600
+        }
+      ]
+    }
+  ],
+  "subcategory_id": "liquid-staking"
+}

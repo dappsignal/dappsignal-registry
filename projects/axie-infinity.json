@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "slug": "axie-infinity",
+  "name": "Axie Infinity",
+  "tagline": "Collectible creatures and a player-owned gaming universe.",
+  "description": "Collectible creatures and a player-owned gaming universe. Selected Ronin Axie NFT mint and transfer events; not off-chain gameplay, active players or all game interactions. Coverage begins at the reviewed listing block and is partial; it is not complete historical or protocol-wide usage.",
+  "logo_url": "https://dappsignal.com/icon.svg",
+  "website_url": "https://axieinfinity.com",
+  "social_links": {},
+  "primary_category_id": "games",
+  "tags": [
+    "games-games"
+  ],
+  "chains": [
+    {
+      "chain_id": "ronin",
+      "addresses": [
+        {
+          "address_kind": "contract",
+          "address": "0x32950db2a7164ae833121501c797d79e7b79d74c",
+          "start_position": 63639790
+        }
+      ]
+    }
+  ],
+  "subcategory_id": "games-games"
+}

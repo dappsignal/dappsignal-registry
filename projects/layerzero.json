@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "slug": "layerzero",
+  "name": "LayerZero",
+  "tagline": "Cross-chain messaging infrastructure for applications.",
+  "description": "Cross-chain messaging infrastructure for applications. Selected Arbitrum EndpointV2 messaging events; not all chains, applications or end users. Coverage begins at the reviewed listing block and is partial; it is not complete historical or protocol-wide usage.",
+  "logo_url": "https://layerzero.network/favicon.ico",
+  "website_url": "https://layerzero.network",
+  "social_links": {},
+  "primary_category_id": "bridges",
+  "tags": [
+    "bridges"
+  ],
+  "chains": [
+    {
+      "chain_id": "arbitrum",
+      "addresses": [
+        {
+          "address_kind": "contract",
+          "address": "0x1a44076050125825900e736c501f859c50fE728c",
+          "start_position": 524469660
+        }
+      ]
+    }
+  ]
+}

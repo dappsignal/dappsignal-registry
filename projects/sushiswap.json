@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "slug": "sushiswap",
+  "name": "SushiSwap",
+  "tagline": "Multichain token trading and liquidity provision.",
+  "description": "Multichain token trading and liquidity provision. Selected Ethereum WETH/USDC V2 pair resolved from the official factory; not all Sushi versions, pools or chains. Coverage begins at the reviewed listing block and is partial; it is not complete historical or protocol-wide usage.",
+  "logo_url": "https://www.sushi.com/safari-pinned-tab.svg?v=1",
+  "website_url": "https://sushi.com",
+  "social_links": {},
+  "primary_category_id": "defi",
+  "tags": [
+    "dex-trading"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address_kind": "contract",
+          "address": "0x397ff1542f962076d0bfe58ea045ffa2d347aca0",
+          "start_position": 26420600
+        }
+      ]
+    }
+  ],
+  "subcategory_id": "dex-trading"
+}

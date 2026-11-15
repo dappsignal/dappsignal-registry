@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "slug": "velodrome",
+  "name": "Velodrome",
+  "tagline": "Optimism liquidity markets and token trading.",
+  "description": "Optimism liquidity markets and token trading. Selected WETH/USDC volatile pool resolved from the official V2 factory; not all pools or the full protocol. Coverage begins at the reviewed listing block and is partial; it is not complete historical or protocol-wide usage.",
+  "logo_url": "https://velodrome.finance/images/VELO/favicon.ico",
+  "website_url": "https://velodrome.finance",
+  "social_links": {},
+  "primary_category_id": "defi",
+  "tags": [
+    "dex-trading"
+  ],
+  "chains": [
+    {
+      "chain_id": "optimism",
+      "addresses": [
+        {
+          "address_kind": "contract",
+          "address": "0xf4f2657ae744354baca871e56775e5083f7276ab",
+          "start_position": 159574791
+        }
+      ]
+    }
+  ],
+  "subcategory_id": "dex-trading"
+}

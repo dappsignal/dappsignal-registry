@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "slug": "stargate-finance",
+  "name": "Stargate Finance",
+  "tagline": "Cross-chain asset transfers through unified liquidity.",
+  "description": "Cross-chain asset transfers through unified liquidity. Selected Polygon V2 USDC pool bridge events; not every Stargate deployment or transferred asset. Coverage begins at the reviewed listing block and is partial; it is not complete historical or protocol-wide usage.",
+  "logo_url": "https://stargate.finance/static/favicons/favicon-light.svg",
+  "website_url": "https://stargate.finance",
+  "social_links": {},
+  "primary_category_id": "bridges",
+  "tags": [
+    "bridges"
+  ],
+  "chains": [
+    {
+      "chain_id": "polygon",
+      "addresses": [
+        {
+          "address_kind": "contract",
+          "address": "0x9Aa02D4Fae7F58b8E8f34c66E756cC734DAc7fe4",
+          "start_position": 97361940
+        }
+      ]
+    }
+  ]
+}

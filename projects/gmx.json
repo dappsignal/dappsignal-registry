@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "slug": "gmx",
+  "name": "GMX",
+  "tagline": "On-chain perpetual futures and liquidity markets.",
+  "description": "On-chain perpetual futures and liquidity markets. Selected GMX V2 EventEmitter contracts record protocol events; transaction signers can be keepers and are not all traders. Coverage begins at the reviewed listing block and is partial; it is not complete historical or protocol-wide usage.",
+  "logo_url": "https://gmx.io/favicon/apple-icon-57x57.png",
+  "website_url": "https://gmx.io",
+  "social_links": {},
+  "primary_category_id": "defi",
+  "tags": [
+    "derivatives"
+  ],
+  "chains": [
+    {
+      "chain_id": "arbitrum",
+      "addresses": [
+        {
+          "address_kind": "contract",
+          "address": "0xC8ee91A54287DB53897056e12D9819156D3822Fb",
+          "start_position": 524469660
+        }
+      ]
+    },
+    {
+      "chain_id": "avalanche",
+      "addresses": [
+        {
+          "address_kind": "contract",
+          "address": "0xDb17B211c34240B014ab6d61d4A31FA0C0e20c26",
+          "start_position": 100392546
+        }
+      ]
+    }
+  ],
+  "subcategory_id": "derivatives"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "slug": "euler",
+  "name": "Euler",
+  "tagline": "Permissionless lending vaults and credit markets.",
+  "description": "Permissionless lending vaults and credit markets. Selected Ethereum Vault Connector events only; not all vault activity or unique borrowers. Coverage begins at the reviewed listing block and is partial; it is not complete historical or protocol-wide usage.",
+  "logo_url": "https://euler.finance/favicon.ico?favicon.35jn7trvjmi2p.ico",
+  "website_url": "https://euler.finance",
+  "social_links": {},
+  "primary_category_id": "defi",
+  "tags": [
+    "lending"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address_kind": "contract",
+          "address": "0x0C9a3dd6b8F28529d72d7f9cE918D493519EE383",
+          "start_position": 26420600
+        }
+      ]
+    }
+  ],
+  "subcategory_id": "lending"
+}
