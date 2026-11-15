@@ -3,10 +3,12 @@
   "slug": "hivemapper",
   "name": "Hivemapper",
   "tagline": "A community-built mapping network with contributor rewards on Solana.",
-  "description": "A community-built mapping network with contributor rewards on Solana. This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics.",
+  "description": "Hivemapper builds a decentralized street-level mapping network from contributor imagery. The mapped Solana payment program measures payment transactions and message signers; mapped mileage, imagery uploads and dashcam installations are not inferred from these counts.",
   "logo_url": "https://hivemapper.com/favicon.ico",
   "website_url": "https://hivemapper.com/",
-  "social_links": {},
+  "social_links": {
+    "docs": "https://docs.hivemapper.com/honey-token/what-is-honey/"
+  },
   "primary_category_id": "ai-depin",
   "subcategory_id": "physical-infrastructure",
   "tags": [
@@ -15,7 +17,12 @@
   "chains": [
     {
       "chain_id": "solana",
-      "addresses": []
+      "addresses": [
+        {
+          "address": "BNH1dUp3ExFbgo3YctSqQbJXRFn3ffkwbcmSas8azfaW",
+          "address_kind": "program"
+        }
+      ]
     }
   ]
 }

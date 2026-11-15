@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "slug": "nosana",
+  "name": "Nosana",
+  "tagline": "A Solana marketplace for decentralized GPU compute jobs.",
+  "description": "Nosana connects GPU hosts with developers running compute workloads. The mapped Nosana Jobs program measures on-chain job-program transactions and their signers; this is not a count of GPU hours or all off-chain users.",
+  "logo_url": "https://www.nosana.com/favicon.svg",
+  "website_url": "https://www.nosana.com/",
+  "social_links": {
+    "docs": "https://learn.nosana.com/programs/start.html",
+    "github": "https://github.com/nosana-ci"
+  },
+  "primary_category_id": "ai-depin",
+  "subcategory_id": "compute-storage",
+  "tags": [
+    "gpu",
+    "compute"
+  ],
+  "chains": [
+    {
+      "chain_id": "solana",
+      "addresses": [
+        {
+          "address": "nosJhNRqr2bc9g1nfGDcXXTXvYUmxD4cVwy2pMWhrYM",
+          "address_kind": "program"
+        }
+      ]
+    }
+  ]
+}

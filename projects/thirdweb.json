@@ -3,7 +3,7 @@
   "slug": "thirdweb",
   "name": "thirdweb",
   "tagline": "SDKs, wallet integrations and contract tooling for on-chain applications.",
-  "description": "SDKs, wallet integrations and contract tooling for on-chain applications. This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics.",
+  "description": "thirdweb provides developer tools, wallets and infrastructure for EVM applications. This mapping covers the SDK default v0.6/v0.7 smart-account factories on Ethereum, Base and BNB Smart Chain. Counts describe factory transactions and their callers, rather than all SDK or RPC users.",
   "logo_url": "https://framerusercontent.com/images/6UCnwoW4U3z16zLNLf31n4ZkyY.png",
   "website_url": "https://thirdweb.com/",
   "social_links": {},
@@ -15,15 +15,42 @@
   "chains": [
     {
       "chain_id": "ethereum",
-      "addresses": []
+      "addresses": [
+        {
+          "address": "0x85e23b94e7F5E9cC1fF78BCe78cfb15B81f0DF00",
+          "address_kind": "contract"
+        },
+        {
+          "address": "0x4be0ddfebca9a5a4a617dee4dece99e7c862dceb",
+          "address_kind": "contract"
+        }
+      ]
     },
     {
       "chain_id": "base",
-      "addresses": []
+      "addresses": [
+        {
+          "address": "0x85e23b94e7F5E9cC1fF78BCe78cfb15B81f0DF00",
+          "address_kind": "contract"
+        },
+        {
+          "address": "0x4be0ddfebca9a5a4a617dee4dece99e7c862dceb",
+          "address_kind": "contract"
+        }
+      ]
     },
     {
       "chain_id": "bnb-smart-chain",
-      "addresses": []
+      "addresses": [
+        {
+          "address": "0x85e23b94e7F5E9cC1fF78BCe78cfb15B81f0DF00",
+          "address_kind": "contract"
+        },
+        {
+          "address": "0x4be0ddfebca9a5a4a617dee4dece99e7c862dceb",
+          "address_kind": "contract"
+        }
+      ]
     }
   ]
 }

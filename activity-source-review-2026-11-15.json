@@ -1,0 +1,171 @@
+{
+  "checkedAt": "2026-11-15T02:57:07.756Z",
+  "reason": "Owner requested live activity verification and measurable category coverage. All categories already contained profiles; two additions provide dedicated program activity for previously unmapped compute and game-infrastructure categories.",
+  "projects": [
+    {
+      "slug": "nosana",
+      "category": "compute-storage",
+      "source": "https://learn.nosana.com/programs/start.html"
+    },
+    {
+      "slug": "magicblock",
+      "category": "game-infrastructure",
+      "source": "https://raw.githubusercontent.com/magicblock-labs/delegation-program/main/dlp-api/src/lib.rs"
+    },
+    {
+      "slug": "hivemapper",
+      "category": "physical-infrastructure",
+      "source": "https://docs.hivemapper.com/honey-token/what-is-honey/"
+    },
+    {
+      "slug": "thirdweb",
+      "category": "developer-tools",
+      "source": "https://raw.githubusercontent.com/thirdweb-dev/js/main/packages/thirdweb/src/wallets/smart/lib/constants.ts"
+    }
+  ],
+  "newPrograms": {
+    "at": "2026-11-15T02:53:33.717Z",
+    "genesis": "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
+    "checks": [
+      {
+        "address": "nosJhNRqr2bc9g1nfGDcXXTXvYUmxD4cVwy2pMWhrYM",
+        "owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+        "executable": true,
+        "slot": 469569045,
+        "recentSignatures": [
+          {
+            "signature": "p68cchum8kFkPjjD6yXEpKuwTyQgMNKP2CNtBPaPUqF8uYNPFVzX4Q8UiKNoPJ4XbskJqqoNY5MnhcdvSSFRBez",
+            "slot": 469569034,
+            "time": 1794711210,
+            "error": null
+          },
+          {
+            "signature": "3tVmiR9WFoMMPVPwdfhamcLuBLuBDTUN85efAkAzxGK1oNsXJwjCoidK9KVoLbjEABknXtLuyehBsbYJUJMRgjdc",
+            "slot": 469569019,
+            "time": 1794711206,
+            "error": null
+          },
+          {
+            "signature": "3awfJr4G93KCamUPuaj76pCBU677ggfzUPLvFDQVYCsjgDeM5qXbs3npzxFNamWKBNfFqV9NXk3LBxdV12UXYkYU",
+            "slot": 469568953,
+            "time": 1794711192,
+            "error": null
+          }
+        ]
+      },
+      {
+        "address": "DELeGGvXpWV2fqJUhqcF5ZSYMS4JTLjteaAMARRSaeSh",
+        "owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+        "executable": true,
+        "slot": 469569045,
+        "recentSignatures": [
+          {
+            "signature": "H7mShRGKH9QB5hxsYnrHXJmfeyTDaYkpN2RFD8GAfJRJ9dYg17v9d95aLSFw4Dqb3gv5waRBUqoWP5d818NaZ6N",
+            "slot": 469568540,
+            "time": 1794711103,
+            "error": null
+          },
+          {
+            "signature": "5jcuPX6ph5pvbvC1LJLDUEuQLuAyErb8CDnWG4V44RJu8jG92ZcLo4KANqHcC3pCvS5NBxigmwEy59p3UDns5cfg",
+            "slot": 469562452,
+            "time": 1794709793,
+            "error": null
+          },
+          {
+            "signature": "wLJu1tU2zQgRmS6yBPbVnsEpHq3rSNFAHwZp9Gng5TE1tG3w6mqkHaepVMM7G6Nb1UCKwErKv6pXgLpHN8QaMTV",
+            "slot": 469561778,
+            "time": 1794709648,
+            "error": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://learn.nosana.com/programs/start.html",
+        "sha256": "2f96f1c01495dfb70db5f5186c3a748ba5490ef60bef2bac9d67813e949b069f"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/magicblock-labs/delegation-program/main/dlp-api/src/lib.rs",
+        "sha256": "15afebaebddeba604f0e95659a6d53318cc47b5b23bb6ffe75da04dfd020de0c"
+      }
+    ]
+  },
+  "newMappings": {
+    "at": "2026-11-15T02:55:51.190Z",
+    "checks": [
+      {
+        "slug": "thirdweb",
+        "chain_id": "ethereum",
+        "address": "0x85e23b94e7F5E9cC1fF78BCe78cfb15B81f0DF00",
+        "codeBytes": 8469,
+        "verified": true,
+        "source": "https://raw.githubusercontent.com/thirdweb-dev/js/main/packages/thirdweb/src/wallets/smart/lib/constants.ts"
+      },
+      {
+        "slug": "thirdweb",
+        "chain_id": "ethereum",
+        "address": "0x4be0ddfebca9a5a4a617dee4dece99e7c862dceb",
+        "codeBytes": 8469,
+        "verified": true,
+        "source": "https://raw.githubusercontent.com/thirdweb-dev/js/main/packages/thirdweb/src/wallets/smart/lib/constants.ts"
+      },
+      {
+        "slug": "thirdweb",
+        "chain_id": "base",
+        "address": "0x85e23b94e7F5E9cC1fF78BCe78cfb15B81f0DF00",
+        "codeBytes": 8469,
+        "verified": true,
+        "source": "https://raw.githubusercontent.com/thirdweb-dev/js/main/packages/thirdweb/src/wallets/smart/lib/constants.ts"
+      },
+      {
+        "slug": "thirdweb",
+        "chain_id": "base",
+        "address": "0x4be0ddfebca9a5a4a617dee4dece99e7c862dceb",
+        "codeBytes": 8469,
+        "verified": true,
+        "source": "https://raw.githubusercontent.com/thirdweb-dev/js/main/packages/thirdweb/src/wallets/smart/lib/constants.ts"
+      },
+      {
+        "slug": "thirdweb",
+        "chain_id": "bnb-smart-chain",
+        "address": "0x85e23b94e7F5E9cC1fF78BCe78cfb15B81f0DF00",
+        "codeBytes": 8469,
+        "verified": true,
+        "source": "https://raw.githubusercontent.com/thirdweb-dev/js/main/packages/thirdweb/src/wallets/smart/lib/constants.ts"
+      },
+      {
+        "slug": "thirdweb",
+        "chain_id": "bnb-smart-chain",
+        "address": "0x4be0ddfebca9a5a4a617dee4dece99e7c862dceb",
+        "codeBytes": 8469,
+        "verified": true,
+        "source": "https://raw.githubusercontent.com/thirdweb-dev/js/main/packages/thirdweb/src/wallets/smart/lib/constants.ts"
+      },
+      {
+        "slug": "hivemapper",
+        "chain_id": "solana",
+        "address": "BNH1dUp3ExFbgo3YctSqQbJXRFn3ffkwbcmSas8azfaW",
+        "verified": true,
+        "executable": true,
+        "owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+        "recentSignatures": [],
+        "source": "https://docs.hivemapper.com/honey-token/what-is-honey/"
+      }
+    ]
+  },
+  "remainingProfileOnlyCategories": [
+    "data-analytics",
+    "rpc-nodes"
+  ],
+  "exclusions": [
+    {
+      "name": "DIMO",
+      "reason": "Its vehicle identity/reward infrastructure is on Polygon; an Ethereum/Base token alone cannot measure connected vehicles."
+    },
+    {
+      "name": "Gelato Automate",
+      "reason": "Automation service deprecation and expired documentation endpoints prevent treating the old automation contracts as a current production service."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "slug": "magicblock",
+  "name": "MagicBlock",
+  "tagline": "Real-time Solana infrastructure for on-chain games and applications.",
+  "description": "MagicBlock provides Solana ephemeral-rollup infrastructure for real-time applications and games. The mapped delegation program covers base-layer delegation and state-commit transactions; rollup gameplay actions are outside this address mapping.",
+  "logo_url": "https://www.magicblock.xyz/favicon.ico?favicon.20fe2o4t4ok43.ico",
+  "website_url": "https://www.magicblock.xyz/",
+  "social_links": {
+    "docs": "https://docs.magicblock.gg/",
+    "github": "https://github.com/magicblock-labs/delegation-program"
+  },
+  "primary_category_id": "games",
+  "subcategory_id": "game-infrastructure",
+  "tags": [
+    "gaming",
+    "infrastructure"
+  ],
+  "chains": [
+    {
+      "chain_id": "solana",
+      "addresses": [
+        {
+          "address": "DELeGGvXpWV2fqJUhqcF5ZSYMS4JTLjteaAMARRSaeSh",
+          "address_kind": "program"
+        }
+      ]
+    }
+  ]
+}
