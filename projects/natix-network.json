@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "slug": "natix-network",
+  "name": "NATIX Network",
+  "tagline": "A decentralized driving-data network for mapping and physical AI.",
+  "description": "A decentralized driving-data network for mapping and physical AI. This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics.",
+  "logo_url": "https://cdn.prod.website-files.com/65ae82ef7e37a0d48a19fd64/660d08746873bb411e58d1bb_favicon%20Logo%20%2032.jpg",
+  "website_url": "https://www.natix.network/",
+  "social_links": {},
+  "primary_category_id": "ai-depin",
+  "subcategory_id": "physical-infrastructure",
+  "tags": [
+    "physical-infrastructure"
+  ],
+  "chains": [
+    {
+      "chain_id": "solana",
+      "addresses": []
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "slug": "opensea",
+  "name": "OpenSea",
+  "tagline": "A marketplace for digital collectibles across supported blockchains.",
+  "description": "A marketplace for digital collectibles across supported blockchains. This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics.",
+  "logo_url": "https://opensea.io/favicon.ico",
+  "website_url": "https://opensea.io/",
+  "social_links": {},
+  "primary_category_id": "nfts",
+  "subcategory_id": "nft-marketplaces",
+  "tags": [
+    "nft-marketplaces"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": []
+    },
+    {
+      "chain_id": "base",
+      "addresses": []
+    },
+    {
+      "chain_id": "solana",
+      "addresses": []
+    }
+  ]
+}

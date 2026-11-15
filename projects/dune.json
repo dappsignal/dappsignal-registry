@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "slug": "dune",
+  "name": "Dune",
+  "tagline": "Blockchain datasets, SQL analytics and dashboards across supported chains.",
+  "description": "Blockchain datasets, SQL analytics and dashboards across supported chains. This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics.",
+  "logo_url": "https://dune.com/favicon.ico",
+  "website_url": "https://dune.com/",
+  "social_links": {
+    "docs": "https://docs.dune.com/data-catalog/overview"
+  },
+  "primary_category_id": "infrastructure",
+  "subcategory_id": "data-analytics",
+  "tags": [
+    "data-analytics"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": []
+    },
+    {
+      "chain_id": "base",
+      "addresses": []
+    },
+    {
+      "chain_id": "bnb-smart-chain",
+      "addresses": []
+    },
+    {
+      "chain_id": "solana",
+      "addresses": []
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "slug": "tether-gold",
+  "name": "Tether Gold",
+  "tagline": "Gold-backed token infrastructure represented by XAUT on Ethereum.",
+  "description": "Gold-backed token infrastructure represented by XAUT on Ethereum. Activity coverage is limited to XAUT gold token.",
+  "logo_url": "https://gold.tether.to/favicon-96x96.png",
+  "website_url": "https://gold.tether.to/",
+  "social_links": {
+    "docs": "https://dev.alloy.tether.to/deployments/ethereum-mainnet"
+  },
+  "primary_category_id": "real-world-assets",
+  "subcategory_id": "tokenized-commodities",
+  "tags": [
+    "tokenized-commodities"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
+          "address_kind": "contract"
+        }
+      ]
+    }
+  ]
+}

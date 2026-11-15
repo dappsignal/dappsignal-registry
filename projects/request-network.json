@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "slug": "request-network",
+  "name": "Request Network",
+  "tagline": "Payment requests and invoicing infrastructure for crypto transactions.",
+  "description": "Payment requests and invoicing infrastructure for crypto transactions. Activity coverage is limited to Native-token fee proxy.",
+  "logo_url": "https://request.network/wp-content/uploads/2026/03/cropped-favicon-32x32.png",
+  "website_url": "https://request.network/",
+  "social_links": {
+    "docs": "https://docs.request.network/llms.txt"
+  },
+  "primary_category_id": "payments",
+  "tags": [
+    "payments"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address": "0xC6E23a20C0a1933ACC8E30247B5D1e2215796C1F",
+          "address_kind": "contract"
+        }
+      ]
+    },
+    {
+      "chain_id": "base",
+      "addresses": [
+        {
+          "address": "0xd9C3889eB8DA6ce449bfFE3cd194d08A436e96f2",
+          "address_kind": "contract"
+        }
+      ]
+    },
+    {
+      "chain_id": "bnb-smart-chain",
+      "addresses": [
+        {
+          "address": "0xC6E23a20C0a1933ACC8E30247B5D1e2215796C1F",
+          "address_kind": "contract"
+        }
+      ]
+    }
+  ]
+}

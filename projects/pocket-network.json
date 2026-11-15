@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "slug": "pocket-network",
+  "name": "Pocket Network",
+  "tagline": "Decentralized RPC infrastructure connecting applications with node providers.",
+  "description": "Decentralized RPC infrastructure connecting applications with node providers. This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics.",
+  "logo_url": "https://pocket.network/wp-content/uploads/2026/09/cropped-Pocket-Icon-32x32.png",
+  "website_url": "https://pocket.network/",
+  "social_links": {
+    "docs": "https://docs.pocket.network/developers/supported-chains/"
+  },
+  "primary_category_id": "infrastructure",
+  "subcategory_id": "rpc-nodes",
+  "tags": [
+    "rpc-nodes"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": []
+    },
+    {
+      "chain_id": "base",
+      "addresses": []
+    },
+    {
+      "chain_id": "bnb-smart-chain",
+      "addresses": []
+    },
+    {
+      "chain_id": "solana",
+      "addresses": []
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "slug": "wormhole",
+  "name": "Wormhole",
+  "tagline": "Cross-chain messaging and asset-transfer infrastructure.",
+  "description": "Cross-chain messaging and asset-transfer infrastructure. Activity coverage is limited to Wrapped Token Transfer bridge.",
+  "logo_url": "https://wormhole.com/favicon.ico?favicon.00arheyd-cs4p.ico",
+  "website_url": "https://wormhole.com/",
+  "social_links": {},
+  "primary_category_id": "bridges",
+  "tags": [
+    "bridges"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address": "0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+          "address_kind": "contract"
+        }
+      ]
+    },
+    {
+      "chain_id": "base",
+      "addresses": [
+        {
+          "address": "0x8d2de8d2f73F1F4cAB472AC9A881C9b123C79627",
+          "address_kind": "contract"
+        }
+      ]
+    },
+    {
+      "chain_id": "bnb-smart-chain",
+      "addresses": [
+        {
+          "address": "0xB6F6D86a8f9879A9c87f643768d9efc38c1Da6E7",
+          "address_kind": "contract"
+        }
+      ]
+    },
+    {
+      "chain_id": "solana",
+      "addresses": [
+        {
+          "address": "wormDTUJ6AWPNvk59vGQbDvGJmqbDTdgWgAqcLBCgUb",
+          "address_kind": "program"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "slug": "manifold",
+  "name": "Manifold",
+  "tagline": "Creator-owned NFT contracts and publishing tools for digital art.",
+  "description": "Creator-owned NFT contracts and publishing tools for digital art. The displayed immutable Creator Core implementations are reference addresses only. Creator NFTs use separate proxy contracts, so implementation calls are not counted as creator activity.",
+  "logo_url": "https://manifold.xyz/assets/logo/favicon-black.svg",
+  "website_url": "https://manifold.xyz/",
+  "social_links": {
+    "docs": "https://docs.manifold.xyz/manifold-for-developers/smart-contracts/manifold-creator/contracts.md"
+  },
+  "primary_category_id": "nfts",
+  "subcategory_id": "creator-tools",
+  "tags": [
+    "creator-tools"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address": "0x5133522ea5A0494EcB83F26311A095DDD7a9D4b6",
+          "address_kind": "contract",
+          "track_metrics": false
+        },
+        {
+          "address": "0xE9FF7CA11280553Af56d04Ecb8Be6B8c4468DCB2",
+          "address_kind": "contract",
+          "track_metrics": false
+        }
+      ]
+    }
+  ]
+}

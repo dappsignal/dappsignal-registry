@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "slug": "star-atlas",
+  "name": "Star Atlas",
+  "tagline": "A space-themed game ecosystem with on-chain game programs on Solana.",
+  "description": "A space-themed game ecosystem with on-chain game programs on Solana. Activity coverage is limited to SAGE program, Marketplace program.",
+  "logo_url": "https://staratlas.com/Icon.png",
+  "website_url": "https://staratlas.com/",
+  "social_links": {
+    "docs": "https://build.staratlas.com/dev-resources/mainnet-program-ids"
+  },
+  "primary_category_id": "games",
+  "subcategory_id": "games-games",
+  "tags": [
+    "games-games"
+  ],
+  "chains": [
+    {
+      "chain_id": "solana",
+      "addresses": [
+        {
+          "address": "SAGE2HAwep459SNq61LHvjxPk4pLPEJLoMETef7f7EE",
+          "address_kind": "program"
+        },
+        {
+          "address": "traderDnaR5w6Tcoi3NFm53i48FTDNbGjBSZwWXDRrg",
+          "address_kind": "program"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "slug": "thirdweb",
+  "name": "thirdweb",
+  "tagline": "SDKs, wallet integrations and contract tooling for on-chain applications.",
+  "description": "SDKs, wallet integrations and contract tooling for on-chain applications. This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics.",
+  "logo_url": "https://framerusercontent.com/images/6UCnwoW4U3z16zLNLf31n4ZkyY.png",
+  "website_url": "https://thirdweb.com/",
+  "social_links": {},
+  "primary_category_id": "infrastructure",
+  "subcategory_id": "developer-tools",
+  "tags": [
+    "developer-tools"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": []
+    },
+    {
+      "chain_id": "base",
+      "addresses": []
+    },
+    {
+      "chain_id": "bnb-smart-chain",
+      "addresses": []
+    }
+  ]
+}

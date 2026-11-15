@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "slug": "pyth-network",
+  "name": "Pyth Network",
+  "tagline": "Oracle infrastructure publishing financial market data on supported chains.",
+  "description": "Oracle infrastructure publishing financial market data on supported chains. Activity coverage is limited to Pyth Core oracle, Pyth Core receiver.",
+  "logo_url": "https://framerusercontent.com/images/3i2OuCNwSBWriCGmMsfn8O20Bes.png",
+  "website_url": "https://www.pyth.network/",
+  "social_links": {
+    "docs": "https://docs.pyth.network/pro/contract-addresses"
+  },
+  "primary_category_id": "infrastructure",
+  "subcategory_id": "oracles",
+  "tags": [
+    "oracles"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address": "0x4305FB66699C3B2702D4d05CF36551390A4c69C6",
+          "address_kind": "contract"
+        }
+      ]
+    },
+    {
+      "chain_id": "base",
+      "addresses": [
+        {
+          "address": "0x8250f4aF4B972684F7b336503E2D6dFeDeB1487a",
+          "address_kind": "contract"
+        }
+      ]
+    },
+    {
+      "chain_id": "bnb-smart-chain",
+      "addresses": [
+        {
+          "address": "0x4D7E825f80bDf85e913E0DD2A2D54927e9dE1594",
+          "address_kind": "contract"
+        }
+      ]
+    },
+    {
+      "chain_id": "solana",
+      "addresses": [
+        {
+          "address": "rec5EKMGg6MxZYaMdyBfgwp4d5rB9T1VQH5pJv5LtFJ",
+          "address_kind": "program"
+        }
+      ]
+    }
+  ]
+}

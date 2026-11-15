@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "slug": "clanker",
+  "name": "Clanker",
+  "tagline": "Token creation and launch infrastructure on Base.",
+  "description": "Token creation and launch infrastructure on Base. Activity coverage is limited to V5 factory.",
+  "logo_url": "https://www.clanker.world/favicon.ico?favicon.0m9f-frop6ea7.ico",
+  "website_url": "https://www.clanker.world/",
+  "social_links": {
+    "docs": "https://docs.clanker.world/references/deployed-contracts.md"
+  },
+  "primary_category_id": "other",
+  "tags": [
+    "other"
+  ],
+  "chains": [
+    {
+      "chain_id": "base",
+      "addresses": [
+        {
+          "address": "0x572e88D3cD7f23E4241EB6ceDD96667271bF09A0",
+          "address_kind": "contract"
+        }
+      ]
+    },
+    {
+      "chain_id": "bnb-smart-chain",
+      "addresses": [
+        {
+          "address": "0xcA111dcdd2cE924c3378d6514fDCbC46217bcA16",
+          "address_kind": "contract"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "slug": "roam",
+  "name": "Roam",
+  "tagline": "Community-powered wireless connectivity using WiFi OpenRoaming and eSIM services.",
+  "description": "Community-powered wireless connectivity using WiFi OpenRoaming and eSIM services. This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics.",
+  "logo_url": "https://framerusercontent.com/images/boNw8E6nV4ca1lchUoYegjKIKQ.png",
+  "website_url": "https://www.weroam.xyz/",
+  "social_links": {},
+  "primary_category_id": "ai-depin",
+  "subcategory_id": "wireless",
+  "tags": [
+    "wireless"
+  ],
+  "chains": [
+    {
+      "chain_id": "solana",
+      "addresses": []
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "slug": "phantom",
+  "name": "Phantom",
+  "tagline": "A self-custodial wallet for crypto assets and blockchain applications.",
+  "description": "A self-custodial wallet for crypto assets and blockchain applications. This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics.",
+  "logo_url": "https://phantom.com/_web_platform_assets/favicon-96x96.png",
+  "website_url": "https://phantom.com/",
+  "social_links": {},
+  "primary_category_id": "wallets",
+  "tags": [
+    "wallets"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": []
+    },
+    {
+      "chain_id": "base",
+      "addresses": []
+    },
+    {
+      "chain_id": "bnb-smart-chain",
+      "addresses": []
+    },
+    {
+      "chain_id": "solana",
+      "addresses": []
+    }
+  ]
+}

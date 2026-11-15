@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "slug": "venus",
+  "name": "Venus",
+  "tagline": "Decentralized money markets for supplying and borrowing crypto assets.",
+  "description": "Decentralized money markets for supplying and borrowing crypto assets. Activity coverage is limited to Core pool Comptroller.",
+  "logo_url": "https://venus.io/android-chrome-192x192.png",
+  "website_url": "https://venus.io/",
+  "social_links": {},
+  "primary_category_id": "defi",
+  "subcategory_id": "lending",
+  "tags": [
+    "lending"
+  ],
+  "chains": [
+    {
+      "chain_id": "bnb-smart-chain",
+      "addresses": [
+        {
+          "address": "0xfD36E2c2a6789Db23113685031d7F16329158384",
+          "address_kind": "contract"
+        }
+      ]
+    },
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address": "0x687a01ecF6d3907658f7A7c714749fAC32336D1B",
+          "address_kind": "contract"
+        }
+      ]
+    },
+    {
+      "chain_id": "base",
+      "addresses": [
+        {
+          "address": "0x0C7973F9598AA62f9e03B94E92C967fD5437426C",
+          "address_kind": "contract"
+        }
+      ]
+    }
+  ]
+}

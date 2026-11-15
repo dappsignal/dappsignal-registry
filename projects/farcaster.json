@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "slug": "farcaster",
+  "name": "Farcaster",
+  "tagline": "Social networking and mini apps with Base and Solana wallet integrations.",
+  "description": "Social networking and mini apps with Base and Solana wallet integrations. This profile covers mini-app wallet integrations on Base and Solana. Farcaster identity contracts are on Optimism and are outside this catalog's tracked chains.",
+  "logo_url": "https://farcaster.xyz/favicon-v3.png",
+  "website_url": "https://farcaster.xyz/",
+  "social_links": {},
+  "primary_category_id": "social",
+  "tags": [
+    "social"
+  ],
+  "chains": [
+    {
+      "chain_id": "base",
+      "addresses": []
+    },
+    {
+      "chain_id": "solana",
+      "addresses": []
+    }
+  ]
+}

@@ -1,0 +1,3179 @@
+{
+  "reviewedAt": "2026-11-15T02:36:01.219Z",
+  "scope": "Owner-approved additions from the 62-project shortlist, restricted to Ethereum, Base, BNB Smart Chain and Solana; Sequence additionally fills the game-infrastructure category.",
+  "policy": "Only issuer documentation or first-party repositories establish an address mapping. Mainnet bytecode/account existence is checked separately. Empty mappings are supported integrations, not measured activity. Manifold implementation addresses are display-only. All mappings are bounded examples, not exhaustive protocol coverage or historical-replay approval.",
+  "projects": [
+    {
+      "slug": "orca",
+      "name": "Orca",
+      "category": "defi",
+      "subcategory": "dex-trading",
+      "chains": [
+        "solana"
+      ],
+      "addresses": [
+        {
+          "chain_id": "solana",
+          "address": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+          "address_kind": "program",
+          "role": "Whirlpools program",
+          "source_url": "https://raw.githubusercontent.com/orca-so/whirlpools/main/Anchor.toml"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.orca.so/",
+          "checkedAt": "2026-11-15T02:09:22.462Z",
+          "bodySha256": "144029bd3232f738e57e44f1eb7e4e3ef3929780206be14a2146cfd0b7506a33"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/orca-so/whirlpools/main/Anchor.toml",
+          "checkedAt": "2026-11-15T02:05:16.692Z",
+          "bodySha256": "9095f6efe199d951e7cb152934332bf86556d4babb013fd2946717f2b14f4ee7"
+        }
+      ],
+      "scope": "Activity coverage is limited to Whirlpools program."
+    },
+    {
+      "slug": "meteora",
+      "name": "Meteora",
+      "category": "defi",
+      "subcategory": "dex-trading",
+      "chains": [
+        "solana"
+      ],
+      "addresses": [
+        {
+          "chain_id": "solana",
+          "address": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+          "address_kind": "program",
+          "role": "DLMM program",
+          "source_url": "https://raw.githubusercontent.com/MeteoraAg/dlmm-sdk/main/ts-client/src/dlmm/constants/index.ts"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.meteora.ag/",
+          "checkedAt": "2026-11-15T02:09:22.363Z",
+          "bodySha256": "e27e6be59f76c07c7829c1a7a9d18b45a65321a1ae76c5378ab607a59269f7ae"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/MeteoraAg/dlmm-sdk/main/ts-client/src/dlmm/constants/index.ts",
+          "checkedAt": "2026-11-15T02:05:16.701Z",
+          "bodySha256": "3605b53dabbf78de185ea1903a78d997c23ca08e3b1a8da58a26173a3cbe8070"
+        }
+      ],
+      "scope": "Activity coverage is limited to DLMM program."
+    },
+    {
+      "slug": "morpho",
+      "name": "Morpho",
+      "category": "defi",
+      "subcategory": "lending",
+      "chains": [
+        "ethereum",
+        "base"
+      ],
+      "addresses": [
+        {
+          "chain_id": "ethereum",
+          "address": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "address_kind": "contract",
+          "role": "Morpho Blue singleton",
+          "source_url": "https://docs.morpho.org/developers/contracts/addresses/"
+        },
+        {
+          "chain_id": "base",
+          "address": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "address_kind": "contract",
+          "role": "Morpho Blue singleton",
+          "source_url": "https://docs.morpho.org/developers/contracts/addresses/"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://morpho.org/",
+          "checkedAt": "2026-11-15T02:09:22.876Z",
+          "bodySha256": "92fd8fb6d50479b5eb629332fb218bf73d4c18fbacda763edab710fa7112097e"
+        },
+        {
+          "url": "https://docs.morpho.org/developers/contracts/addresses/",
+          "checkedAt": "2026-11-15T02:05:17.383Z",
+          "bodySha256": "be1985ecf68dac70ac2079900c9bcf0a68f8d6abca88c12a632adfa66dbb50e5"
+        }
+      ],
+      "scope": "Activity coverage is limited to Morpho Blue singleton."
+    },
+    {
+      "slug": "venus",
+      "name": "Venus",
+      "category": "defi",
+      "subcategory": "lending",
+      "chains": [
+        "bnb-smart-chain",
+        "ethereum",
+        "base"
+      ],
+      "addresses": [
+        {
+          "chain_id": "bnb-smart-chain",
+          "address": "0xfD36E2c2a6789Db23113685031d7F16329158384",
+          "address_kind": "contract",
+          "role": "Core pool Comptroller",
+          "source_url": "https://docs-v4.venus.io/deployed-contracts/markets"
+        },
+        {
+          "chain_id": "ethereum",
+          "address": "0x687a01ecF6d3907658f7A7c714749fAC32336D1B",
+          "address_kind": "contract",
+          "role": "Core pool Comptroller",
+          "source_url": "https://docs-v4.venus.io/deployed-contracts/markets"
+        },
+        {
+          "chain_id": "base",
+          "address": "0x0C7973F9598AA62f9e03B94E92C967fD5437426C",
+          "address_kind": "contract",
+          "role": "Core pool Comptroller",
+          "source_url": "https://docs-v4.venus.io/deployed-contracts/markets"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://venus.io/",
+          "checkedAt": "2026-11-15T02:09:22.390Z",
+          "bodySha256": "83d887630d4a5831bd2289bb5e1884cf656d5d9d745bf8e89beeecc15258df3d"
+        },
+        {
+          "url": "https://docs-v4.venus.io/deployed-contracts/markets",
+          "checkedAt": "2026-11-15T02:07:22.297Z",
+          "bodySha256": "8569d0694d10d717afc6be39a64117f7b4f44b28bcf9b9b33300a45d3f5ae2a6"
+        }
+      ],
+      "scope": "Activity coverage is limited to Core pool Comptroller."
+    },
+    {
+      "slug": "yearn",
+      "name": "Yearn Finance",
+      "category": "defi",
+      "subcategory": "yield",
+      "chains": [
+        "ethereum",
+        "base"
+      ],
+      "addresses": [
+        {
+          "chain_id": "ethereum",
+          "address": "0x028eC7330ff87667b6dfb0D94b954c820195336c",
+          "address_kind": "contract",
+          "role": "Selected yvDAI vault",
+          "source_url": "https://raw.githubusercontent.com/yearn/yearn-devdocs/master/src/ethereum/constants.ts"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://yearn.fi/",
+          "checkedAt": "2026-11-15T02:09:22.486Z",
+          "bodySha256": "950264c40d3f81afe83931ee7a9d58834a856e576af105e7854dedb99d9b6ef4"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yearn/yearn-devdocs/master/src/ethereum/constants.ts",
+          "checkedAt": "2026-11-15T02:05:16.806Z",
+          "bodySha256": "b0fadb81ab1083977d6136af8383e15770b3a5f34bf57ff9af397eb89103366b"
+        }
+      ],
+      "scope": "Activity coverage is limited to Selected yvDAI vault."
+    },
+    {
+      "slug": "beefy",
+      "name": "Beefy",
+      "category": "defi",
+      "subcategory": "yield",
+      "chains": [
+        "ethereum",
+        "base",
+        "bnb-smart-chain"
+      ],
+      "addresses": [
+        {
+          "chain_id": "ethereum",
+          "address": "0x62fcbc7c3235950eD6dE4168fbd373aF9e8ee0fc",
+          "address_kind": "contract",
+          "role": "BeefyWrapper",
+          "source_url": "https://raw.githubusercontent.com/beefyfinance/beefy-docs/master/developer-documentation/other-beefy-contracts/beefywrapper-contract.md"
+        },
+        {
+          "chain_id": "base",
+          "address": "0x917447f8f52E7Db26cE7f52BE2F3fcb4d4D00832",
+          "address_kind": "contract",
+          "role": "BeefyWrapper",
+          "source_url": "https://raw.githubusercontent.com/beefyfinance/beefy-docs/master/developer-documentation/other-beefy-contracts/beefywrapper-contract.md"
+        },
+        {
+          "chain_id": "bnb-smart-chain",
+          "address": "0x85B792C67cEe281064eb7A3AF0Fe2A76E9a7849e",
+          "address_kind": "contract",
+          "role": "BeefyWrapper",
+          "source_url": "https://raw.githubusercontent.com/beefyfinance/beefy-docs/master/developer-documentation/other-beefy-contracts/beefywrapper-contract.md"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://beefy.com/",
+          "checkedAt": "2026-11-15T02:09:23.388Z",
+          "bodySha256": "221b2e52edf85048a7537c220247e2f6d573963a7f92e93d68f7e471d4112aed"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/beefyfinance/beefy-docs/master/developer-documentation/other-beefy-contracts/beefywrapper-contract.md",
+          "checkedAt": "2026-11-15T02:05:17.780Z",
+          "bodySha256": "67b6aaf4be0aca659b79ae0d012f645f504cff6e382662c21b3b9261e99b72f9"
+        }
+      ],
+      "scope": "Activity coverage is limited to BeefyWrapper."
+    },
+    {
+      "slug": "synfutures",
+      "name": "SynFutures",
+      "category": "defi",
+      "subcategory": "derivatives",
+      "chains": [
+        "base"
+      ],
+      "addresses": [
+        {
+          "chain_id": "base",
+          "address": "0x208B443983D8BcC8578e9D86Db23FbA547071270",
+          "address_kind": "contract",
+          "role": "Oyster Gate",
+          "source_url": "https://docs.synfutures.com/developer/smart-contract-addresses/base-network.md"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.synfutures.com/",
+          "checkedAt": "2026-11-15T02:09:23.672Z",
+          "bodySha256": "5faa21b9b44958e801cee1870fdb4858f256023dd01e0b80cf5178c66ace50d4"
+        },
+        {
+          "url": "https://docs.synfutures.com/developer/smart-contract-addresses/base-network.md",
+          "checkedAt": "2026-11-15T02:11:20.971Z",
+          "bodySha256": "9e645bc23c3814e955929eb28660908532f0d1c71d9e39e4d6fee16242dcacc5"
+        }
+      ],
+      "scope": "Activity coverage is limited to Oyster Gate."
+    },
+    {
+      "slug": "synthetix",
+      "name": "Synthetix",
+      "category": "defi",
+      "subcategory": "derivatives",
+      "chains": [
+        "ethereum"
+      ],
+      "addresses": [
+        {
+          "chain_id": "ethereum",
+          "address": "0xD62595c3c23B690BAEE0935e107A209Cb1Dbd37B",
+          "address_kind": "contract",
+          "role": "Mainnet deposit proxy",
+          "source_url": "https://developers.synthetix.io/deposits"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://synthetix.io/",
+          "checkedAt": "2026-11-15T02:09:23.643Z",
+          "bodySha256": "bf7c5a6fab2f49dda892c675d51c19a72585b3d385d6b7d7f5db632865ac1b54"
+        },
+        {
+          "url": "https://developers.synthetix.io/deposits",
+          "checkedAt": "2026-11-15T02:11:20.703Z",
+          "bodySha256": "046afa11e4079bcae9e5c5c76b25a5c0589eab0949ddd5209020246d10fbf09d"
+        }
+      ],
+      "scope": "Activity coverage is limited to Mainnet deposit proxy."
+    },
+    {
+      "slug": "lido",
+      "name": "Lido",
+      "category": "defi",
+      "subcategory": "liquid-staking",
+      "chains": [
+        "ethereum"
+      ],
+      "addresses": [
+        {
+          "chain_id": "ethereum",
+          "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+          "address_kind": "contract",
+          "role": "Lido stETH pool",
+          "source_url": "https://docs.lido.fi/deployed-contracts/"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://docs.lido.fi/deployed-contracts/",
+          "checkedAt": "2026-11-15T02:07:22.495Z",
+          "bodySha256": "1c1b582ba48a75920a9e5afa07ee610641c3e25c9be32f00771c2fe182a8edd6"
+        }
+      ],
+      "scope": "Activity coverage is limited to Lido stETH pool."
+    },
+    {
+      "slug": "jito",
+      "name": "Jito",
+      "category": "defi",
+      "subcategory": "liquid-staking",
+      "chains": [
+        "solana"
+      ],
+      "addresses": [
+        {
+          "chain_id": "solana",
+          "address": "Jito4APyf642JPZPx3hGc6WWJ8zPKtRbRs4P815Awbb",
+          "address_kind": "account",
+          "role": "Jito stake-pool state",
+          "source_url": "https://www.jito.network/stakepool/Jito4APyf642JPZPx3hGc6WWJ8zPKtRbRs4P815Awbb/"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.jito.network/stakepool/Jito4APyf642JPZPx3hGc6WWJ8zPKtRbRs4P815Awbb/",
+          "checkedAt": "2026-11-15T02:34:37.828Z",
+          "verification": "official publisher page inspected with web search",
+          "note": "Official Jito stake-pool page identifies the pool account."
+        }
+      ],
+      "scope": "Activity coverage is limited to Jito stake-pool state."
+    },
+    {
+      "slug": "ethena",
+      "name": "Ethena USDe",
+      "category": "defi",
+      "subcategory": "stablecoins",
+      "chains": [
+        "ethereum"
+      ],
+      "addresses": [
+        {
+          "chain_id": "ethereum",
+          "address": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+          "address_kind": "contract",
+          "role": "USDe token",
+          "source_url": "https://docs.ethena.fi/api-documentation/overview.md"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ethena.fi/",
+          "checkedAt": "2026-11-15T02:09:24.539Z",
+          "bodySha256": "8985415ab61a117ae0811925b533d996214231f644b12179be4a6c8b0ed56f12"
+        },
+        {
+          "url": "https://docs.ethena.fi/api-documentation/overview.md",
+          "checkedAt": "2026-11-15T02:07:23.035Z",
+          "bodySha256": "3ad9c3be227b7831f1cafecd2aec66781fb9ca8da661e317360851394d72e25c"
+        }
+      ],
+      "scope": "Activity coverage is limited to USDe token."
+    },
+    {
+      "slug": "paypal-usd",
+      "name": "PayPal USD",
+      "category": "defi",
+      "subcategory": "stablecoins",
+      "chains": [
+        "ethereum",
+        "solana"
+      ],
+      "addresses": [
+        {
+          "chain_id": "ethereum",
+          "address": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8",
+          "address_kind": "contract",
+          "role": "PYUSD token",
+          "source_url": "https://docs.paxos.com/guides/stablecoin/pyusd/mainnet"
+        },
+        {
+          "chain_id": "solana",
+          "address": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+          "address_kind": "account",
+          "role": "PYUSD mint",
+          "source_url": "https://docs.paxos.com/guides/stablecoin/pyusd/mainnet"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://docs.paxos.com/guides/stablecoin/pyusd/mainnet",
+          "checkedAt": "2026-11-15T02:07:23.179Z",
+          "bodySha256": "5e07b8d70565cd53f9da984e8506cd3f892c411a5f2589afc458012208c04cff"
+        }
+      ],
+      "scope": "Activity coverage is limited to PYUSD token, PYUSD mint."
+    },
+    {
+      "slug": "stepn",
+      "name": "STEPN",
+      "category": "games",
+      "subcategory": "games-games",
+      "chains": [
+        "solana",
+        "bnb-smart-chain"
+      ],
+      "addresses": [],
+      "sources": [
+        {
+          "url": "https://www.stepn.com/",
+          "checkedAt": "2026-11-15T02:09:24.186Z",
+          "bodySha256": "9a3382efeb38949a2b4cb2b0cc36a4957d5af9b75be9aba084fe0ce788811f88"
+        },
+        {
+          "url": "https://support.stepn.com/hc/en-us/articles/5979807297945-Frequently-Asked-Questions",
+          "checkedAt": "2026-11-15T02:34:37.828Z",
+          "verification": "official publisher page inspected with web search",
+          "note": "Current realms include Solana and BSC; former Ethereum realm is not listed."
+        }
+      ],
+      "scope": "This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics."
+    },
+    {
+      "slug": "star-atlas",
+      "name": "Star Atlas",
+      "category": "games",
+      "subcategory": "games-games",
+      "chains": [
+        "solana"
+      ],
+      "addresses": [
+        {
+          "chain_id": "solana",
+          "address": "SAGE2HAwep459SNq61LHvjxPk4pLPEJLoMETef7f7EE",
+          "address_kind": "program",
+          "role": "SAGE program",
+          "source_url": "https://build.staratlas.com/dev-resources/mainnet-program-ids"
+        },
+        {
+          "chain_id": "solana",
+          "address": "traderDnaR5w6Tcoi3NFm53i48FTDNbGjBSZwWXDRrg",
+          "address_kind": "program",
+          "role": "Marketplace program",
+          "source_url": "https://build.staratlas.com/dev-resources/mainnet-program-ids"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://staratlas.com/",
+          "checkedAt": "2026-11-15T02:09:24.196Z",
+          "bodySha256": "70c349f5d7bcb235671cd4b0413b54a1f24df1f1000544db3711ba3edd976abc"
+        },
+        {
+          "url": "https://build.staratlas.com/dev-resources/mainnet-program-ids",
+          "checkedAt": "2026-11-15T02:15:23.811Z",
+          "bodySha256": "d144169a6c7f490cac3ab2b85da625f474b056542304ab4cfa3f7fa26323c99b"
+        }
+      ],
+      "scope": "Activity coverage is limited to SAGE program, Marketplace program."
+    },
+    {
+      "slug": "decentraland",
+      "name": "Decentraland",
+      "category": "games",
+      "subcategory": "virtual-worlds",
+      "chains": [
+        "ethereum"
+      ],
+      "addresses": [
+        {
+          "chain_id": "ethereum",
+          "address": "0xf87e31492faf9a91b02ee0deaad50d51d56d5d4d",
+          "address_kind": "contract",
+          "role": "LAND NFT",
+          "source_url": "https://docs.decentraland.org/apis/apis/atlas-server/nft-metadata.md"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://decentraland.org/",
+          "checkedAt": "2026-11-15T02:09:24.233Z",
+          "bodySha256": "a20239228ffa71f44dc65af64e9b7bec6672ff65f314fe36e04a571e0c1ea229"
+        },
+        {
+          "url": "https://docs.decentraland.org/apis/apis/atlas-server/nft-metadata.md",
+          "checkedAt": "2026-11-15T02:11:21.022Z",
+          "bodySha256": "06243eda6c48d47fb875d0d82f97b11c2a0f53ce0032ba77d257a01390d023da"
+        }
+      ],
+      "scope": "Activity coverage is limited to LAND NFT."
+    },
+    {
+      "slug": "the-sandbox",
+      "name": "The Sandbox",
+      "category": "games",
+      "subcategory": "virtual-worlds",
+      "chains": [
+        "ethereum"
+      ],
+      "addresses": [
+        {
+          "chain_id": "ethereum",
+          "address": "0x5CC5B05a8A13E3fBDB0BB9FcCd98D38e50F90c38",
+          "address_kind": "contract",
+          "role": "Ethereum LAND NFT",
+          "source_url": "https://docs.sandbox.game/en/owners/land/buy-land/opensea/legitimate-lands.md"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://docs.sandbox.game/en/owners/land/buy-land/opensea/legitimate-lands.md",
+          "checkedAt": "2026-11-15T02:11:21.036Z",
+          "bodySha256": "1fb78911aa30f3d922eb451136c11576b2a3d932a99c8a1659afa221cad5c904"
+        }
+      ],
+      "scope": "Activity coverage is limited to Ethereum LAND NFT."
+    },
+    {
+      "slug": "opensea",
+      "name": "OpenSea",
+      "category": "nfts",
+      "subcategory": "nft-marketplaces",
+      "chains": [
+        "ethereum",
+        "base",
+        "solana"
+      ],
+      "addresses": [],
+      "sources": [
+        {
+          "url": "https://support.opensea.io/en/articles/8867082-which-blockchains-are-compatible-with-opensea",
+          "checkedAt": "2026-11-15T02:34:37.826Z",
+          "verification": "official publisher page inspected with web search",
+          "note": "Official OpenSea documentation lists Ethereum and Base support; shared Seaport is not attributed exclusively to OpenSea."
+        }
+      ],
+      "scope": "This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics."
+    },
+    {
+      "slug": "tensor",
+      "name": "Tensor",
+      "category": "nfts",
+      "subcategory": "nft-marketplaces",
+      "chains": [
+        "solana"
+      ],
+      "addresses": [
+        {
+          "chain_id": "solana",
+          "address": "TCMPhJdwDryooaGtiocG1u3xcYbRpiJzb283XfCZsDp",
+          "address_kind": "program",
+          "role": "Tensor Core marketplace",
+          "source_url": "https://docs.tensor.foundation/protocols.md"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.tensor.trade/",
+          "checkedAt": "2026-11-15T02:09:25.102Z",
+          "bodySha256": "198de225c5529ae5abe491997bb12ce831c130b47b021c95afaf335d94be1376"
+        },
+        {
+          "url": "https://docs.tensor.foundation/protocols.md",
+          "checkedAt": "2026-11-15T02:07:23.287Z",
+          "bodySha256": "13c0fa96214e68254a876688999b629f67aff0d66cfe820aafa437d232ae9520"
+        }
+      ],
+      "scope": "Activity coverage is limited to Tensor Core marketplace."
+    },
+    {
+      "slug": "cryptopunks",
+      "name": "CryptoPunks",
+      "category": "nfts",
+      "subcategory": "nft-collections",
+      "chains": [
+        "ethereum"
+      ],
+      "addresses": [
+        {
+          "chain_id": "ethereum",
+          "address": "0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB",
+          "address_kind": "contract",
+          "role": "CryptoPunks collection market",
+          "source_url": "https://licenseterms.cryptopunks.app/CryptoPunksTerms.pdf"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cryptopunks.app/",
+          "checkedAt": "2026-11-15T02:09:28.064Z",
+          "bodySha256": "56b071372bea720f0f7e7226870fa79f3acb67d4e5e348c55891d3d34da07484"
+        },
+        {
+          "url": "https://licenseterms.cryptopunks.app/CryptoPunksTerms.pdf",
+          "checkedAt": "2026-11-15T02:34:37.828Z",
+          "verification": "official publisher page inspected with web search",
+          "note": "Official license identifies the Ethereum CryptoPunks contract."
+        }
+      ],
+      "scope": "Activity coverage is limited to CryptoPunks collection market."
+    },
+    {
+      "slug": "bored-ape-yacht-club",
+      "name": "Bored Ape Yacht Club",
+      "category": "nfts",
+      "subcategory": "nft-collections",
+      "chains": [
+        "ethereum"
+      ],
+      "addresses": [
+        {
+          "chain_id": "ethereum",
+          "address": "0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D",
+          "address_kind": "contract",
+          "role": "BAYC NFT",
+          "source_url": "https://og.boredapeyachtclub.com/main.9f7d80e3f2c6d47afc4c.js"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://boredapeyachtclub.com/",
+          "checkedAt": "2026-11-15T02:09:26.508Z",
+          "bodySha256": "57bf8b076db1865da0d36a415103aabec595e2d2006d9c669c4516e76e963b80"
+        },
+        {
+          "url": "https://og.boredapeyachtclub.com/main.9f7d80e3f2c6d47afc4c.js",
+          "checkedAt": "2026-11-15T02:25:11.285Z",
+          "bodySha256": "e7d5c97d87940a644fd9044e7f1ce31c472c99afaf80dc9a4a8c673a5c06daee"
+        }
+      ],
+      "scope": "Activity coverage is limited to BAYC NFT."
+    },
+    {
+      "slug": "manifold",
+      "name": "Manifold",
+      "category": "nfts",
+      "subcategory": "creator-tools",
+      "chains": [
+        "ethereum"
+      ],
+      "addresses": [
+        {
+          "chain_id": "ethereum",
+          "address": "0x5133522ea5A0494EcB83F26311A095DDD7a9D4b6",
+          "address_kind": "contract",
+          "role": "Creator Core immutable implementation",
+          "source_url": "https://docs.manifold.xyz/manifold-for-developers/smart-contracts/manifold-creator/contracts.md",
+          "track_metrics": false
+        },
+        {
+          "chain_id": "ethereum",
+          "address": "0xE9FF7CA11280553Af56d04Ecb8Be6B8c4468DCB2",
+          "address_kind": "contract",
+          "role": "Creator Core immutable implementation",
+          "source_url": "https://docs.manifold.xyz/manifold-for-developers/smart-contracts/manifold-creator/contracts.md",
+          "track_metrics": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://manifold.xyz/",
+          "checkedAt": "2026-11-15T02:09:27.451Z",
+          "bodySha256": "7bdac9d17c49b95f24b21c07b6f3ac32b66072a7b2524513179f8d1e0be0c107"
+        },
+        {
+          "url": "https://docs.manifold.xyz/manifold-for-developers/smart-contracts/manifold-creator/contracts.md",
+          "checkedAt": "2026-11-15T02:25:12.832Z",
+          "bodySha256": "2a56469ab82a0041c3f7dd09720bab19373a8ba620ab388374d30874bf0fecdc"
+        }
+      ],
+      "scope": "The displayed immutable Creator Core implementations are reference addresses only. Creator NFTs use separate proxy contracts, so implementation calls are not counted as creator activity."
+    },
+    {
+      "slug": "art-blocks",
+      "name": "Art Blocks",
+      "category": "nfts",
+      "subcategory": "creator-tools",
+      "chains": [
+        "ethereum",
+        "base"
+      ],
+      "addresses": [
+        {
+          "chain_id": "ethereum",
+          "address": "0x99a9b7c1116f9ceeb1652de04d5969cce509b069",
+          "address_kind": "contract",
+          "role": "Selected Art Blocks V3 core",
+          "source_url": "https://docs.artblocks.io/developer/token-and-generator-apis/"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.artblocks.io/",
+          "checkedAt": "2026-11-15T02:09:27.022Z",
+          "bodySha256": "525c45e5eff366de68542ec8d8e719f02d3e75b6f65b1eb6ca1c733d3720e3e7"
+        },
+        {
+          "url": "https://docs.artblocks.io/developer/token-and-generator-apis/",
+          "checkedAt": "2026-11-15T02:07:23.108Z",
+          "bodySha256": "57410cc2a4ff2b68867777a678e8e29834157b0f3c4d9209e0037d680feb1262"
+        }
+      ],
+      "scope": "Activity coverage is limited to Selected Art Blocks V3 core."
+    },
+    {
+      "slug": "farcaster",
+      "name": "Farcaster",
+      "category": "social",
+      "subcategory": null,
+      "chains": [
+        "base",
+        "solana"
+      ],
+      "addresses": [],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/farcasterxyz/miniapps/main/site/pages/docs/specification.mdx",
+          "checkedAt": "2026-11-15T02:22:45.162Z",
+          "bodySha256": "b811193e3d2a978115c08e262426d1da5b8dd22990a6daf7880dfbfa109a73ce"
+        },
+        {
+          "url": "https://miniapps.farcaster.xyz/docs/guides/solana",
+          "checkedAt": "2026-11-15T02:22:44.991Z",
+          "bodySha256": "cca9e5626c643413fb5ea9c7c2020b6fdff62cda91d115170352519fd289a582"
+        }
+      ],
+      "scope": "This profile covers mini-app wallet integrations on Base and Solana. Farcaster identity contracts are on Optimism and are outside this catalog's tracked chains."
+    },
+    {
+      "slug": "zora",
+      "name": "Zora",
+      "category": "social",
+      "subcategory": null,
+      "chains": [
+        "base"
+      ],
+      "addresses": [
+        {
+          "chain_id": "base",
+          "address": "0x777777751622c0d3258f214F9DF38E35BF45baF3",
+          "address_kind": "contract",
+          "role": "Coins factory",
+          "source_url": "https://docs.zora.co/coins/contracts/creating-a-coin"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://zora.co/",
+          "checkedAt": "2026-11-15T02:09:29.037Z",
+          "bodySha256": "0b065756f42d88cfc9239f50dc61f22be4ed91a94b5b8963fc64762ace333a41"
+        },
+        {
+          "url": "https://docs.zora.co/coins",
+          "checkedAt": "2026-11-15T02:05:17.952Z",
+          "bodySha256": "8c663318d758ee7962c5370d8e3a29316f275b0892657b68c1dabeef2078e1e8"
+        },
+        {
+          "url": "https://docs.zora.co/coins/contracts/creating-a-coin",
+          "checkedAt": "2026-11-15T02:29:46.728Z",
+          "bodySha256": "3503da6d26f3117e511e56895a74f0ec8e68083db02bd1a983f049b78d873ac5"
+        }
+      ],
+      "scope": "Activity coverage is limited to Coins factory."
+    },
+    {
+      "slug": "metamask",
+      "name": "MetaMask",
+      "category": "wallets",
+      "subcategory": null,
+      "chains": [
+        "ethereum",
+        "base",
+        "bnb-smart-chain",
+        "solana"
+      ],
+      "addresses": [],
+      "sources": [
+        {
+          "url": "https://metamask.com/",
+          "checkedAt": "2026-11-15T02:09:28.687Z",
+          "bodySha256": "f578e64f8fdada1aaf74f4c4919b97691de659d542196e530e504381b10a7743"
+        },
+        {
+          "url": "https://docs.metamask.io/metamask-connect/multichain/",
+          "checkedAt": "2026-11-15T02:15:24.515Z",
+          "bodySha256": "816455262ace3aca51ebf675e27756dbef75b9ec7bdb0790eb321591842863a9"
+        }
+      ],
+      "scope": "This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics."
+    },
+    {
+      "slug": "phantom",
+      "name": "Phantom",
+      "category": "wallets",
+      "subcategory": null,
+      "chains": [
+        "ethereum",
+        "base",
+        "bnb-smart-chain",
+        "solana"
+      ],
+      "addresses": [],
+      "sources": [
+        {
+          "url": "https://help.phantom.com/articles/52630526574227",
+          "checkedAt": "2026-11-15T02:15:25.386Z",
+          "bodySha256": "3d60415dc9a7e3331a4c318feee1b062754b13cbd53c58ecbf91e77bbcb00849"
+        }
+      ],
+      "scope": "This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics."
+    },
+    {
+      "slug": "the-graph",
+      "name": "The Graph",
+      "category": "infrastructure",
+      "subcategory": "data-analytics",
+      "chains": [
+        "ethereum",
+        "base",
+        "bnb-smart-chain",
+        "solana"
+      ],
+      "addresses": [],
+      "sources": [
+        {
+          "url": "https://thegraph.com/",
+          "checkedAt": "2026-11-15T02:09:29.072Z",
+          "bodySha256": "33291c7fc052fc55c7cc9fbccdebf6a73bc2d5cd547e672dae9e36334505e932"
+        },
+        {
+          "url": "https://thegraph.com/docs/en/supported-networks/",
+          "checkedAt": "2026-11-15T02:12:49.666Z",
+          "bodySha256": "ff20819b9658567bd4b75fd1303583cfb9de90b9089c7e3b7fb20ae184c609d2"
+        }
+      ],
+      "scope": "This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics."
+    },
+    {
+      "slug": "dune",
+      "name": "Dune",
+      "category": "infrastructure",
+      "subcategory": "data-analytics",
+      "chains": [
+        "ethereum",
+        "base",
+        "bnb-smart-chain",
+        "solana"
+      ],
+      "addresses": [],
+      "sources": [
+        {
+          "url": "https://docs.dune.com/data-catalog/overview",
+          "checkedAt": "2026-11-15T02:12:49.304Z",
+          "bodySha256": "c997442bbe10d401923c1cdb57dc791db70994c84fe239d084343a2ad3f7c23e"
+        }
+      ],
+      "scope": "This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics."
+    },
+    {
+      "slug": "pyth-network",
+      "name": "Pyth Network",
+      "category": "infrastructure",
+      "subcategory": "oracles",
+      "chains": [
+        "ethereum",
+        "base",
+        "bnb-smart-chain",
+        "solana"
+      ],
+      "addresses": [
+        {
+          "chain_id": "ethereum",
+          "address": "0x4305FB66699C3B2702D4d05CF36551390A4c69C6",
+          "address_kind": "contract",
+          "role": "Pyth Core oracle",
+          "source_url": "https://docs.pyth.network/pro/contract-addresses"
+        },
+        {
+          "chain_id": "base",
+          "address": "0x8250f4aF4B972684F7b336503E2D6dFeDeB1487a",
+          "address_kind": "contract",
+          "role": "Pyth Core oracle",
+          "source_url": "https://docs.pyth.network/pro/contract-addresses"
+        },
+        {
+          "chain_id": "bnb-smart-chain",
+          "address": "0x4D7E825f80bDf85e913E0DD2A2D54927e9dE1594",
+          "address_kind": "contract",
+          "role": "Pyth Core oracle",
+          "source_url": "https://docs.pyth.network/pro/contract-addresses"
+        },
+        {
+          "chain_id": "solana",
+          "address": "rec5EKMGg6MxZYaMdyBfgwp4d5rB9T1VQH5pJv5LtFJ",
+          "address_kind": "program",
+          "role": "Pyth Core receiver",
+          "source_url": "https://docs.pyth.network/pro/contract-addresses"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.pyth.network/",
+          "checkedAt": "2026-11-15T02:09:29.559Z",
+          "bodySha256": "b91223bd7dea813726aa739189c030d92e69dc6aed9a530b6722bf6dc168c193"
+        },
+        {
+          "url": "https://docs.pyth.network/pro/contract-addresses",
+          "checkedAt": "2026-11-15T02:11:21.858Z",
+          "bodySha256": "34c270948c26b198535cdcf86e48a92fc1ea8d93a515016bec10253c0474b7ee"
+        }
+      ],
+      "scope": "Activity coverage is limited to Pyth Core oracle, Pyth Core receiver."
+    },
+    {
+      "slug": "api3",
+      "name": "API3",
+      "category": "dao-governance",
+      "subcategory": null,
+      "chains": [
+        "ethereum"
+      ],
+      "addresses": [],
+      "sources": [
+        {
+          "url": "https://api3.org/",
+          "checkedAt": "2026-11-15T02:09:29.477Z",
+          "bodySha256": "1dc91acc3477f4c4e295c9ddef8a419d2b4dbdc8f78b79c659e276ca222972bd"
+        },
+        {
+          "url": "https://docs.api3.org/dao/",
+          "checkedAt": "2026-11-15T02:15:25.894Z",
+          "bodySha256": "6da91e8530b902e6b4b89abffc6a35c5bb3f6df1403a233204153abe8280426d"
+        }
+      ],
+      "scope": "The current API3 DAO supersedes the retired staking DAO. This profile describes governance, rather than attributing token transfers to oracle usage."
+    },
+    {
+      "slug": "ankr",
+      "name": "Ankr",
+      "category": "infrastructure",
+      "subcategory": "rpc-nodes",
+      "chains": [
+        "ethereum",
+        "base",
+        "bnb-smart-chain",
+        "solana"
+      ],
+      "addresses": [],
+      "sources": [
+        {
+          "url": "https://www.ankr.com/",
+          "checkedAt": "2026-11-15T02:09:29.763Z",
+          "bodySha256": "d0537b8c43fa7e92c388f08e4f86a394b3555840343535a176e6e65fe275ccf2"
+        },
+        {
+          "url": "https://www.ankr.com/docs/api-reference/",
+          "checkedAt": "2026-11-15T02:34:37.828Z",
+          "verification": "official publisher page inspected with web search",
+          "note": "Official API reference lists Ethereum, Base, BNB Smart Chain and Solana."
+        }
+      ],
+      "scope": "This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics."
+    },
+    {
+      "slug": "pocket-network",
+      "name": "Pocket Network",
+      "category": "infrastructure",
+      "subcategory": "rpc-nodes",
+      "chains": [
+        "ethereum",
+        "base",
+        "bnb-smart-chain",
+        "solana"
+      ],
+      "addresses": [],
+      "sources": [
+        {
+          "url": "https://pocket.network/",
+          "checkedAt": "2026-11-15T02:09:30.237Z",
+          "bodySha256": "fb6136381e031eba2044f03e951f10c5a842e0ba459c46c38ad647e041d6869b"
+        },
+        {
+          "url": "https://pocket.network/support-public-rpc/",
+          "checkedAt": "2026-11-15T02:15:25.103Z",
+          "bodySha256": "feeb895e1b21d9b8bee7d9dacdcc4f95984e2621d39de9a9370915e883a20afe"
+        },
+        {
+          "url": "https://docs.pocket.network/developers/supported-chains/",
+          "checkedAt": "2026-11-15T02:34:37.828Z",
+          "verification": "official publisher page inspected with web search",
+          "note": "Official public portal reference lists all four mainnets."
+        }
+      ],
+      "scope": "This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics."
+    },
+    {
+      "slug": "space-id",
+      "name": "SPACE ID",
+      "category": "infrastructure",
+      "subcategory": "identity",
+      "chains": [
+        "bnb-smart-chain"
+      ],
+      "addresses": [],
+      "sources": [
+        {
+          "url": "https://www.space.id/",
+          "checkedAt": "2026-11-15T02:09:29.743Z",
+          "bodySha256": "f52d7c605e6c3e5755bb176992055ba0881f8fbf238fe3de798c52bc910e0472"
+        },
+        {
+          "url": "https://docs.space.id/developer-guide/registration-integration.md",
+          "checkedAt": "2026-11-15T02:23:48.709Z",
+          "bodySha256": "dc35306814e438fb570f0e021620cc06c3d5cef7a5202d06a44612f70ddecb5d"
+        }
+      ],
+      "scope": "This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics."
+    },
+    {
+      "slug": "eas",
+      "name": "Ethereum Attestation Service",
+      "category": "infrastructure",
+      "subcategory": "identity",
+      "chains": [
+        "ethereum",
+        "base"
+      ],
+      "addresses": [
+        {
+          "chain_id": "ethereum",
+          "address": "0xA1207F3BBa224E2c9c3c6D5aF63D0eb1582Ce587",
+          "address_kind": "contract",
+          "role": "EAS attestation registry",
+          "source_url": "https://raw.githubusercontent.com/ethereum-attestation-service/eas-contracts/master/deployments/mainnet/EAS.json"
+        },
+        {
+          "chain_id": "base",
+          "address": "0x4200000000000000000000000000000000000021",
+          "address_kind": "contract",
+          "role": "EAS attestation registry",
+          "source_url": "https://raw.githubusercontent.com/ethereum-attestation-service/eas-contracts/master/deployments/base/EAS.json"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://attest.org/",
+          "checkedAt": "2026-11-15T02:09:31.010Z",
+          "bodySha256": "a06a48a21c53fd264c6a07a6509c0c0d168e674ed4aa1cb0673e0e783ccf132d"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ethereum-attestation-service/eas-contracts/master/deployments/mainnet/EAS.json",
+          "checkedAt": "2026-11-15T02:05:18.012Z",
+          "bodySha256": "1c6176240eddd76266698b2fecf7d6ad406d4dad1ca6e01eaa6a2e68a2589f62"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ethereum-attestation-service/eas-contracts/master/deployments/base/EAS.json",
+          "checkedAt": "2026-11-15T02:05:17.845Z",
+          "bodySha256": "1a16eb91493a50374ea198a1c1328ad9d394111d6c1847a7c8a6b30ce4d8de03"
+        }
+      ],
+      "scope": "Activity coverage is limited to EAS attestation registry."
+    },
+    {
+      "slug": "alchemy",
+      "name": "Alchemy",
+      "category": "infrastructure",
+      "subcategory": "developer-tools",
+      "chains": [
+        "ethereum",
+        "base",
+        "bnb-smart-chain",
+        "solana"
+      ],
+      "addresses": [],
+      "sources": [
+        {
+          "url": "https://www.alchemy.com/",
+          "checkedAt": "2026-11-15T02:09:30.744Z",
+          "bodySha256": "fa39e672c39e5080db726d82b22ea004b1680687d88e5d23af291766a654b060"
+        },
+        {
+          "url": "https://www.alchemy.com/docs/reference/node-supported-chains",
+          "checkedAt": "2026-11-15T02:12:50.427Z",
+          "bodySha256": "2eec27c23071ddcd4d06e5b8eb8e60528d42a35090603224d10c8e7b13179b1a"
+        }
+      ],
+      "scope": "This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics."
+    },
+    {
+      "slug": "thirdweb",
+      "name": "thirdweb",
+      "category": "infrastructure",
+      "subcategory": "developer-tools",
+      "chains": [
+        "ethereum",
+        "base",
+        "bnb-smart-chain"
+      ],
+      "addresses": [],
+      "sources": [
+        {
+          "url": "https://thirdweb.com/",
+          "checkedAt": "2026-11-15T02:09:30.851Z",
+          "bodySha256": "7c77c9f8d65218479d3e870db97263a4c1d7114bf3c7bee23bba8b9de2702559"
+        },
+        {
+          "url": "https://portal.thirdweb.com/typescript/v5/chain",
+          "checkedAt": "2026-11-15T02:12:50.696Z",
+          "bodySha256": "e2d42f0bd5bb83b0820658bdff2f0ad48374a41299fcb221f99c2f28b923aeed"
+        }
+      ],
+      "scope": "This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics."
+    },
+    {
+      "slug": "wormhole",
+      "name": "Wormhole",
+      "category": "bridges",
+      "subcategory": null,
+      "chains": [
+        "ethereum",
+        "base",
+        "bnb-smart-chain",
+        "solana"
+      ],
+      "addresses": [
+        {
+          "chain_id": "ethereum",
+          "address": "0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+          "address_kind": "contract",
+          "role": "Wrapped Token Transfer bridge",
+          "source_url": "https://wormhole.com/docs/reference/contract-addresses/"
+        },
+        {
+          "chain_id": "base",
+          "address": "0x8d2de8d2f73F1F4cAB472AC9A881C9b123C79627",
+          "address_kind": "contract",
+          "role": "Wrapped Token Transfer bridge",
+          "source_url": "https://wormhole.com/docs/reference/contract-addresses/"
+        },
+        {
+          "chain_id": "bnb-smart-chain",
+          "address": "0xB6F6D86a8f9879A9c87f643768d9efc38c1Da6E7",
+          "address_kind": "contract",
+          "role": "Wrapped Token Transfer bridge",
+          "source_url": "https://wormhole.com/docs/reference/contract-addresses/"
+        },
+        {
+          "chain_id": "solana",
+          "address": "wormDTUJ6AWPNvk59vGQbDvGJmqbDTdgWgAqcLBCgUb",
+          "address_kind": "program",
+          "role": "Wrapped Token Transfer bridge",
+          "source_url": "https://wormhole.com/docs/reference/contract-addresses/"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://wormhole.com/",
+          "checkedAt": "2026-11-15T02:09:31.551Z",
+          "bodySha256": "f6433fea21b3c7c1c46da1d71a7287fd0a6b7790e2d379dfb98c6ea0ee295825"
+        },
+        {
+          "url": "https://wormhole.com/docs/reference/contract-addresses/",
+          "checkedAt": "2026-11-15T02:15:23.829Z",
+          "bodySha256": "f6c6f3d10122c2a6c62e57d934ca5a4a162f37b74f0e12246b98e79430937acb"
+        }
+      ],
+      "scope": "Activity coverage is limited to Wrapped Token Transfer bridge."
+    },
+    {
+      "slug": "across",
+      "name": "Across",
+      "category": "bridges",
+      "subcategory": null,
+      "chains": [
+        "ethereum",
+        "base",
+        "bnb-smart-chain"
+      ],
+      "addresses": [
+        {
+          "chain_id": "ethereum",
+          "address": "0x5c7BCd6E7De5423a257D81B442095A1a6ced35C5",
+          "address_kind": "contract",
+          "role": "SpokePool",
+          "source_url": "https://docs.across.to/chains-and-contracts"
+        },
+        {
+          "chain_id": "base",
+          "address": "0x09aea4b2242abC8bb4BB78D537A67a245A7bEC64",
+          "address_kind": "contract",
+          "role": "SpokePool",
+          "source_url": "https://docs.across.to/chains-and-contracts"
+        },
+        {
+          "chain_id": "bnb-smart-chain",
+          "address": "0x4e8E101924eDE233C13e2D8622DC8aED2872d505",
+          "address_kind": "contract",
+          "role": "SpokePool",
+          "source_url": "https://docs.across.to/chains-and-contracts"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://across.to/",
+          "checkedAt": "2026-11-15T02:09:30.872Z",
+          "bodySha256": "42856c634449251b6d9acd1e25be98dd9dff79ce1811077ed1990e72da150611"
+        },
+        {
+          "url": "https://docs.across.to/chains-and-contracts",
+          "checkedAt": "2026-11-15T02:17:02.504Z",
+          "bodySha256": "29220dcf5ac988c6a963bbbaa721be0f2590894a9128ed443e666138d34d9555"
+        }
+      ],
+      "scope": "Activity coverage is limited to SpokePool."
+    },
+    {
+      "slug": "request-network",
+      "name": "Request Network",
+      "category": "payments",
+      "subcategory": null,
+      "chains": [
+        "ethereum",
+        "base",
+        "bnb-smart-chain"
+      ],
+      "addresses": [
+        {
+          "chain_id": "ethereum",
+          "address": "0xC6E23a20C0a1933ACC8E30247B5D1e2215796C1F",
+          "address_kind": "contract",
+          "role": "Native-token fee proxy",
+          "source_url": "https://request.network/disclaimer/"
+        },
+        {
+          "chain_id": "base",
+          "address": "0xd9C3889eB8DA6ce449bfFE3cd194d08A436e96f2",
+          "address_kind": "contract",
+          "role": "Native-token fee proxy",
+          "source_url": "https://request.network/disclaimer/"
+        },
+        {
+          "chain_id": "bnb-smart-chain",
+          "address": "0xC6E23a20C0a1933ACC8E30247B5D1e2215796C1F",
+          "address_kind": "contract",
+          "role": "Native-token fee proxy",
+          "source_url": "https://request.network/disclaimer/"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://request.network/",
+          "checkedAt": "2026-11-15T02:09:32.180Z",
+          "bodySha256": "fc062c347a6cfd6b455c608b2c453c44bc6755572995c089e2eaa4874da455a8"
+        },
+        {
+          "url": "https://docs.request.network/llms.txt",
+          "checkedAt": "2026-11-15T02:17:03.835Z",
+          "bodySha256": "5da8858e6af88b80b4e92eb74040194dfad3a5685c83716cc00c49856c87a6ad"
+        },
+        {
+          "url": "https://request.network/disclaimer/",
+          "checkedAt": "2026-11-15T02:23:47.762Z",
+          "bodySha256": "ec155005449ef34e0738c2198d9934603179da068ca323ca3cef1a03f69bda4a"
+        }
+      ],
+      "scope": "Activity coverage is limited to Native-token fee proxy."
+    },
+    {
+      "slug": "moonpay-commerce",
+      "name": "MoonPay Commerce",
+      "category": "payments",
+      "subcategory": null,
+      "chains": [
+        "ethereum",
+        "base",
+        "solana"
+      ],
+      "addresses": [],
+      "sources": [
+        {
+          "url": "https://www.moonpay.com/business/commerce",
+          "checkedAt": "2026-11-15T02:09:32.168Z",
+          "bodySha256": "8c94591741242b61f46c00a9d93e32597d52255d95fa4721bc701a2fcedbc8fe"
+        },
+        {
+          "url": "https://dev.commerce.moonpay.com/llms.txt",
+          "checkedAt": "2026-11-15T02:17:04.066Z",
+          "bodySha256": "19c280234272670dae7a7b714d689122a7223431d75e90c30a3da3a183e0fd9c"
+        }
+      ],
+      "scope": "This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics."
+    },
+    {
+      "slug": "aragon",
+      "name": "Aragon",
+      "category": "dao-governance",
+      "subcategory": null,
+      "chains": [
+        "ethereum",
+        "base"
+      ],
+      "addresses": [],
+      "sources": [
+        {
+          "url": "https://www.aragon.org/",
+          "checkedAt": "2026-11-15T02:09:32.039Z",
+          "bodySha256": "14176f463a85d1e4e53c0fd08cd43e699349c2d2a9d47824d147b5b98564b9d1"
+        },
+        {
+          "url": "https://app.aragon.org/help/application/availability/supported-chains",
+          "checkedAt": "2026-11-15T02:34:37.828Z",
+          "verification": "official publisher page inspected with web search",
+          "note": "Ethereum and Base mainnet accounts are available."
+        },
+        {
+          "url": "https://app.aragon.org/help/application/availability/supported-chains",
+          "checkedAt": "2026-11-15T02:28:57.344Z",
+          "bodySha256": "8377e2ee59def8a0eaebfda2c3f58428984fefe024c2d182ef0c643ccb5d22a9"
+        }
+      ],
+      "scope": "This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics."
+    },
+    {
+      "slug": "snapshot",
+      "name": "Snapshot",
+      "category": "dao-governance",
+      "subcategory": null,
+      "chains": [
+        "ethereum",
+        "base",
+        "bnb-smart-chain"
+      ],
+      "addresses": [
+        {
+          "chain_id": "ethereum",
+          "address": "0x469788fE6E9E9681C6ebF3bF78e7Fd26Fc015446",
+          "address_kind": "contract",
+          "role": "Delegate registry",
+          "source_url": "https://docs.snapshot.box/user-guides/delegation"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://snapshot.box/",
+          "checkedAt": "2026-11-15T02:09:32.128Z",
+          "bodySha256": "4a9836bb5f204eff3bbc4e2e113d9f3ec7516f8ce2032fac1a01088967b6620f"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/snapshot-labs/snapshot.js/master/src/networks.json",
+          "checkedAt": "2026-11-15T02:12:49.319Z",
+          "bodySha256": "df210ec3f67b8917ba00af7f5438677fad37411c9a59cfaaa3302aa2f6e07f27"
+        },
+        {
+          "url": "https://docs.snapshot.box/user-guides/delegation",
+          "checkedAt": "2026-11-15T02:11:23.120Z",
+          "bodySha256": "90e87ba161db9a0aef49ba4535158934eca943e19c5f3129a3a12c73c2a781f3"
+        }
+      ],
+      "scope": "Activity coverage is limited to Delegate registry."
+    },
+    {
+      "slug": "virtuals-protocol",
+      "name": "Virtuals Protocol",
+      "category": "ai-depin",
+      "subcategory": "ai-agents",
+      "chains": [
+        "base"
+      ],
+      "addresses": [
+        {
+          "chain_id": "base",
+          "address": "0x1A540088125d00dD3990f9dA45CA0859af4d3B01",
+          "address_kind": "contract",
+          "role": "Launchpad bonding curve",
+          "source_url": "https://whitepaper.virtuals.io/info-hub/important-links-and-resources/virtuals-protocol-contract-addresses.md"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.virtuals.io/",
+          "checkedAt": "2026-11-15T02:09:32.337Z",
+          "bodySha256": "dbb31c1090f0a43dcf3709dd9e099b3105ed80e3b855a32f40eae4afa1ac5ee5"
+        },
+        {
+          "url": "https://whitepaper.virtuals.io/info-hub/important-links-and-resources/virtuals-protocol-contract-addresses.md",
+          "checkedAt": "2026-11-15T02:12:48.689Z",
+          "bodySha256": "51f9e014c9978f8e75c9060285907150212450130b1bc87a94b1534ee7485f27"
+        }
+      ],
+      "scope": "Activity coverage is limited to Launchpad bonding curve."
+    },
+    {
+      "slug": "elizaos",
+      "name": "ElizaOS",
+      "category": "ai-depin",
+      "subcategory": "ai-agents",
+      "chains": [
+        "ethereum",
+        "base",
+        "bnb-smart-chain",
+        "solana"
+      ],
+      "addresses": [],
+      "sources": [
+        {
+          "url": "https://eliza.app/",
+          "checkedAt": "2026-11-15T02:15:25.822Z",
+          "bodySha256": "58e5f740e34c8eb2a3f28190da9f562db2ed93ebc299e47735bd942177736d87"
+        },
+        {
+          "url": "https://registry.npmjs.org/@elizaos/plugin-wallet/latest",
+          "checkedAt": "2026-11-15T02:22:45.221Z",
+          "bodySha256": "06a515e8b4d7849d3e92f55cb09f7c3429e688d759b64a8e5025db17191010ea"
+        }
+      ],
+      "scope": "This is a software listing. Governance-token transfers do not measure deployed agent usage."
+    },
+    {
+      "slug": "render-network",
+      "name": "Render Network",
+      "category": "ai-depin",
+      "subcategory": "compute-storage",
+      "chains": [
+        "solana"
+      ],
+      "addresses": [],
+      "sources": [
+        {
+          "url": "https://rendernetwork.com/",
+          "checkedAt": "2026-11-15T02:09:33.136Z",
+          "bodySha256": "d3b297abb0b31935aaa023d6c756de02cbc15d9939034d7cf9ba3b1597221f54"
+        },
+        {
+          "url": "https://know.rendernetwork.com/general-render-network/rndr-to-render-what-you-need-to-know",
+          "checkedAt": "2026-11-15T02:23:48.006Z",
+          "bodySha256": "e8ed9d0ee51c33bc357408d3e8ed33e2562debf911889ce504e861a1768418fb"
+        }
+      ],
+      "scope": "This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics."
+    },
+    {
+      "slug": "io-net",
+      "name": "io.net",
+      "category": "ai-depin",
+      "subcategory": "compute-storage",
+      "chains": [
+        "solana"
+      ],
+      "addresses": [],
+      "sources": [
+        {
+          "url": "https://io.net/",
+          "checkedAt": "2026-11-15T02:09:32.983Z",
+          "bodySha256": "53a51823672e43c91c43e691d79917fc6dc58ef77f10218cffd1f0312756afa8"
+        },
+        {
+          "url": "https://io.net/docs/llms.txt",
+          "checkedAt": "2026-11-15T02:25:11.049Z",
+          "bodySha256": "70eb50135700d82c285d19086c5908954a488e5f45c606c333c86a1948ebef2c"
+        }
+      ],
+      "scope": "This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics."
+    },
+    {
+      "slug": "helium",
+      "name": "Helium",
+      "category": "ai-depin",
+      "subcategory": "wireless",
+      "chains": [
+        "solana"
+      ],
+      "addresses": [
+        {
+          "chain_id": "solana",
+          "address": "hemjuPXBpNvggtaUnN1MwT3wrdhttKEfosTcc2P9Pg8",
+          "address_kind": "program",
+          "role": "Helium entity manager",
+          "source_url": "https://raw.githubusercontent.com/helium/helium-program-library/master/Anchor.toml"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.helium.com/",
+          "checkedAt": "2026-11-15T02:09:32.950Z",
+          "bodySha256": "cba401798df269125b95069f954fe3c0050e88111b1c31b27bcf633e66517eef"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/helium/helium-program-library/master/Anchor.toml",
+          "checkedAt": "2026-11-15T02:05:17.674Z",
+          "bodySha256": "09acfdb06baea356de77497b2f5f19eb91f7c1d7d45fff34024c81595307ff7e"
+        }
+      ],
+      "scope": "Activity coverage is limited to Helium entity manager."
+    },
+    {
+      "slug": "roam",
+      "name": "Roam",
+      "category": "ai-depin",
+      "subcategory": "wireless",
+      "chains": [
+        "solana"
+      ],
+      "addresses": [],
+      "sources": [
+        {
+          "url": "https://weroam.xyz/",
+          "checkedAt": "2026-11-15T02:09:33.391Z",
+          "bodySha256": "ea089a7c965367d812a1becaeb5630f98b33fbde881632aeb3e5a20b62fb9c75"
+        }
+      ],
+      "scope": "This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics."
+    },
+    {
+      "slug": "hivemapper",
+      "name": "Hivemapper",
+      "category": "ai-depin",
+      "subcategory": "physical-infrastructure",
+      "chains": [
+        "solana"
+      ],
+      "addresses": [],
+      "sources": [
+        {
+          "url": "https://hivemapper.com/",
+          "checkedAt": "2026-11-15T02:09:34.744Z",
+          "bodySha256": "57af29490aee0f3aabeb791a133872f715d41a1d6a3d9323ddf9a92712d816f8"
+        }
+      ],
+      "scope": "This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics."
+    },
+    {
+      "slug": "natix-network",
+      "name": "NATIX Network",
+      "category": "ai-depin",
+      "subcategory": "physical-infrastructure",
+      "chains": [
+        "solana"
+      ],
+      "addresses": [],
+      "sources": [
+        {
+          "url": "https://www.natix.network/",
+          "checkedAt": "2026-11-15T02:09:33.861Z",
+          "bodySha256": "0cf99f0ace9daec1a7b6916ee2892b79c67612d41ac2915f46f9db49b2a4b17f"
+        }
+      ],
+      "scope": "This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics."
+    },
+    {
+      "slug": "limitless",
+      "name": "Limitless",
+      "category": "prediction-markets",
+      "subcategory": null,
+      "chains": [
+        "base"
+      ],
+      "addresses": [
+        {
+          "chain_id": "base",
+          "address": "0xa4409D988CA2218d956BeEFD3874100F444f0DC3",
+          "address_kind": "contract",
+          "role": "CTF exchange venue",
+          "source_url": "https://docs.limitless.exchange/user-guide/smart-contracts.md"
+        },
+        {
+          "chain_id": "base",
+          "address": "0xF1De958F8641448A5ba78c01f434085385Af096D",
+          "address_kind": "contract",
+          "role": "CTF exchange venue",
+          "source_url": "https://docs.limitless.exchange/user-guide/smart-contracts.md"
+        },
+        {
+          "chain_id": "base",
+          "address": "0x05c748E2f4DcDe0ec9Fa8DDc40DE6b867f923fa5",
+          "address_kind": "contract",
+          "role": "CTF exchange venue",
+          "source_url": "https://docs.limitless.exchange/user-guide/smart-contracts.md"
+        },
+        {
+          "chain_id": "base",
+          "address": "0x5a38afc17F7E97ad8d6C547ddb837E40B4aEDfC6",
+          "address_kind": "contract",
+          "role": "CTF exchange venue",
+          "source_url": "https://docs.limitless.exchange/user-guide/smart-contracts.md"
+        },
+        {
+          "chain_id": "base",
+          "address": "0x46e607D3f4a8494B0aB9b304d1463e2F4848891d",
+          "address_kind": "contract",
+          "role": "CTF exchange venue",
+          "source_url": "https://docs.limitless.exchange/user-guide/smart-contracts.md"
+        },
+        {
+          "chain_id": "base",
+          "address": "0xe3E00BA3a9888d1DE4834269f62ac008b4BB5C47",
+          "address_kind": "contract",
+          "role": "CTF exchange venue",
+          "source_url": "https://docs.limitless.exchange/user-guide/smart-contracts.md"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://limitless.exchange/",
+          "checkedAt": "2026-11-15T02:09:34.109Z",
+          "bodySha256": "cce4e9e269b86cc24fbac71a9e5c21867183abbbd9587d541b381f2298417e5e"
+        },
+        {
+          "url": "https://docs.limitless.exchange/user-guide/smart-contracts.md",
+          "checkedAt": "2026-11-15T02:23:46.458Z",
+          "bodySha256": "cd5b5c58fef821b7aab7faa66f585d7d28348ee85428d982c54feed7317b9b5a"
+        }
+      ],
+      "scope": "Activity coverage is limited to CTF exchange venue."
+    },
+    {
+      "slug": "predict-fun",
+      "name": "Predict.fun",
+      "category": "prediction-markets",
+      "subcategory": null,
+      "chains": [
+        "bnb-smart-chain"
+      ],
+      "addresses": [
+        {
+          "chain_id": "bnb-smart-chain",
+          "address": "0x6bEb5a40C032AFc305961162d8204CDA16DECFa5",
+          "address_kind": "contract",
+          "role": "Yield-bearing CTF exchange",
+          "source_url": "https://dev.predict.fun/resources/deployed-contracts"
+        },
+        {
+          "chain_id": "bnb-smart-chain",
+          "address": "0x8BC070BEdAB741406F4B1Eb65A72bee27894B689",
+          "address_kind": "contract",
+          "role": "Non-yield CTF exchange",
+          "source_url": "https://dev.predict.fun/resources/deployed-contracts"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://predict.fun/",
+          "checkedAt": "2026-11-15T02:09:34.543Z",
+          "bodySha256": "eeb300d3121523412eb36579ea88481c3d2fa6cd370bbed1b5679e0e9ad3f5e1"
+        },
+        {
+          "url": "https://dev.predict.fun/resources/deployed-contracts",
+          "checkedAt": "2026-11-15T02:23:47.255Z",
+          "bodySha256": "3ce82784d30ca8b3879d6bd42217919ec472fbf5ad9e33a611a07278625bcd91"
+        }
+      ],
+      "scope": "Activity coverage is limited to Yield-bearing CTF exchange, Non-yield CTF exchange."
+    },
+    {
+      "slug": "ondo-finance",
+      "name": "Ondo Finance",
+      "category": "real-world-assets",
+      "subcategory": "tokenized-funds",
+      "chains": [
+        "ethereum",
+        "solana"
+      ],
+      "addresses": [
+        {
+          "chain_id": "ethereum",
+          "address": "0x1B19C19393e2d034D8Ff31ff34c81252FcBbee92",
+          "address_kind": "contract",
+          "role": "OUSG fund token",
+          "source_url": "https://docs.ondo.finance/addresses.md"
+        },
+        {
+          "chain_id": "solana",
+          "address": "i7u4r16TcsJTgq1kAG8opmVZyVnAKBwLKu6ZPMwzxNc",
+          "address_kind": "account",
+          "role": "OUSG fund mint",
+          "source_url": "https://docs.ondo.finance/addresses.md"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ondo.finance/",
+          "checkedAt": "2026-11-15T02:09:34.154Z",
+          "bodySha256": "edfcf14768ffe5513d4e6794d336a801a8d436fdc40387ffe03478891e12841a"
+        },
+        {
+          "url": "https://docs.ondo.finance/addresses.md",
+          "checkedAt": "2026-11-15T02:12:48.592Z",
+          "bodySha256": "85b0d116ee03cc57a1a22ce5b9cc02f5eea5a1fb17866a11d64ea3134f9dabf4"
+        }
+      ],
+      "scope": "Activity coverage is limited to OUSG fund token, OUSG fund mint."
+    },
+    {
+      "slug": "blackrock-buidl",
+      "name": "BlackRock BUIDL",
+      "category": "real-world-assets",
+      "subcategory": "tokenized-funds",
+      "chains": [
+        "ethereum",
+        "solana"
+      ],
+      "addresses": [
+        {
+          "chain_id": "solana",
+          "address": "GyWgeqpy5GueU2YbkE8xqUeVEokCMMCEeUrfbtMw6phr",
+          "address_kind": "account",
+          "role": "BUIDL Solana share-class mint",
+          "source_url": "https://investors.securitize.io/news/news-details/2025/BlackRock-and-Securitize-Debut-New-BUIDL-Share-Class-on-Solana-Network-03-25-2025/"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://securitize.io/",
+          "checkedAt": "2026-11-15T02:09:35.169Z",
+          "bodySha256": "ab6b47b7f0aa239cf122aad0321a986e4fac3a5a18befb875f621d1fabd69235"
+        },
+        {
+          "url": "https://investors.securitize.io/news/news-details/2024/BlackRock-Launches-Its-First-Tokenized-Fund-BUIDL-on-the-Ethereum-Network-03-20-2024/default.aspx",
+          "checkedAt": "2026-11-15T02:34:37.828Z",
+          "verification": "official publisher page inspected with web search",
+          "note": "Issuer Ethereum fund launch."
+        },
+        {
+          "url": "https://investors.securitize.io/news/news-details/2025/BlackRock-and-Securitize-Debut-New-BUIDL-Share-Class-on-Solana-Network-03-25-2025/",
+          "checkedAt": "2026-11-15T02:34:37.828Z",
+          "verification": "official publisher page inspected with web search",
+          "note": "Issuer identifies Solana BUIDL mint."
+        }
+      ],
+      "scope": "Activity coverage is limited to BUIDL Solana share-class mint."
+    },
+    {
+      "slug": "maple-finance",
+      "name": "Maple Finance",
+      "category": "real-world-assets",
+      "subcategory": "tokenized-credit",
+      "chains": [
+        "ethereum",
+        "base"
+      ],
+      "addresses": [
+        {
+          "chain_id": "ethereum",
+          "address": "0x80ac24aA929eaF5013f6436cdA2a7ba190f5Cc0b",
+          "address_kind": "contract",
+          "role": "syrupUSDC pool",
+          "source_url": "https://raw.githubusercontent.com/maple-labs/address-registry/main/MapleAddressRegistryETH.md"
+        },
+        {
+          "chain_id": "base",
+          "address": "0xDd5Bb9aCF5E02089735A33344c6e3A8BB0d4075D",
+          "address_kind": "contract",
+          "role": "cashUSDC pool",
+          "source_url": "https://raw.githubusercontent.com/maple-labs/address-registry/main/MapleAddressRegistryBASEL2.md"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://maple.finance/",
+          "checkedAt": "2026-11-15T02:09:35.242Z",
+          "bodySha256": "e749ed4fb342ebdd8cf4b3b9ef003f849f5a0f64c25ff132edc1803f84fddd51"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/maple-labs/address-registry/main/MapleAddressRegistryETH.md",
+          "checkedAt": "2026-11-15T02:15:24.535Z",
+          "bodySha256": "14dadda4d29c6caae632aaa785640e0cd6acd81334fee8aa353e4c4629ea1fc4"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/maple-labs/address-registry/main/MapleAddressRegistryBASEL2.md",
+          "checkedAt": "2026-11-15T02:15:24.521Z",
+          "bodySha256": "4c2c9e332e9a82c3a92260eb17e34e7ec9d3e4be3c50f212e61cfa830e41d866"
+        }
+      ],
+      "scope": "Activity coverage is limited to syrupUSDC pool, cashUSDC pool."
+    },
+    {
+      "slug": "clearpool",
+      "name": "Clearpool",
+      "category": "real-world-assets",
+      "subcategory": "tokenized-credit",
+      "chains": [
+        "ethereum"
+      ],
+      "addresses": [
+        {
+          "chain_id": "ethereum",
+          "address": "0xdE204e5a060bA5d3B63C7A4099712959114c2D48",
+          "address_kind": "contract",
+          "role": "Pool factory",
+          "source_url": "https://docs.clearpool.finance/clearpool/security/smart-contracts.md"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://clearpool.finance/",
+          "checkedAt": "2026-11-15T02:09:35.177Z",
+          "bodySha256": "c037bafcbe0cfced8b4a0da94032dec828f77040d93995e73d2478ca4ed94b9c"
+        },
+        {
+          "url": "https://docs.clearpool.finance/clearpool/security/smart-contracts.md",
+          "checkedAt": "2026-11-15T02:22:45.298Z",
+          "bodySha256": "3a050388f80c1dea5bdaf41a8332d47a83b8362d52e31372eb54a10a39a72aee"
+        }
+      ],
+      "scope": "Activity coverage is limited to Pool factory."
+    },
+    {
+      "slug": "tether-gold",
+      "name": "Tether Gold",
+      "category": "real-world-assets",
+      "subcategory": "tokenized-commodities",
+      "chains": [
+        "ethereum"
+      ],
+      "addresses": [
+        {
+          "chain_id": "ethereum",
+          "address": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
+          "address_kind": "contract",
+          "role": "XAUT gold token",
+          "source_url": "https://dev.alloy.tether.to/deployments/ethereum-mainnet"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://gold.tether.to/",
+          "checkedAt": "2026-11-15T02:09:35.225Z",
+          "bodySha256": "d2027de5aba08618db31883327558c330a27cc68eafc70f59ee5f2c0788d6a8b"
+        },
+        {
+          "url": "https://dev.alloy.tether.to/deployments/ethereum-mainnet",
+          "checkedAt": "2026-11-15T02:34:37.828Z",
+          "verification": "official publisher page inspected with web search",
+          "note": "Issuer deployment table identifies XAUT on Ethereum."
+        }
+      ],
+      "scope": "Activity coverage is limited to XAUT gold token."
+    },
+    {
+      "slug": "matrixdock-gold",
+      "name": "Matrixdock Gold",
+      "category": "real-world-assets",
+      "subcategory": "tokenized-commodities",
+      "chains": [
+        "ethereum",
+        "bnb-smart-chain"
+      ],
+      "addresses": [],
+      "sources": [
+        {
+          "url": "https://www.matrixdock.com/blog/announcements/gold-token-xaum",
+          "checkedAt": "2026-11-15T02:34:37.828Z",
+          "verification": "official publisher page inspected with web search",
+          "note": "Issuer launch announcement confirms Ethereum and BNB deployment. No unverified token address is mapped."
+        }
+      ],
+      "scope": "This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics."
+    },
+    {
+      "slug": "four-meme",
+      "name": "Four.meme",
+      "category": "other",
+      "subcategory": null,
+      "chains": [
+        "bnb-smart-chain"
+      ],
+      "addresses": [
+        {
+          "chain_id": "bnb-smart-chain",
+          "address": "0x5c952063c7fc8610FFDB798152D69F0B9550762b",
+          "address_kind": "contract",
+          "role": "TokenManager2",
+          "source_url": "https://raw.githubusercontent.com/four-meme-community/fourmeme-docs/main/docs/integration-guide.md"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://four.meme/en",
+          "checkedAt": "2026-11-15T02:09:37.110Z",
+          "bodySha256": "5b5b6500b5f55542cbc386e27ff7e50918c6391ab7fb42f08004b959288118e6"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/four-meme-community/fourmeme-docs/main/docs/integration-guide.md",
+          "checkedAt": "2026-11-15T02:22:45.045Z",
+          "bodySha256": "2705ed368627be2ec5787499d3e22ebdd800b0d13f9216666f152d5a1395295f"
+        }
+      ],
+      "scope": "Activity coverage is limited to TokenManager2."
+    },
+    {
+      "slug": "clanker",
+      "name": "Clanker",
+      "category": "other",
+      "subcategory": null,
+      "chains": [
+        "base",
+        "bnb-smart-chain"
+      ],
+      "addresses": [
+        {
+          "chain_id": "base",
+          "address": "0x572e88D3cD7f23E4241EB6ceDD96667271bF09A0",
+          "address_kind": "contract",
+          "role": "V5 factory",
+          "source_url": "https://docs.clanker.world/references/deployed-contracts.md"
+        },
+        {
+          "chain_id": "bnb-smart-chain",
+          "address": "0xcA111dcdd2cE924c3378d6514fDCbC46217bcA16",
+          "address_kind": "contract",
+          "role": "V5 factory",
+          "source_url": "https://docs.clanker.world/references/deployed-contracts.md"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.clanker.world/",
+          "checkedAt": "2026-11-15T02:09:35.711Z",
+          "bodySha256": "6240d600ee0889685cd54a7ffcc0564eb80233fed66b38ad057de32fa2bb74f7"
+        },
+        {
+          "url": "https://docs.clanker.world/references/deployed-contracts.md",
+          "checkedAt": "2026-11-15T02:15:23.934Z",
+          "bodySha256": "945ee609bd6e817dfb04cc49d1155dc3697803fdd087ca570bf16a2f1f107007"
+        }
+      ],
+      "scope": "Activity coverage is limited to V5 factory."
+    },
+    {
+      "slug": "sequence",
+      "name": "Sequence",
+      "category": "games",
+      "subcategory": "game-infrastructure",
+      "chains": [
+        "ethereum",
+        "base",
+        "bnb-smart-chain"
+      ],
+      "addresses": [],
+      "sources": [
+        {
+          "url": "https://docs.sequence.xyz/solutions/technical-references/contract-deployment.md",
+          "checkedAt": "2026-11-15T02:25:11.191Z",
+          "bodySha256": "6f9042fb2a721e59272889cd3f90798aca13c06ec61ca4ee7411ed6f1d9328fd"
+        },
+        {
+          "url": "https://sequence.xyz/chains?query=&type=all&support=all",
+          "checkedAt": "2026-11-15T02:29:48.358Z",
+          "bodySha256": "85e710c73cf5d9254300f8d3728502d972f0ec5da2a20471f52ad7d52c927020"
+        }
+      ],
+      "scope": "This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics."
+    }
+  ],
+  "excluded": [
+    {
+      "slug": "immutable",
+      "name": "Immutable",
+      "reason": "Native gaming infrastructure runs on a chain outside the four launch chains; an Ethereum governance token is not evidence of game usage on Ethereum."
+    },
+    {
+      "slug": "ronin",
+      "name": "Ronin",
+      "reason": "Native gaming infrastructure runs on a chain outside the four launch chains; an Ethereum governance token is not evidence of game usage on Ethereum."
+    }
+  ],
+  "onchain": {
+    "checkedAt": "2026-11-15T02:28:09.110Z",
+    "networks": {
+      "ethereum": {
+        "endpoint": "https://ethereum-rpc.publicnode.com",
+        "identity": "0x1",
+        "latencyMs": 491,
+        "block": "0x19318fe"
+      },
+      "base": {
+        "endpoint": "https://base-rpc.publicnode.com",
+        "identity": "0x2105",
+        "latencyMs": 433,
+        "block": "0x36eda9b"
+      },
+      "bnb-smart-chain": {
+        "endpoint": "https://bsc-rpc.publicnode.com",
+        "identity": "0x38",
+        "latencyMs": 497,
+        "block": "0x7f76c66"
+      },
+      "solana": {
+        "endpoint": "https://solana-rpc.publicnode.com",
+        "identity": "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
+        "latencyMs": 438
+      }
+    },
+    "addresses": [
+      {
+        "slug": "venus",
+        "chain_id": "ethereum",
+        "address": "0x687a01ecF6d3907658f7A7c714749fAC32336D1B",
+        "address_kind": "contract",
+        "role": "Core pool Comptroller",
+        "source_url": "https://docs-v4.venus.io/deployed-contracts/markets",
+        "verified": true,
+        "codeBytes": 849,
+        "codeSha256": "f3d318e370a9328702336875929464b1ce12e200bf96fcfd5348e0a3ac6f65ce",
+        "block": "0x19318fe",
+        "latencyMs": 114
+      },
+      {
+        "slug": "morpho",
+        "chain_id": "ethereum",
+        "address": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+        "address_kind": "contract",
+        "role": "Morpho Blue singleton",
+        "source_url": "https://docs.morpho.org/developers/contracts/addresses/",
+        "verified": true,
+        "codeBytes": 15623,
+        "codeSha256": "ad59abe677600aa1e3f1ba25011e886aea7857e933f5e1eed0d0ef3856120088",
+        "block": "0x19318fe",
+        "latencyMs": 117
+      },
+      {
+        "slug": "yearn",
+        "chain_id": "ethereum",
+        "address": "0x028eC7330ff87667b6dfb0D94b954c820195336c",
+        "address_kind": "contract",
+        "role": "Selected yvDAI vault",
+        "source_url": "https://raw.githubusercontent.com/yearn/yearn-devdocs/master/src/ethereum/constants.ts",
+        "verified": true,
+        "codeBytes": 45,
+        "codeSha256": "118974d66c7cff31f7c5988fa0adefb9b65ea9ca0132e28f75b46c6c5b7424e8",
+        "block": "0x19318fe",
+        "latencyMs": 273
+      },
+      {
+        "slug": "lido",
+        "chain_id": "ethereum",
+        "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+        "address_kind": "contract",
+        "role": "Lido stETH pool",
+        "source_url": "https://docs.lido.fi/deployed-contracts/",
+        "verified": true,
+        "codeBytes": 1035,
+        "codeSha256": "6865d8c003f1b261a9075f8077dc3acafa0353c4b1841bae952b3a0dc3f8da4b",
+        "block": "0x19318fe",
+        "latencyMs": 109
+      },
+      {
+        "slug": "synthetix",
+        "chain_id": "ethereum",
+        "address": "0xD62595c3c23B690BAEE0935e107A209Cb1Dbd37B",
+        "address_kind": "contract",
+        "role": "Mainnet deposit proxy",
+        "source_url": "https://developers.synthetix.io/deposits",
+        "verified": true,
+        "codeBytes": 89,
+        "codeSha256": "3efd35368ec5d96f34dbe1c0a867d49a550109df5c612bab70eeec5ef3e74878",
+        "block": "0x19318fe",
+        "latencyMs": 110
+      },
+      {
+        "slug": "beefy",
+        "chain_id": "ethereum",
+        "address": "0x62fcbc7c3235950eD6dE4168fbd373aF9e8ee0fc",
+        "address_kind": "contract",
+        "role": "BeefyWrapper",
+        "source_url": "https://raw.githubusercontent.com/beefyfinance/beefy-docs/master/developer-documentation/other-beefy-contracts/beefywrapper-contract.md",
+        "verified": true,
+        "codeBytes": 1289,
+        "codeSha256": "c0f0f2d0d3e2e023d693a86777761a16376e70d2f398fbe4f69e6b3fd8753c56",
+        "block": "0x19318fe",
+        "latencyMs": 110
+      },
+      {
+        "slug": "decentraland",
+        "chain_id": "ethereum",
+        "address": "0xf87e31492faf9a91b02ee0deaad50d51d56d5d4d",
+        "address_kind": "contract",
+        "role": "LAND NFT",
+        "source_url": "https://docs.decentraland.org/apis/apis/atlas-server/nft-metadata.md",
+        "verified": true,
+        "codeBytes": 1958,
+        "codeSha256": "94e7b65567e6476dd8e13a161a34d67ec3c20b90c1c654288280e94865700e2a",
+        "block": "0x19318fe",
+        "latencyMs": 106
+      },
+      {
+        "slug": "ethena",
+        "chain_id": "ethereum",
+        "address": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+        "address_kind": "contract",
+        "role": "USDe token",
+        "source_url": "https://docs.ethena.fi/api-documentation/overview.md",
+        "verified": true,
+        "codeBytes": 7567,
+        "codeSha256": "f3d4ae48acd72f9b18e8e47d13dd17d868a00adf750dda74086dc5666faa147c",
+        "block": "0x19318fe",
+        "latencyMs": 108
+      },
+      {
+        "slug": "paypal-usd",
+        "chain_id": "ethereum",
+        "address": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8",
+        "address_kind": "contract",
+        "role": "PYUSD token",
+        "source_url": "https://docs.paxos.com/guides/stablecoin/pyusd/mainnet",
+        "verified": true,
+        "codeBytes": 1506,
+        "codeSha256": "9e60ba782a3dfb7c79b35319f0e22e49b2cc1d3d5356c14ba04ef8e3b828eff1",
+        "block": "0x19318fe",
+        "latencyMs": 108
+      },
+      {
+        "slug": "the-sandbox",
+        "chain_id": "ethereum",
+        "address": "0x5CC5B05a8A13E3fBDB0BB9FcCd98D38e50F90c38",
+        "address_kind": "contract",
+        "role": "Ethereum LAND NFT",
+        "source_url": "https://docs.sandbox.game/en/owners/land/buy-land/opensea/legitimate-lands.md",
+        "verified": true,
+        "codeBytes": 2004,
+        "codeSha256": "7aa400384eff7f3dde4684a0aa87cd3baab0a7f18d15f75511d4524efd355836",
+        "block": "0x19318fe",
+        "latencyMs": 107
+      },
+      {
+        "slug": "cryptopunks",
+        "chain_id": "ethereum",
+        "address": "0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB",
+        "address_kind": "contract",
+        "role": "CryptoPunks collection market",
+        "source_url": "https://licenseterms.cryptopunks.app/CryptoPunksTerms.pdf",
+        "verified": true,
+        "codeBytes": 6969,
+        "codeSha256": "038726a8bcf024911502c75a2403002611d3f5f4bd2e50c57371a4ff9ee9818f",
+        "block": "0x19318fe",
+        "latencyMs": 107
+      },
+      {
+        "slug": "bored-ape-yacht-club",
+        "chain_id": "ethereum",
+        "address": "0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D",
+        "address_kind": "contract",
+        "role": "BAYC NFT",
+        "source_url": "https://og.boredapeyachtclub.com/main.9f7d80e3f2c6d47afc4c.js",
+        "verified": true,
+        "codeBytes": 16790,
+        "codeSha256": "d60a99d57b0df6d966787975bcaea2c908f280106fe007e742ae58a332fd795c",
+        "block": "0x19318fe",
+        "latencyMs": 111
+      },
+      {
+        "slug": "pyth-network",
+        "chain_id": "ethereum",
+        "address": "0x4305FB66699C3B2702D4d05CF36551390A4c69C6",
+        "address_kind": "contract",
+        "role": "Pyth Core oracle",
+        "source_url": "https://docs.pyth.network/pro/contract-addresses",
+        "verified": true,
+        "codeBytes": 680,
+        "codeSha256": "08b9bbb72c80acecd7c6ad12b7debb1bf14a0f6fd8a5446fa54fe686eb397b28",
+        "block": "0x19318fe",
+        "latencyMs": 113
+      },
+      {
+        "slug": "eas",
+        "chain_id": "ethereum",
+        "address": "0xA1207F3BBa224E2c9c3c6D5aF63D0eb1582Ce587",
+        "address_kind": "contract",
+        "role": "EAS attestation registry",
+        "source_url": "https://raw.githubusercontent.com/ethereum-attestation-service/eas-contracts/master/deployments/mainnet/EAS.json",
+        "verified": true,
+        "codeBytes": 19971,
+        "codeSha256": "11a81fe711ac5935fccc298351a75ea5a9343cec43bdf0c94ff742247a89f6e6",
+        "block": "0x19318fe",
+        "latencyMs": 113
+      },
+      {
+        "slug": "art-blocks",
+        "chain_id": "ethereum",
+        "address": "0x99a9b7c1116f9ceeb1652de04d5969cce509b069",
+        "address_kind": "contract",
+        "role": "Selected Art Blocks V3 core",
+        "source_url": "https://docs.artblocks.io/developer/token-and-generator-apis/",
+        "verified": true,
+        "codeBytes": 23743,
+        "codeSha256": "d8e6cf7c64e1d06782471f0d0de05f694d269b2084593c5aed3c933ae4c12eb1",
+        "block": "0x19318fe",
+        "latencyMs": 115
+      },
+      {
+        "slug": "across",
+        "chain_id": "ethereum",
+        "address": "0x5c7BCd6E7De5423a257D81B442095A1a6ced35C5",
+        "address_kind": "contract",
+        "role": "SpokePool",
+        "source_url": "https://docs.across.to/chains-and-contracts",
+        "verified": true,
+        "codeBytes": 680,
+        "codeSha256": "f30e969f2540174ec5474f1b84b6f3103df61d7d5bd84daf594e286bbcd06a9d",
+        "block": "0x19318fe",
+        "latencyMs": 102
+      },
+      {
+        "slug": "request-network",
+        "chain_id": "ethereum",
+        "address": "0xC6E23a20C0a1933ACC8E30247B5D1e2215796C1F",
+        "address_kind": "contract",
+        "role": "Native-token fee proxy",
+        "source_url": "https://request.network/disclaimer/",
+        "verified": true,
+        "codeBytes": 1739,
+        "codeSha256": "39b366b9a87edede1087e677fbcb930e801970a60552a520dec7deea07fd9907",
+        "block": "0x19318fe",
+        "latencyMs": 104
+      },
+      {
+        "slug": "snapshot",
+        "chain_id": "ethereum",
+        "address": "0x469788fE6E9E9681C6ebF3bF78e7Fd26Fc015446",
+        "address_kind": "contract",
+        "role": "Delegate registry",
+        "source_url": "https://docs.snapshot.box/user-guides/delegation",
+        "verified": true,
+        "codeBytes": 1940,
+        "codeSha256": "2af126ac0df2bf963da713f0208553eb5b92d43644c5c86ebcfc07ded5217d89",
+        "block": "0x19318fe",
+        "latencyMs": 104
+      },
+      {
+        "slug": "ondo-finance",
+        "chain_id": "ethereum",
+        "address": "0x1B19C19393e2d034D8Ff31ff34c81252FcBbee92",
+        "address_kind": "contract",
+        "role": "OUSG fund token",
+        "source_url": "https://docs.ondo.finance/addresses.md",
+        "verified": true,
+        "codeBytes": 2079,
+        "codeSha256": "53c084e1bae9bfc4ba110a7fecc049385cd0d92f65b35191db583ac9241ec532",
+        "block": "0x19318fe",
+        "latencyMs": 101
+      },
+      {
+        "slug": "clearpool",
+        "chain_id": "ethereum",
+        "address": "0xdE204e5a060bA5d3B63C7A4099712959114c2D48",
+        "address_kind": "contract",
+        "role": "Pool factory",
+        "source_url": "https://docs.clearpool.finance/clearpool/security/smart-contracts.md",
+        "verified": true,
+        "codeBytes": 2141,
+        "codeSha256": "8ab7e41c0ab40cab1e96af6ed539f074fba821fae835561c2d861293cfc98063",
+        "block": "0x19318fe",
+        "latencyMs": 107
+      },
+      {
+        "slug": "maple-finance",
+        "chain_id": "ethereum",
+        "address": "0x80ac24aA929eaF5013f6436cdA2a7ba190f5Cc0b",
+        "address_kind": "contract",
+        "role": "syrupUSDC pool",
+        "source_url": "https://raw.githubusercontent.com/maple-labs/address-registry/main/MapleAddressRegistryETH.md",
+        "verified": true,
+        "codeBytes": 11660,
+        "codeSha256": "5913ca6d9c17522854638205c30cc7e3488930d080afaa5525621f90a729c708",
+        "block": "0x19318fe",
+        "latencyMs": 108
+      },
+      {
+        "slug": "tether-gold",
+        "chain_id": "ethereum",
+        "address": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
+        "address_kind": "contract",
+        "role": "XAUT gold token",
+        "source_url": "https://dev.alloy.tether.to/deployments/ethereum-mainnet",
+        "verified": true,
+        "codeBytes": 2141,
+        "codeSha256": "8ab7e41c0ab40cab1e96af6ed539f074fba821fae835561c2d861293cfc98063",
+        "block": "0x19318fe",
+        "latencyMs": 106
+      },
+      {
+        "slug": "venus",
+        "chain_id": "base",
+        "address": "0x0C7973F9598AA62f9e03B94E92C967fD5437426C",
+        "address_kind": "contract",
+        "role": "Core pool Comptroller",
+        "source_url": "https://docs-v4.venus.io/deployed-contracts/markets",
+        "verified": true,
+        "codeBytes": 332,
+        "codeSha256": "ccbb9cd4c06fa3b7ea15961dd02c4d821dc06ce86947f58af74e0d1bbd047d7a",
+        "block": "0x36eda9b",
+        "latencyMs": 107
+      },
+      {
+        "slug": "morpho",
+        "chain_id": "base",
+        "address": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+        "address_kind": "contract",
+        "role": "Morpho Blue singleton",
+        "source_url": "https://docs.morpho.org/developers/contracts/addresses/",
+        "verified": true,
+        "codeBytes": 15623,
+        "codeSha256": "a17c5c29186aff17832f17a6c0e55cef87181d34ac4a51b03fa2f1302a04b877",
+        "block": "0x36eda9b",
+        "latencyMs": 112
+      },
+      {
+        "slug": "beefy",
+        "chain_id": "base",
+        "address": "0x917447f8f52E7Db26cE7f52BE2F3fcb4d4D00832",
+        "address_kind": "contract",
+        "role": "BeefyWrapper",
+        "source_url": "https://raw.githubusercontent.com/beefyfinance/beefy-docs/master/developer-documentation/other-beefy-contracts/beefywrapper-contract.md",
+        "verified": true,
+        "codeBytes": 1289,
+        "codeSha256": "4ccc914f1f2089dec60845654723ca8837d0933009ce441db3aed0160345e8d4",
+        "block": "0x36eda9b",
+        "latencyMs": 276
+      },
+      {
+        "slug": "pyth-network",
+        "chain_id": "base",
+        "address": "0x8250f4aF4B972684F7b336503E2D6dFeDeB1487a",
+        "address_kind": "contract",
+        "role": "Pyth Core oracle",
+        "source_url": "https://docs.pyth.network/pro/contract-addresses",
+        "verified": true,
+        "codeBytes": 680,
+        "codeSha256": "f30e969f2540174ec5474f1b84b6f3103df61d7d5bd84daf594e286bbcd06a9d",
+        "block": "0x36eda9b",
+        "latencyMs": 106
+      },
+      {
+        "slug": "eas",
+        "chain_id": "base",
+        "address": "0x4200000000000000000000000000000000000021",
+        "address_kind": "contract",
+        "role": "EAS attestation registry",
+        "source_url": "https://raw.githubusercontent.com/ethereum-attestation-service/eas-contracts/master/deployments/base/EAS.json",
+        "verified": true,
+        "codeBytes": 2055,
+        "codeSha256": "15f909627daa437742eb46f4235293d4b2d5fda7268e6159e8cf1a5e375f0500",
+        "block": "0x36eda9b",
+        "latencyMs": 106
+      },
+      {
+        "slug": "synfutures",
+        "chain_id": "base",
+        "address": "0x208B443983D8BcC8578e9D86Db23FbA547071270",
+        "address_kind": "contract",
+        "role": "Oyster Gate",
+        "source_url": "https://docs.synfutures.com/developer/smart-contract-addresses/base-network.md",
+        "verified": true,
+        "codeBytes": 15203,
+        "codeSha256": "f0d5f01e3d3b0722e08ad9fcb2e66a6268d6441e85e21dcd48bdb5d6070d3fab",
+        "block": "0x36eda9b",
+        "latencyMs": 108
+      },
+      {
+        "slug": "across",
+        "chain_id": "base",
+        "address": "0x09aea4b2242abC8bb4BB78D537A67a245A7bEC64",
+        "address_kind": "contract",
+        "role": "SpokePool",
+        "source_url": "https://docs.across.to/chains-and-contracts",
+        "verified": true,
+        "codeBytes": 680,
+        "codeSha256": "f30e969f2540174ec5474f1b84b6f3103df61d7d5bd84daf594e286bbcd06a9d",
+        "block": "0x36eda9b",
+        "latencyMs": 115
+      },
+      {
+        "slug": "request-network",
+        "chain_id": "base",
+        "address": "0xd9C3889eB8DA6ce449bfFE3cd194d08A436e96f2",
+        "address_kind": "contract",
+        "role": "Native-token fee proxy",
+        "source_url": "https://request.network/disclaimer/",
+        "verified": true,
+        "codeBytes": 2355,
+        "codeSha256": "66dffccb8a5057794cae331bf27e9da5ac6904d368a65c6197b24e4b54e3c272",
+        "block": "0x36eda9b",
+        "latencyMs": 115
+      },
+      {
+        "slug": "virtuals-protocol",
+        "chain_id": "base",
+        "address": "0x1A540088125d00dD3990f9dA45CA0859af4d3B01",
+        "address_kind": "contract",
+        "role": "Launchpad bonding curve",
+        "source_url": "https://whitepaper.virtuals.io/info-hub/important-links-and-resources/virtuals-protocol-contract-addresses.md",
+        "verified": true,
+        "codeBytes": 1167,
+        "codeSha256": "f87f81224c8aeb1008189446f1c1453c17a42f0576ad45998f6f2a6d1538b27a",
+        "block": "0x36eda9b",
+        "latencyMs": 115
+      },
+      {
+        "slug": "limitless",
+        "chain_id": "base",
+        "address": "0x05c748E2f4DcDe0ec9Fa8DDc40DE6b867f923fa5",
+        "address_kind": "contract",
+        "role": "CTF exchange venue",
+        "source_url": "https://docs.limitless.exchange/user-guide/smart-contracts.md",
+        "verified": true,
+        "codeBytes": 17178,
+        "codeSha256": "931d32e82dca7b5307eb0620b3f1cfb25f8f30eb306a139259a1a7e7119e8f16",
+        "block": "0x36eda9b",
+        "latencyMs": 112
+      },
+      {
+        "slug": "limitless",
+        "chain_id": "base",
+        "address": "0xa4409D988CA2218d956BeEFD3874100F444f0DC3",
+        "address_kind": "contract",
+        "role": "CTF exchange venue",
+        "source_url": "https://docs.limitless.exchange/user-guide/smart-contracts.md",
+        "verified": true,
+        "codeBytes": 19300,
+        "codeSha256": "225125c274cf6a1f26d7ae6925762c877aa30225811b897c439af08fecfe9112",
+        "block": "0x36eda9b",
+        "latencyMs": 112
+      },
+      {
+        "slug": "limitless",
+        "chain_id": "base",
+        "address": "0xF1De958F8641448A5ba78c01f434085385Af096D",
+        "address_kind": "contract",
+        "role": "CTF exchange venue",
+        "source_url": "https://docs.limitless.exchange/user-guide/smart-contracts.md",
+        "verified": true,
+        "codeBytes": 17060,
+        "codeSha256": "0a7d999dbaa1e732963f1f3ba35df70d2591f7c09f334b5c32fc4975b8e066cd",
+        "block": "0x36eda9b",
+        "latencyMs": 113
+      },
+      {
+        "slug": "limitless",
+        "chain_id": "base",
+        "address": "0xe3E00BA3a9888d1DE4834269f62ac008b4BB5C47",
+        "address_kind": "contract",
+        "role": "CTF exchange venue",
+        "source_url": "https://docs.limitless.exchange/user-guide/smart-contracts.md",
+        "verified": true,
+        "codeBytes": 17178,
+        "codeSha256": "1e0eb14a3d576ac2f1f7bcdd4513b132822af6410e854bcd8881ed6eda055a7f",
+        "block": "0x36eda9b",
+        "latencyMs": 110
+      },
+      {
+        "slug": "limitless",
+        "chain_id": "base",
+        "address": "0x46e607D3f4a8494B0aB9b304d1463e2F4848891d",
+        "address_kind": "contract",
+        "role": "CTF exchange venue",
+        "source_url": "https://docs.limitless.exchange/user-guide/smart-contracts.md",
+        "verified": true,
+        "codeBytes": 17060,
+        "codeSha256": "9ca9223b41506e58780a23965e4a4e84a6ee1edbcc673e150c6f7bd71c6fe381",
+        "block": "0x36eda9b",
+        "latencyMs": 111
+      },
+      {
+        "slug": "limitless",
+        "chain_id": "base",
+        "address": "0x5a38afc17F7E97ad8d6C547ddb837E40B4aEDfC6",
+        "address_kind": "contract",
+        "role": "CTF exchange venue",
+        "source_url": "https://docs.limitless.exchange/user-guide/smart-contracts.md",
+        "verified": true,
+        "codeBytes": 19366,
+        "codeSha256": "4a032036b2669331b2aec2e2d2bf30f303cb542e4b494ebaf88d618191f5d77b",
+        "block": "0x36eda9b",
+        "latencyMs": 117
+      },
+      {
+        "slug": "clanker",
+        "chain_id": "base",
+        "address": "0x572e88D3cD7f23E4241EB6ceDD96667271bF09A0",
+        "address_kind": "contract",
+        "role": "V5 factory",
+        "source_url": "https://docs.clanker.world/references/deployed-contracts.md",
+        "verified": true,
+        "codeBytes": 23776,
+        "codeSha256": "e946b873a0d27554dcec40d56d68b017e23592dfe27653571e29b4ec193d828f",
+        "block": "0x36eda9b",
+        "latencyMs": 113
+      },
+      {
+        "slug": "maple-finance",
+        "chain_id": "base",
+        "address": "0xDd5Bb9aCF5E02089735A33344c6e3A8BB0d4075D",
+        "address_kind": "contract",
+        "role": "cashUSDC pool",
+        "source_url": "https://raw.githubusercontent.com/maple-labs/address-registry/main/MapleAddressRegistryBASEL2.md",
+        "verified": true,
+        "codeBytes": 11660,
+        "codeSha256": "fe90cfb2c496a538c782e41a54da78a42094a7539ea0d890e316dc05089097bf",
+        "block": "0x36eda9b",
+        "latencyMs": 405
+      },
+      {
+        "slug": "venus",
+        "chain_id": "bnb-smart-chain",
+        "address": "0xfD36E2c2a6789Db23113685031d7F16329158384",
+        "address_kind": "contract",
+        "role": "Core pool Comptroller",
+        "source_url": "https://docs-v4.venus.io/deployed-contracts/markets",
+        "verified": true,
+        "codeBytes": 1508,
+        "codeSha256": "0e57f7d625b6abc4f46ea5c50ba678a0feff60dbffe929cbd715dc425cb13026",
+        "block": "0x7f76c66",
+        "latencyMs": 111
+      },
+      {
+        "slug": "beefy",
+        "chain_id": "bnb-smart-chain",
+        "address": "0x85B792C67cEe281064eb7A3AF0Fe2A76E9a7849e",
+        "address_kind": "contract",
+        "role": "BeefyWrapper",
+        "source_url": "https://raw.githubusercontent.com/beefyfinance/beefy-docs/master/developer-documentation/other-beefy-contracts/beefywrapper-contract.md",
+        "verified": true,
+        "codeBytes": 1304,
+        "codeSha256": "84a603e8da5a18d0e1099ebd7c9985b5cc244bb8111eb52ce53892bd43a5775c",
+        "block": "0x7f76c66",
+        "latencyMs": 111
+      },
+      {
+        "slug": "pyth-network",
+        "chain_id": "bnb-smart-chain",
+        "address": "0x4D7E825f80bDf85e913E0DD2A2D54927e9dE1594",
+        "address_kind": "contract",
+        "role": "Pyth Core oracle",
+        "source_url": "https://docs.pyth.network/pro/contract-addresses",
+        "verified": true,
+        "codeBytes": 680,
+        "codeSha256": "08b9bbb72c80acecd7c6ad12b7debb1bf14a0f6fd8a5446fa54fe686eb397b28",
+        "block": "0x7f76c66",
+        "latencyMs": 277
+      },
+      {
+        "slug": "predict-fun",
+        "chain_id": "bnb-smart-chain",
+        "address": "0x6bEb5a40C032AFc305961162d8204CDA16DECFa5",
+        "address_kind": "contract",
+        "role": "Yield-bearing CTF exchange",
+        "source_url": "https://dev.predict.fun/resources/deployed-contracts",
+        "verified": true,
+        "codeBytes": 13403,
+        "codeSha256": "c09400f869f562304f81149e4a13c976c3248129af309e0451c2c95c1f6851aa",
+        "block": "0x7f76c66",
+        "latencyMs": 108
+      },
+      {
+        "slug": "across",
+        "chain_id": "bnb-smart-chain",
+        "address": "0x4e8E101924eDE233C13e2D8622DC8aED2872d505",
+        "address_kind": "contract",
+        "role": "SpokePool",
+        "source_url": "https://docs.across.to/chains-and-contracts",
+        "verified": true,
+        "codeBytes": 680,
+        "codeSha256": "f30e969f2540174ec5474f1b84b6f3103df61d7d5bd84daf594e286bbcd06a9d",
+        "block": "0x7f76c66",
+        "latencyMs": 111
+      },
+      {
+        "slug": "request-network",
+        "chain_id": "bnb-smart-chain",
+        "address": "0xC6E23a20C0a1933ACC8E30247B5D1e2215796C1F",
+        "address_kind": "contract",
+        "role": "Native-token fee proxy",
+        "source_url": "https://request.network/disclaimer/",
+        "verified": true,
+        "codeBytes": 2256,
+        "codeSha256": "294116d4264733ba9c870064dfeec13617d808f348ed440c45e9956921ad168b",
+        "block": "0x7f76c66",
+        "latencyMs": 112
+      },
+      {
+        "slug": "four-meme",
+        "chain_id": "bnb-smart-chain",
+        "address": "0x5c952063c7fc8610FFDB798152D69F0B9550762b",
+        "address_kind": "contract",
+        "role": "TokenManager2",
+        "source_url": "https://raw.githubusercontent.com/four-meme-community/fourmeme-docs/main/docs/integration-guide.md",
+        "verified": true,
+        "codeBytes": 170,
+        "codeSha256": "cf41458f0c80316a69305f507677441ae2e0501592ebd96532770230fc92b974",
+        "block": "0x7f76c66",
+        "latencyMs": 109
+      },
+      {
+        "slug": "predict-fun",
+        "chain_id": "bnb-smart-chain",
+        "address": "0x8BC070BEdAB741406F4B1Eb65A72bee27894B689",
+        "address_kind": "contract",
+        "role": "Non-yield CTF exchange",
+        "source_url": "https://dev.predict.fun/resources/deployed-contracts",
+        "verified": true,
+        "codeBytes": 13403,
+        "codeSha256": "4d551ebe79511aa2706564bf972f3788a3a60fd84b998528f4b575b7f78a2359",
+        "block": "0x7f76c66",
+        "latencyMs": 113
+      },
+      {
+        "slug": "clanker",
+        "chain_id": "bnb-smart-chain",
+        "address": "0xcA111dcdd2cE924c3378d6514fDCbC46217bcA16",
+        "address_kind": "contract",
+        "role": "V5 factory",
+        "source_url": "https://docs.clanker.world/references/deployed-contracts.md",
+        "verified": true,
+        "codeBytes": 23776,
+        "codeSha256": "6751ad3ebe20d8b0825851642240a154ea4e4da066616e6fa5ed9288a9501210",
+        "block": "0x7f76c66",
+        "latencyMs": 114
+      },
+      {
+        "slug": "orca",
+        "chain_id": "solana",
+        "address": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+        "address_kind": "program",
+        "role": "Whirlpools program",
+        "source_url": "https://raw.githubusercontent.com/orca-so/whirlpools/main/Anchor.toml",
+        "verified": true,
+        "owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+        "executable": true,
+        "slot": 469562085,
+        "latencyMs": 108
+      },
+      {
+        "slug": "meteora",
+        "chain_id": "solana",
+        "address": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+        "address_kind": "program",
+        "role": "DLMM program",
+        "source_url": "https://raw.githubusercontent.com/MeteoraAg/dlmm-sdk/main/ts-client/src/dlmm/constants/index.ts",
+        "verified": true,
+        "owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+        "executable": true,
+        "slot": 469562085,
+        "latencyMs": 108
+      },
+      {
+        "slug": "jito",
+        "chain_id": "solana",
+        "address": "Jito4APyf642JPZPx3hGc6WWJ8zPKtRbRs4P815Awbb",
+        "address_kind": "account",
+        "role": "Jito stake-pool state",
+        "source_url": "https://www.jito.network/stakepool/Jito4APyf642JPZPx3hGc6WWJ8zPKtRbRs4P815Awbb/",
+        "verified": true,
+        "owner": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+        "executable": false,
+        "slot": 469562085,
+        "latencyMs": 108
+      },
+      {
+        "slug": "paypal-usd",
+        "chain_id": "solana",
+        "address": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+        "address_kind": "account",
+        "role": "PYUSD mint",
+        "source_url": "https://docs.paxos.com/guides/stablecoin/pyusd/mainnet",
+        "verified": true,
+        "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "executable": false,
+        "slot": 469562085,
+        "latencyMs": 108
+      },
+      {
+        "slug": "star-atlas",
+        "chain_id": "solana",
+        "address": "SAGE2HAwep459SNq61LHvjxPk4pLPEJLoMETef7f7EE",
+        "address_kind": "program",
+        "role": "SAGE program",
+        "source_url": "https://build.staratlas.com/dev-resources/mainnet-program-ids",
+        "verified": true,
+        "owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+        "executable": true,
+        "slot": 469562085,
+        "latencyMs": 108
+      },
+      {
+        "slug": "star-atlas",
+        "chain_id": "solana",
+        "address": "traderDnaR5w6Tcoi3NFm53i48FTDNbGjBSZwWXDRrg",
+        "address_kind": "program",
+        "role": "Marketplace program",
+        "source_url": "https://build.staratlas.com/dev-resources/mainnet-program-ids",
+        "verified": true,
+        "owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+        "executable": true,
+        "slot": 469562085,
+        "latencyMs": 108
+      },
+      {
+        "slug": "tensor",
+        "chain_id": "solana",
+        "address": "TCMPhJdwDryooaGtiocG1u3xcYbRpiJzb283XfCZsDp",
+        "address_kind": "program",
+        "role": "Tensor Core marketplace",
+        "source_url": "https://docs.tensor.foundation/protocols.md",
+        "verified": true,
+        "owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+        "executable": true,
+        "slot": 469562085,
+        "latencyMs": 108
+      },
+      {
+        "slug": "pyth-network",
+        "chain_id": "solana",
+        "address": "rec5EKMGg6MxZYaMdyBfgwp4d5rB9T1VQH5pJv5LtFJ",
+        "address_kind": "program",
+        "role": "Pyth Core receiver",
+        "source_url": "https://docs.pyth.network/pro/contract-addresses",
+        "verified": true,
+        "owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+        "executable": true,
+        "slot": 469562085,
+        "latencyMs": 108
+      },
+      {
+        "slug": "helium",
+        "chain_id": "solana",
+        "address": "hemjuPXBpNvggtaUnN1MwT3wrdhttKEfosTcc2P9Pg8",
+        "address_kind": "program",
+        "role": "Helium entity manager",
+        "source_url": "https://raw.githubusercontent.com/helium/helium-program-library/master/Anchor.toml",
+        "verified": true,
+        "owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+        "executable": true,
+        "slot": 469562085,
+        "latencyMs": 107
+      },
+      {
+        "slug": "ondo-finance",
+        "chain_id": "solana",
+        "address": "i7u4r16TcsJTgq1kAG8opmVZyVnAKBwLKu6ZPMwzxNc",
+        "address_kind": "account",
+        "role": "OUSG fund mint",
+        "source_url": "https://docs.ondo.finance/addresses.md",
+        "verified": true,
+        "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+        "executable": false,
+        "slot": 469562085,
+        "latencyMs": 107
+      },
+      {
+        "slug": "blackrock-buidl",
+        "chain_id": "solana",
+        "address": "GyWgeqpy5GueU2YbkE8xqUeVEokCMMCEeUrfbtMw6phr",
+        "address_kind": "account",
+        "role": "BUIDL Solana share-class mint",
+        "source_url": "https://investors.securitize.io/news/news-details/2025/BlackRock-and-Securitize-Debut-New-BUIDL-Share-Class-on-Solana-Network-03-25-2025/",
+        "verified": true,
+        "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "executable": false,
+        "slot": 469562085,
+        "latencyMs": 107
+      },
+      {
+        "slug": "wormhole",
+        "chain_id": "ethereum",
+        "address": "0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "address_kind": "contract",
+        "role": "Wrapped Token Transfer bridge",
+        "source_url": "https://wormhole.com/docs/reference/contract-addresses/",
+        "verified": true,
+        "codeBytes": 680,
+        "codeSha256": "a7a1cfb74fdaa9a3054e0bcb5655876ca6d1c24501106ab7c0727c8fe5d18b05",
+        "block": "0x19318fe",
+        "latencyMs": 471
+      },
+      {
+        "slug": "manifold",
+        "chain_id": "ethereum",
+        "address": "0x5133522ea5A0494EcB83F26311A095DDD7a9D4b6",
+        "address_kind": "contract",
+        "role": "Creator Core immutable implementation",
+        "source_url": "https://docs.manifold.xyz/manifold-for-developers/smart-contracts/manifold-creator/contracts.md",
+        "track_metrics": false,
+        "verified": true,
+        "codeBytes": 24194,
+        "codeSha256": "b4a7d43b965a7031c37f887834ef200e2936274f9988d3f05b5e21dd68c2ac3f",
+        "block": "0x19318fe",
+        "latencyMs": 578
+      },
+      {
+        "slug": "manifold",
+        "chain_id": "ethereum",
+        "address": "0xE9FF7CA11280553Af56d04Ecb8Be6B8c4468DCB2",
+        "address_kind": "contract",
+        "role": "Creator Core immutable implementation",
+        "source_url": "https://docs.manifold.xyz/manifold-for-developers/smart-contracts/manifold-creator/contracts.md",
+        "track_metrics": false,
+        "verified": true,
+        "codeBytes": 24560,
+        "codeSha256": "e4ef9f12031c39f734153a74ba8543656d12f3d0d0e75543b9587f07c503f40f",
+        "block": "0x19318fe",
+        "latencyMs": 481
+      },
+      {
+        "slug": "zora",
+        "chain_id": "base",
+        "address": "0x777777751622c0d3258f214F9DF38E35BF45baF3",
+        "address_kind": "contract",
+        "role": "Coins factory",
+        "source_url": "https://docs.zora.co/coins/contracts/creating-a-coin",
+        "verified": true,
+        "codeBytes": 130,
+        "codeSha256": "2092e47dc5ae03263bc3e859471dd8725edd9583812d32187d89593c7ae8f0d7",
+        "block": "0x36eda9b",
+        "latencyMs": 362
+      },
+      {
+        "slug": "wormhole",
+        "chain_id": "base",
+        "address": "0x8d2de8d2f73F1F4cAB472AC9A881C9b123C79627",
+        "address_kind": "contract",
+        "role": "Wrapped Token Transfer bridge",
+        "source_url": "https://wormhole.com/docs/reference/contract-addresses/",
+        "verified": true,
+        "codeBytes": 680,
+        "codeSha256": "e47e395282753fe012174dc9ebfafd04971c0ec53ce5f99fe2c1ea2c86d89f8a",
+        "block": "0x36eda9b",
+        "latencyMs": 365
+      },
+      {
+        "slug": "wormhole",
+        "chain_id": "bnb-smart-chain",
+        "address": "0xB6F6D86a8f9879A9c87f643768d9efc38c1Da6E7",
+        "address_kind": "contract",
+        "role": "Wrapped Token Transfer bridge",
+        "source_url": "https://wormhole.com/docs/reference/contract-addresses/",
+        "verified": true,
+        "codeBytes": 729,
+        "codeSha256": "d28ea09bacd46795ac9bb88eb4b22a3f818153044473476a86190cac7085c3f9",
+        "block": "0x7f76c66",
+        "latencyMs": 383
+      },
+      {
+        "slug": "wormhole",
+        "chain_id": "solana",
+        "address": "wormDTUJ6AWPNvk59vGQbDvGJmqbDTdgWgAqcLBCgUb",
+        "address_kind": "program",
+        "role": "Wrapped Token Transfer bridge",
+        "source_url": "https://wormhole.com/docs/reference/contract-addresses/",
+        "verified": true,
+        "owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+        "executable": true,
+        "slot": 469562636,
+        "latencyMs": 353
+      }
+    ],
+    "errors": []
+  },
+  "logos": [
+    {
+      "slug": "meteora",
+      "url": "https://www.meteora.ag/icons/v2.svg",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "morpho",
+      "url": "https://morpho.org/favicon.ico",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "orca",
+      "url": "https://www.orca.so/images/favicon.png",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "yearn",
+      "url": "https://yearn.fi/favicons/favicon.ico",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "venus",
+      "url": "https://venus.io/android-chrome-192x192.png",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "beefy",
+      "url": "https://beefy.com/favicon-32x32.png?v=0db6b4a852066745600f76703c0c3464",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "lido",
+      "url": "https://coin-images.coingecko.com/coins/images/13573/small/Lido_DAO.png?1696513326",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "jito",
+      "url": "https://coin-images.coingecko.com/coins/images/33228/small/jto.png?1701137022",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "synfutures",
+      "url": "https://www.synfutures.com/favicon/favicon-32.png",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "synthetix",
+      "url": "https://synthetix.io/favicon/favicon.svg",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "ethena",
+      "url": "https://ethena.fi/shared/favicon.ico",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "paypal-usd",
+      "url": "https://www.paypal.com/favicon.ico",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "star-atlas",
+      "url": "https://staratlas.com/Icon.png",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "stepn",
+      "url": "https://framerusercontent.com/images/bCLbJl2ac8GO23IRlQoxNroWoLY.svg",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "decentraland",
+      "url": "https://cdn.decentraland.org/@dcl/sites/0.82.0/favicon.ico",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "opensea",
+      "url": "https://opensea.io/favicon.ico",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "the-sandbox",
+      "url": "https://www.sandbox.game/favicon.ico",
+      "availability": "unavailable to the probe; existing UI fallback applies"
+    },
+    {
+      "slug": "tensor",
+      "url": "https://www.tensor.trade/favicons/favicon.ico",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "cryptopunks",
+      "url": "https://www.cryptopunks.app/images/favicon.png",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "art-blocks",
+      "url": "https://www.artblocks.io/favicon-32x32.png",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "bored-ape-yacht-club",
+      "url": "https://boredapeyachtclub.com/favicon.ico?favicon.34__unzefa-l2.ico",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "farcaster",
+      "url": "https://farcaster.xyz/favicon-v3.png",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "manifold",
+      "url": "https://manifold.xyz/assets/logo/favicon-black.svg",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "metamask",
+      "url": "https://metamask.com/favicons/default/apple-touch-icon.png",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "zora",
+      "url": "https://zora.co/favicon.ico",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "phantom",
+      "url": "https://phantom.com/_web_platform_assets/favicon-96x96.png",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "dune",
+      "url": "https://dune.com/favicon.ico",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "the-graph",
+      "url": "https://storage.thegraph.com/favicons/64x64.png",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "pyth-network",
+      "url": "https://framerusercontent.com/images/3i2OuCNwSBWriCGmMsfn8O20Bes.png",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "api3",
+      "url": "https://api3.org/apple-touch-icon.png",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "ankr",
+      "url": "https://www.ankr.com/static/favicon/apple-touch-icon.png",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "pocket-network",
+      "url": "https://pocket.network/wp-content/uploads/2026/09/cropped-Pocket-Icon-32x32.png",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "space-id",
+      "url": "https://static.space.id/favicon.ico",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "thirdweb",
+      "url": "https://framerusercontent.com/images/6UCnwoW4U3z16zLNLf31n4ZkyY.png",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "alchemy",
+      "url": "https://www.alchemy.com/favicon.ico?favicon.0uwsnyenjwqaz.ico",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "wormhole",
+      "url": "https://wormhole.com/favicon.ico?favicon.00arheyd-cs4p.ico",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "across",
+      "url": "https://across.to/favicon.svg",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "eas",
+      "url": "https://attest.org/icon.png?icon.0~f2x7_t.00mm.png",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "request-network",
+      "url": "https://request.network/wp-content/uploads/2026/03/cropped-favicon-32x32.png",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "aragon",
+      "url": "https://cdn.prod.website-files.com/6ae0998d13a07b0ac9a986e9/6aedd06be1458810b212d400_ar-social-icon-white.png",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "moonpay-commerce",
+      "url": "https://www.moonpay.com/favicon.ico?favicon.3zdiiog6nw5qp.ico",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "snapshot",
+      "url": "https://snapshot.box/favicon.svg",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "virtuals-protocol",
+      "url": "https://www.virtuals.io/favicon.ico",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "helium",
+      "url": "https://framerusercontent.com/images/6TFcIJwmOq1tPat18K1XwdNNgdA.png",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "elizaos",
+      "url": "https://eliza.app/brand/favicons/favicon.svg",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "roam",
+      "url": "https://framerusercontent.com/images/boNw8E6nV4ca1lchUoYegjKIKQ.png",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "io-net",
+      "url": "https://io.net/icons/favicon-source.svg",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "render-network",
+      "url": "https://rendernetwork.com/apple-touch-icon.png",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "natix-network",
+      "url": "https://cdn.prod.website-files.com/65ae82ef7e37a0d48a19fd64/660d08746873bb411e58d1bb_favicon%20Logo%20%2032.jpg",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "limitless",
+      "url": "https://limitless.exchange/apple-touch-icon.png",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "ondo-finance",
+      "url": "https://ondo.finance/favicon.ico",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "predict-fun",
+      "url": "https://predict.fun/favicon.ico?favicon.2wuutg9l5y6rk.ico",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "hivemapper",
+      "url": "https://hivemapper.com/favicon.ico",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "maple-finance",
+      "url": "https://maple.finance/favicon.ico",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "clearpool",
+      "url": "https://clearpool.finance/favicon.ico",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "tether-gold",
+      "url": "https://gold.tether.to/favicon-96x96.png",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "blackrock-buidl",
+      "url": "https://securitize.io/favicon.svg",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "matrixdock-gold",
+      "url": "https://www.matrixdock.com/favicon.ico",
+      "availability": "unavailable to the probe; existing UI fallback applies"
+    },
+    {
+      "slug": "clanker",
+      "url": "https://www.clanker.world/favicon.ico?favicon.0m9f-frop6ea7.ico",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "sequence",
+      "url": "https://sequence.xyz/favicon.ico",
+      "availability": "image response verified"
+    },
+    {
+      "slug": "four-meme",
+      "url": "https://four.meme/favicon.ico",
+      "availability": "image response verified"
+    }
+  ]
+}

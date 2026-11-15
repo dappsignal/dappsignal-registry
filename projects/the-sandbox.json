@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "slug": "the-sandbox",
+  "name": "The Sandbox",
+  "tagline": "A virtual-world platform with tokenized LAND and creator-owned experiences.",
+  "description": "A virtual-world platform with tokenized LAND and creator-owned experiences. Activity coverage is limited to Ethereum LAND NFT.",
+  "logo_url": "https://www.sandbox.game/favicon.ico",
+  "website_url": "https://www.sandbox.game/",
+  "social_links": {
+    "docs": "https://docs.sandbox.game/en/owners/land/buy-land/opensea/legitimate-lands.md"
+  },
+  "primary_category_id": "games",
+  "subcategory_id": "virtual-worlds",
+  "tags": [
+    "virtual-worlds"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address": "0x5CC5B05a8A13E3fBDB0BB9FcCd98D38e50F90c38",
+          "address_kind": "contract"
+        }
+      ]
+    }
+  ]
+}

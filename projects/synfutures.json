@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "slug": "synfutures",
+  "name": "SynFutures",
+  "tagline": "On-chain perpetual futures using the Oyster AMM trading protocol.",
+  "description": "On-chain perpetual futures using the Oyster AMM trading protocol. Activity coverage is limited to Oyster Gate.",
+  "logo_url": "https://www.synfutures.com/favicon/favicon-32.png",
+  "website_url": "https://www.synfutures.com/",
+  "social_links": {
+    "docs": "https://docs.synfutures.com/developer/smart-contract-addresses/base-network.md"
+  },
+  "primary_category_id": "defi",
+  "subcategory_id": "derivatives",
+  "tags": [
+    "derivatives"
+  ],
+  "chains": [
+    {
+      "chain_id": "base",
+      "addresses": [
+        {
+          "address": "0x208B443983D8BcC8578e9D86Db23FbA547071270",
+          "address_kind": "contract"
+        }
+      ]
+    }
+  ]
+}

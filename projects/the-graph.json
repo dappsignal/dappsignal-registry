@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "slug": "the-graph",
+  "name": "The Graph",
+  "tagline": "Blockchain indexing and data-query infrastructure for application developers.",
+  "description": "Blockchain indexing and data-query infrastructure for application developers. This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics.",
+  "logo_url": "https://storage.thegraph.com/favicons/64x64.png",
+  "website_url": "https://thegraph.com/",
+  "social_links": {},
+  "primary_category_id": "infrastructure",
+  "subcategory_id": "data-analytics",
+  "tags": [
+    "data-analytics"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": []
+    },
+    {
+      "chain_id": "base",
+      "addresses": []
+    },
+    {
+      "chain_id": "bnb-smart-chain",
+      "addresses": []
+    },
+    {
+      "chain_id": "solana",
+      "addresses": []
+    }
+  ]
+}

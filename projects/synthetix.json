@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "slug": "synthetix",
+  "name": "Synthetix",
+  "tagline": "Derivatives trading and settlement infrastructure on Ethereum.",
+  "description": "Derivatives trading and settlement infrastructure on Ethereum. Activity coverage is limited to Mainnet deposit proxy.",
+  "logo_url": "https://synthetix.io/favicon/favicon.svg",
+  "website_url": "https://www.synthetix.io/",
+  "social_links": {},
+  "primary_category_id": "defi",
+  "subcategory_id": "derivatives",
+  "tags": [
+    "derivatives"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address": "0xD62595c3c23B690BAEE0935e107A209Cb1Dbd37B",
+          "address_kind": "contract"
+        }
+      ]
+    }
+  ]
+}

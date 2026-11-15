@@ -48,3 +48,11 @@ Reviewed mappings default to track_metrics=true and exclusive tracking. Use trac
 ## Projects on shared infrastructure
 
 A project can list on supported chains without a dedicated contract. For example, use {"chain_id":"base","addresses":[]} for an Orderly-hosted project with no project-specific address. Reviewers verify the project and its supported chain separately. Empty mappings create no activity metrics and grant no wallet ownership proof. Add project-specific mappings later through a reviewed update. Shared collateral tokens alone do not establish broker-specific activity.
+
+## Four-chain catalog review — 2026-11-15
+
+The owner approved adding every suitable project from the proposed catalog. The review adds 60 of the 62 candidates and Sequence to cover game infrastructure: 61 new profiles, with all 13 main categories and all 24 subcategories represented. Immutable and Ronin are excluded because their native gaming chains are outside the launch scope. Farcaster is included for Base/Solana mini-app integrations; its Optimism identity contracts are not mapped.
+
+See [the source and mainnet verification record](catalog-review-2026-11-15.json) for each project's classification, supported chains, official source URLs, selected address roles, bytecode/account checks, and exclusions. The 66 added address mappings were checked against mainnet identity and live code/account existence. Manifold's two immutable implementations are display-only; proxy activity cannot be inferred from implementation calls. Software/services without a verified dedicated activity address are profile listings with empty mappings under the existing policy.
+
+These are bounded catalog mappings, not exhaustive protocol metrics or approval of archive coverage, historical USD valuation, endorsements, investment suitability, or chain-wide usage attribution. Existing projects and their reviewed tracking settings are unchanged. External image availability can change; the application handles unavailable logos with its existing fallback.

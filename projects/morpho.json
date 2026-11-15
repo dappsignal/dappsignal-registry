@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "slug": "morpho",
+  "name": "Morpho",
+  "tagline": "Permissionless lending markets and curated lending vaults.",
+  "description": "Permissionless lending markets and curated lending vaults. Activity coverage is limited to Morpho Blue singleton.",
+  "logo_url": "https://morpho.org/favicon.ico",
+  "website_url": "https://morpho.org/",
+  "social_links": {
+    "docs": "https://docs.morpho.org/developers/contracts/addresses/"
+  },
+  "primary_category_id": "defi",
+  "subcategory_id": "lending",
+  "tags": [
+    "lending"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "address_kind": "contract"
+        }
+      ]
+    },
+    {
+      "chain_id": "base",
+      "addresses": [
+        {
+          "address": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "address_kind": "contract"
+        }
+      ]
+    }
+  ]
+}

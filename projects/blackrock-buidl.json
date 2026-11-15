@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "slug": "blackrock-buidl",
+  "name": "BlackRock BUIDL",
+  "tagline": "BlackRock's tokenized institutional liquidity fund, issued through Securitize.",
+  "description": "BlackRock's tokenized institutional liquidity fund, issued through Securitize. Activity coverage is limited to BUIDL Solana share-class mint.",
+  "logo_url": "https://securitize.io/favicon.svg",
+  "website_url": "https://securitize.io/",
+  "social_links": {},
+  "primary_category_id": "real-world-assets",
+  "subcategory_id": "tokenized-funds",
+  "tags": [
+    "tokenized-funds"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": []
+    },
+    {
+      "chain_id": "solana",
+      "addresses": [
+        {
+          "address": "GyWgeqpy5GueU2YbkE8xqUeVEokCMMCEeUrfbtMw6phr",
+          "address_kind": "account"
+        }
+      ]
+    }
+  ]
+}

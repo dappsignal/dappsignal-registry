@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "slug": "paypal-usd",
+  "name": "PayPal USD",
+  "tagline": "Paxos-issued dollar stablecoin available on Ethereum and Solana.",
+  "description": "Paxos-issued dollar stablecoin available on Ethereum and Solana. Activity coverage is limited to PYUSD token, PYUSD mint.",
+  "logo_url": "https://www.paypal.com/favicon.ico",
+  "website_url": "https://www.paypal.com/pyusd",
+  "social_links": {
+    "docs": "https://docs.paxos.com/guides/stablecoin/pyusd/mainnet"
+  },
+  "primary_category_id": "defi",
+  "subcategory_id": "stablecoins",
+  "tags": [
+    "stablecoins"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8",
+          "address_kind": "contract"
+        }
+      ]
+    },
+    {
+      "chain_id": "solana",
+      "addresses": [
+        {
+          "address": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+          "address_kind": "account"
+        }
+      ]
+    }
+  ]
+}

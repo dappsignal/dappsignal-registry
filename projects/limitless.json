@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "slug": "limitless",
+  "name": "Limitless",
+  "tagline": "Prediction-market trading with on-chain settlement on Base.",
+  "description": "Prediction-market trading with on-chain settlement on Base. Activity coverage is limited to CTF exchange venue.",
+  "logo_url": "https://limitless.exchange/apple-touch-icon.png",
+  "website_url": "https://limitless.exchange/",
+  "social_links": {
+    "docs": "https://docs.limitless.exchange/user-guide/smart-contracts.md"
+  },
+  "primary_category_id": "prediction-markets",
+  "tags": [
+    "prediction-markets"
+  ],
+  "chains": [
+    {
+      "chain_id": "base",
+      "addresses": [
+        {
+          "address": "0xa4409D988CA2218d956BeEFD3874100F444f0DC3",
+          "address_kind": "contract"
+        },
+        {
+          "address": "0xF1De958F8641448A5ba78c01f434085385Af096D",
+          "address_kind": "contract"
+        },
+        {
+          "address": "0x05c748E2f4DcDe0ec9Fa8DDc40DE6b867f923fa5",
+          "address_kind": "contract"
+        },
+        {
+          "address": "0x5a38afc17F7E97ad8d6C547ddb837E40B4aEDfC6",
+          "address_kind": "contract"
+        },
+        {
+          "address": "0x46e607D3f4a8494B0aB9b304d1463e2F4848891d",
+          "address_kind": "contract"
+        },
+        {
+          "address": "0xe3E00BA3a9888d1DE4834269f62ac008b4BB5C47",
+          "address_kind": "contract"
+        }
+      ]
+    }
+  ]
+}

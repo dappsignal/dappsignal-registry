@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "slug": "clearpool",
+  "name": "Clearpool",
+  "tagline": "On-chain credit-market infrastructure and institutional lending pools.",
+  "description": "On-chain credit-market infrastructure and institutional lending pools. Activity coverage is limited to Pool factory.",
+  "logo_url": "https://clearpool.finance/favicon.ico",
+  "website_url": "https://clearpool.finance/",
+  "social_links": {
+    "docs": "https://docs.clearpool.finance/clearpool/security/smart-contracts.md"
+  },
+  "primary_category_id": "real-world-assets",
+  "subcategory_id": "tokenized-credit",
+  "tags": [
+    "tokenized-credit"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address": "0xdE204e5a060bA5d3B63C7A4099712959114c2D48",
+          "address_kind": "contract"
+        }
+      ]
+    }
+  ]
+}

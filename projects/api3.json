@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "slug": "api3",
+  "name": "API3",
+  "tagline": "A fixed-supply Ethereum DAO with Snapshot governance.",
+  "description": "A fixed-supply Ethereum DAO with Snapshot governance. The current API3 DAO supersedes the retired staking DAO. This profile describes governance, rather than attributing token transfers to oracle usage.",
+  "logo_url": "https://api3.org/apple-touch-icon.png",
+  "website_url": "https://api3.org/",
+  "social_links": {
+    "docs": "https://docs.api3.org/dao/"
+  },
+  "primary_category_id": "dao-governance",
+  "tags": [
+    "dao-governance"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": []
+    }
+  ]
+}

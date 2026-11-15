@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "slug": "io-net",
+  "name": "io.net",
+  "tagline": "A distributed GPU compute network with blockchain-based payments and incentives.",
+  "description": "A distributed GPU compute network with blockchain-based payments and incentives. This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics.",
+  "logo_url": "https://io.net/icons/favicon-source.svg",
+  "website_url": "https://io.net/",
+  "social_links": {},
+  "primary_category_id": "ai-depin",
+  "subcategory_id": "compute-storage",
+  "tags": [
+    "compute-storage"
+  ],
+  "chains": [
+    {
+      "chain_id": "solana",
+      "addresses": []
+    }
+  ]
+}

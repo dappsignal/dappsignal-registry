@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "slug": "ethena",
+  "name": "Ethena USDe",
+  "tagline": "Synthetic dollar infrastructure and the USDe token on Ethereum.",
+  "description": "Synthetic dollar infrastructure and the USDe token on Ethereum. Activity coverage is limited to USDe token.",
+  "logo_url": "https://ethena.fi/shared/favicon.ico",
+  "website_url": "https://ethena.fi/",
+  "social_links": {
+    "docs": "https://docs.ethena.fi/api-documentation/overview.md"
+  },
+  "primary_category_id": "defi",
+  "subcategory_id": "stablecoins",
+  "tags": [
+    "stablecoins"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+          "address_kind": "contract"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "slug": "stepn",
+  "name": "STEPN",
+  "tagline": "A movement-based Web3 game using digital sneaker collectibles.",
+  "description": "A movement-based Web3 game using digital sneaker collectibles. This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics.",
+  "logo_url": "https://framerusercontent.com/images/bCLbJl2ac8GO23IRlQoxNroWoLY.svg",
+  "website_url": "https://www.stepn.com/",
+  "social_links": {},
+  "primary_category_id": "games",
+  "subcategory_id": "games-games",
+  "tags": [
+    "games-games"
+  ],
+  "chains": [
+    {
+      "chain_id": "solana",
+      "addresses": []
+    },
+    {
+      "chain_id": "bnb-smart-chain",
+      "addresses": []
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "slug": "render-network",
+  "name": "Render Network",
+  "tagline": "A distributed GPU rendering network using Solana-based payments and incentives.",
+  "description": "A distributed GPU rendering network using Solana-based payments and incentives. This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics.",
+  "logo_url": "https://rendernetwork.com/apple-touch-icon.png",
+  "website_url": "https://rendernetwork.com/",
+  "social_links": {
+    "docs": "https://know.rendernetwork.com/general-render-network/rndr-to-render-what-you-need-to-know"
+  },
+  "primary_category_id": "ai-depin",
+  "subcategory_id": "compute-storage",
+  "tags": [
+    "compute-storage"
+  ],
+  "chains": [
+    {
+      "chain_id": "solana",
+      "addresses": []
+    }
+  ]
+}

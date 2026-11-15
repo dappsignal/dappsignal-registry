@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "slug": "ondo-finance",
+  "name": "Ondo Finance",
+  "tagline": "Tokenized financial products, including treasury-backed fund tokens.",
+  "description": "Tokenized financial products, including treasury-backed fund tokens. Activity coverage is limited to OUSG fund token, OUSG fund mint.",
+  "logo_url": "https://ondo.finance/favicon.ico",
+  "website_url": "https://ondo.finance/",
+  "social_links": {
+    "docs": "https://docs.ondo.finance/addresses.md"
+  },
+  "primary_category_id": "real-world-assets",
+  "subcategory_id": "tokenized-funds",
+  "tags": [
+    "tokenized-funds"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address": "0x1B19C19393e2d034D8Ff31ff34c81252FcBbee92",
+          "address_kind": "contract"
+        }
+      ]
+    },
+    {
+      "chain_id": "solana",
+      "addresses": [
+        {
+          "address": "i7u4r16TcsJTgq1kAG8opmVZyVnAKBwLKu6ZPMwzxNc",
+          "address_kind": "account"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "slug": "across",
+  "name": "Across",
+  "tagline": "Intent-based asset transfers and cross-chain settlement.",
+  "description": "Intent-based asset transfers and cross-chain settlement. Activity coverage is limited to SpokePool.",
+  "logo_url": "https://across.to/favicon.svg",
+  "website_url": "https://across.to/",
+  "social_links": {
+    "docs": "https://docs.across.to/chains-and-contracts"
+  },
+  "primary_category_id": "bridges",
+  "tags": [
+    "bridges"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address": "0x5c7BCd6E7De5423a257D81B442095A1a6ced35C5",
+          "address_kind": "contract"
+        }
+      ]
+    },
+    {
+      "chain_id": "base",
+      "addresses": [
+        {
+          "address": "0x09aea4b2242abC8bb4BB78D537A67a245A7bEC64",
+          "address_kind": "contract"
+        }
+      ]
+    },
+    {
+      "chain_id": "bnb-smart-chain",
+      "addresses": [
+        {
+          "address": "0x4e8E101924eDE233C13e2D8622DC8aED2872d505",
+          "address_kind": "contract"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "slug": "four-meme",
+  "name": "Four.meme",
+  "tagline": "A token-launch platform with on-chain issuance and trading on BNB Chain.",
+  "description": "A token-launch platform with on-chain issuance and trading on BNB Chain. Activity coverage is limited to TokenManager2.",
+  "logo_url": "https://four.meme/favicon.ico",
+  "website_url": "https://four.meme/",
+  "social_links": {},
+  "primary_category_id": "other",
+  "tags": [
+    "other"
+  ],
+  "chains": [
+    {
+      "chain_id": "bnb-smart-chain",
+      "addresses": [
+        {
+          "address": "0x5c952063c7fc8610FFDB798152D69F0B9550762b",
+          "address_kind": "contract"
+        }
+      ]
+    }
+  ]
+}

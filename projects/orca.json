@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "slug": "orca",
+  "name": "Orca",
+  "tagline": "Concentrated-liquidity trading and liquidity pools on Solana.",
+  "description": "Concentrated-liquidity trading and liquidity pools on Solana. Activity coverage is limited to Whirlpools program.",
+  "logo_url": "https://www.orca.so/images/favicon.png",
+  "website_url": "https://www.orca.so/",
+  "social_links": {},
+  "primary_category_id": "defi",
+  "subcategory_id": "dex-trading",
+  "tags": [
+    "dex-trading"
+  ],
+  "chains": [
+    {
+      "chain_id": "solana",
+      "addresses": [
+        {
+          "address": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+          "address_kind": "program"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "slug": "bored-ape-yacht-club",
+  "name": "Bored Ape Yacht Club",
+  "tagline": "An Ethereum NFT collection and member community by Yuga Labs.",
+  "description": "An Ethereum NFT collection and member community by Yuga Labs. Activity coverage is limited to BAYC NFT.",
+  "logo_url": "https://boredapeyachtclub.com/favicon.ico?favicon.34__unzefa-l2.ico",
+  "website_url": "https://boredapeyachtclub.com/",
+  "social_links": {},
+  "primary_category_id": "nfts",
+  "subcategory_id": "nft-collections",
+  "tags": [
+    "nft-collections"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address": "0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D",
+          "address_kind": "contract"
+        }
+      ]
+    }
+  ]
+}

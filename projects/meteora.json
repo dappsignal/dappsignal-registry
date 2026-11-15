@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "slug": "meteora",
+  "name": "Meteora",
+  "tagline": "Dynamic liquidity pools and market-making infrastructure on Solana.",
+  "description": "Dynamic liquidity pools and market-making infrastructure on Solana. Activity coverage is limited to DLMM program.",
+  "logo_url": "https://www.meteora.ag/icons/v2.svg",
+  "website_url": "https://www.meteora.ag/",
+  "social_links": {},
+  "primary_category_id": "defi",
+  "subcategory_id": "dex-trading",
+  "tags": [
+    "dex-trading"
+  ],
+  "chains": [
+    {
+      "chain_id": "solana",
+      "addresses": [
+        {
+          "address": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+          "address_kind": "program"
+        }
+      ]
+    }
+  ]
+}

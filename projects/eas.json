@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "slug": "eas",
+  "name": "Ethereum Attestation Service",
+  "tagline": "An open protocol for creating and verifying structured on-chain attestations.",
+  "description": "An open protocol for creating and verifying structured on-chain attestations. Activity coverage is limited to EAS attestation registry.",
+  "logo_url": "https://attest.org/icon.png?icon.0~f2x7_t.00mm.png",
+  "website_url": "https://attest.org/",
+  "social_links": {},
+  "primary_category_id": "infrastructure",
+  "subcategory_id": "identity",
+  "tags": [
+    "identity"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address": "0xA1207F3BBa224E2c9c3c6D5aF63D0eb1582Ce587",
+          "address_kind": "contract"
+        }
+      ]
+    },
+    {
+      "chain_id": "base",
+      "addresses": [
+        {
+          "address": "0x4200000000000000000000000000000000000021",
+          "address_kind": "contract"
+        }
+      ]
+    }
+  ]
+}

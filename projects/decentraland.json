@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "slug": "decentraland",
+  "name": "Decentraland",
+  "tagline": "A virtual world with Ethereum-based LAND and estate ownership.",
+  "description": "A virtual world with Ethereum-based LAND and estate ownership. Activity coverage is limited to LAND NFT.",
+  "logo_url": "https://cdn.decentraland.org/@dcl/sites/0.82.0/favicon.ico",
+  "website_url": "https://decentraland.org/",
+  "social_links": {
+    "docs": "https://docs.decentraland.org/apis/apis/atlas-server/nft-metadata.md"
+  },
+  "primary_category_id": "games",
+  "subcategory_id": "virtual-worlds",
+  "tags": [
+    "virtual-worlds"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address": "0xf87e31492faf9a91b02ee0deaad50d51d56d5d4d",
+          "address_kind": "contract"
+        }
+      ]
+    }
+  ]
+}

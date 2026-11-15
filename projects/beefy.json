@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "slug": "beefy",
+  "name": "Beefy",
+  "tagline": "Multichain yield vaults and automated compounding tools.",
+  "description": "Multichain yield vaults and automated compounding tools. Activity coverage is limited to BeefyWrapper.",
+  "logo_url": "https://beefy.com/favicon-32x32.png?v=0db6b4a852066745600f76703c0c3464",
+  "website_url": "https://beefy.com/",
+  "social_links": {},
+  "primary_category_id": "defi",
+  "subcategory_id": "yield",
+  "tags": [
+    "yield"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address": "0x62fcbc7c3235950eD6dE4168fbd373aF9e8ee0fc",
+          "address_kind": "contract"
+        }
+      ]
+    },
+    {
+      "chain_id": "base",
+      "addresses": [
+        {
+          "address": "0x917447f8f52E7Db26cE7f52BE2F3fcb4d4D00832",
+          "address_kind": "contract"
+        }
+      ]
+    },
+    {
+      "chain_id": "bnb-smart-chain",
+      "addresses": [
+        {
+          "address": "0x85B792C67cEe281064eb7A3AF0Fe2A76E9a7849e",
+          "address_kind": "contract"
+        }
+      ]
+    }
+  ]
+}

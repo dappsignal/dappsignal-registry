@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "slug": "lido",
+  "name": "Lido",
+  "tagline": "Liquid Ethereum staking through the Lido protocol and stETH.",
+  "description": "Liquid Ethereum staking through the Lido protocol and stETH. Activity coverage is limited to Lido stETH pool.",
+  "logo_url": "https://coin-images.coingecko.com/coins/images/13573/small/Lido_DAO.png?1696513326",
+  "website_url": "https://lido.fi/",
+  "social_links": {
+    "docs": "https://docs.lido.fi/deployed-contracts/"
+  },
+  "primary_category_id": "defi",
+  "subcategory_id": "liquid-staking",
+  "tags": [
+    "liquid-staking"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+          "address_kind": "contract"
+        }
+      ]
+    }
+  ]
+}

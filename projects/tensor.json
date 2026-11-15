@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "slug": "tensor",
+  "name": "Tensor",
+  "tagline": "NFT marketplace and automated market-making protocols on Solana.",
+  "description": "NFT marketplace and automated market-making protocols on Solana. Activity coverage is limited to Tensor Core marketplace.",
+  "logo_url": "https://www.tensor.trade/favicons/favicon.ico",
+  "website_url": "https://www.tensor.trade/",
+  "social_links": {
+    "docs": "https://docs.tensor.foundation/protocols.md"
+  },
+  "primary_category_id": "nfts",
+  "subcategory_id": "nft-marketplaces",
+  "tags": [
+    "nft-marketplaces"
+  ],
+  "chains": [
+    {
+      "chain_id": "solana",
+      "addresses": [
+        {
+          "address": "TCMPhJdwDryooaGtiocG1u3xcYbRpiJzb283XfCZsDp",
+          "address_kind": "program"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "slug": "aragon",
+  "name": "Aragon",
+  "tagline": "On-chain DAO creation, permissions and governance infrastructure.",
+  "description": "On-chain DAO creation, permissions and governance infrastructure. This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics.",
+  "logo_url": "https://cdn.prod.website-files.com/6ae0998d13a07b0ac9a986e9/6aedd06be1458810b212d400_ar-social-icon-white.png",
+  "website_url": "https://www.aragon.org/",
+  "social_links": {},
+  "primary_category_id": "dao-governance",
+  "tags": [
+    "dao-governance"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": []
+    },
+    {
+      "chain_id": "base",
+      "addresses": []
+    }
+  ]
+}

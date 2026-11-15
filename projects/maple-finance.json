@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "slug": "maple-finance",
+  "name": "Maple Finance",
+  "tagline": "On-chain credit and lending infrastructure for institutional borrowers and lenders.",
+  "description": "On-chain credit and lending infrastructure for institutional borrowers and lenders. Activity coverage is limited to syrupUSDC pool, cashUSDC pool.",
+  "logo_url": "https://maple.finance/favicon.ico",
+  "website_url": "https://maple.finance/",
+  "social_links": {},
+  "primary_category_id": "real-world-assets",
+  "subcategory_id": "tokenized-credit",
+  "tags": [
+    "tokenized-credit"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address": "0x80ac24aA929eaF5013f6436cdA2a7ba190f5Cc0b",
+          "address_kind": "contract"
+        }
+      ]
+    },
+    {
+      "chain_id": "base",
+      "addresses": [
+        {
+          "address": "0xDd5Bb9aCF5E02089735A33344c6e3A8BB0d4075D",
+          "address_kind": "contract"
+        }
+      ]
+    }
+  ]
+}

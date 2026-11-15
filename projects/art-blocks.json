@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "slug": "art-blocks",
+  "name": "Art Blocks",
+  "tagline": "Publishing and minting infrastructure for on-chain generative art.",
+  "description": "Publishing and minting infrastructure for on-chain generative art. Activity coverage is limited to Selected Art Blocks V3 core.",
+  "logo_url": "https://www.artblocks.io/favicon-32x32.png",
+  "website_url": "https://www.artblocks.io/",
+  "social_links": {
+    "docs": "https://docs.artblocks.io/developer/token-and-generator-apis/"
+  },
+  "primary_category_id": "nfts",
+  "subcategory_id": "creator-tools",
+  "tags": [
+    "creator-tools"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address": "0x99a9b7c1116f9ceeb1652de04d5969cce509b069",
+          "address_kind": "contract"
+        }
+      ]
+    },
+    {
+      "chain_id": "base",
+      "addresses": []
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "slug": "virtuals-protocol",
+  "name": "Virtuals Protocol",
+  "tagline": "Infrastructure for creating and coordinating tokenized AI agents.",
+  "description": "Infrastructure for creating and coordinating tokenized AI agents. Activity coverage is limited to Launchpad bonding curve.",
+  "logo_url": "https://www.virtuals.io/favicon.ico",
+  "website_url": "https://www.virtuals.io/",
+  "social_links": {
+    "docs": "https://whitepaper.virtuals.io/info-hub/important-links-and-resources/virtuals-protocol-contract-addresses.md"
+  },
+  "primary_category_id": "ai-depin",
+  "subcategory_id": "ai-agents",
+  "tags": [
+    "ai-agents"
+  ],
+  "chains": [
+    {
+      "chain_id": "base",
+      "addresses": [
+        {
+          "address": "0x1A540088125d00dD3990f9dA45CA0859af4d3B01",
+          "address_kind": "contract"
+        }
+      ]
+    }
+  ]
+}

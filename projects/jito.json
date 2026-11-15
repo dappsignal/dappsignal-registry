@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "slug": "jito",
+  "name": "Jito",
+  "tagline": "Liquid staking and validator infrastructure for Solana.",
+  "description": "Liquid staking and validator infrastructure for Solana. Activity coverage is limited to Jito stake-pool state.",
+  "logo_url": "https://coin-images.coingecko.com/coins/images/33228/small/jto.png?1701137022",
+  "website_url": "https://www.jito.network/",
+  "social_links": {},
+  "primary_category_id": "defi",
+  "subcategory_id": "liquid-staking",
+  "tags": [
+    "liquid-staking"
+  ],
+  "chains": [
+    {
+      "chain_id": "solana",
+      "addresses": [
+        {
+          "address": "Jito4APyf642JPZPx3hGc6WWJ8zPKtRbRs4P815Awbb",
+          "address_kind": "account"
+        }
+      ]
+    }
+  ]
+}

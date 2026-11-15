@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "slug": "space-id",
+  "name": "SPACE ID",
+  "tagline": "Web3 domain registration and identity tools, including .bnb names.",
+  "description": "Web3 domain registration and identity tools, including .bnb names. This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics.",
+  "logo_url": "https://static.space.id/favicon.ico",
+  "website_url": "https://www.space.id/",
+  "social_links": {
+    "docs": "https://docs.space.id/developer-guide/registration-integration.md"
+  },
+  "primary_category_id": "infrastructure",
+  "subcategory_id": "identity",
+  "tags": [
+    "identity"
+  ],
+  "chains": [
+    {
+      "chain_id": "bnb-smart-chain",
+      "addresses": []
+    }
+  ]
+}

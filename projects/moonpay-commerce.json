@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "slug": "moonpay-commerce",
+  "name": "MoonPay Commerce",
+  "tagline": "Merchant checkout and crypto-payment tooling, formerly Helio.",
+  "description": "Merchant checkout and crypto-payment tooling, formerly Helio. This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics.",
+  "logo_url": "https://www.moonpay.com/favicon.ico?favicon.3zdiiog6nw5qp.ico",
+  "website_url": "https://www.moonpay.com/business/commerce",
+  "social_links": {
+    "docs": "https://dev.commerce.moonpay.com/llms.txt"
+  },
+  "primary_category_id": "payments",
+  "tags": [
+    "payments"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": []
+    },
+    {
+      "chain_id": "base",
+      "addresses": []
+    },
+    {
+      "chain_id": "solana",
+      "addresses": []
+    }
+  ]
+}

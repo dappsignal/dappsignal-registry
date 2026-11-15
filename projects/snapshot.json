@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "slug": "snapshot",
+  "name": "Snapshot",
+  "tagline": "Governance proposal and voting tools for blockchain communities.",
+  "description": "Governance proposal and voting tools for blockchain communities. Activity coverage is limited to Delegate registry.",
+  "logo_url": "https://snapshot.box/favicon.svg",
+  "website_url": "https://snapshot.box/",
+  "social_links": {
+    "docs": "https://docs.snapshot.box/user-guides/delegation"
+  },
+  "primary_category_id": "dao-governance",
+  "tags": [
+    "dao-governance"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": [
+        {
+          "address": "0x469788fE6E9E9681C6ebF3bF78e7Fd26Fc015446",
+          "address_kind": "contract"
+        }
+      ]
+    },
+    {
+      "chain_id": "base",
+      "addresses": []
+    },
+    {
+      "chain_id": "bnb-smart-chain",
+      "addresses": []
+    }
+  ]
+}

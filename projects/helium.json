@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "slug": "helium",
+  "name": "Helium",
+  "tagline": "Decentralized wireless network infrastructure and on-chain network management.",
+  "description": "Decentralized wireless network infrastructure and on-chain network management. Activity coverage is limited to Helium entity manager.",
+  "logo_url": "https://framerusercontent.com/images/6TFcIJwmOq1tPat18K1XwdNNgdA.png",
+  "website_url": "https://www.helium.com/",
+  "social_links": {},
+  "primary_category_id": "ai-depin",
+  "subcategory_id": "wireless",
+  "tags": [
+    "wireless"
+  ],
+  "chains": [
+    {
+      "chain_id": "solana",
+      "addresses": [
+        {
+          "address": "hemjuPXBpNvggtaUnN1MwT3wrdhttKEfosTcc2P9Pg8",
+          "address_kind": "program"
+        }
+      ]
+    }
+  ]
+}

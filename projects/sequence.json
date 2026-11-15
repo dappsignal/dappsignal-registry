@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "slug": "sequence",
+  "name": "Sequence",
+  "tagline": "Wallet, marketplace, and developer infrastructure for blockchain games.",
+  "description": "Wallet, marketplace, and developer infrastructure for blockchain games. This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics.",
+  "logo_url": "https://sequence.xyz/favicon.ico",
+  "website_url": "https://sequence.xyz/",
+  "social_links": {
+    "docs": "https://docs.sequence.xyz/solutions/technical-references/contract-deployment.md"
+  },
+  "primary_category_id": "games",
+  "subcategory_id": "game-infrastructure",
+  "tags": [
+    "game-infrastructure"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": []
+    },
+    {
+      "chain_id": "base",
+      "addresses": []
+    },
+    {
+      "chain_id": "bnb-smart-chain",
+      "addresses": []
+    }
+  ]
+}

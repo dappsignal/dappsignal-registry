@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "slug": "predict-fun",
+  "name": "Predict.fun",
+  "tagline": "A BNB Chain prediction-market platform for event outcomes.",
+  "description": "A BNB Chain prediction-market platform for event outcomes. Activity coverage is limited to Yield-bearing CTF exchange, Non-yield CTF exchange.",
+  "logo_url": "https://predict.fun/favicon.ico?favicon.2wuutg9l5y6rk.ico",
+  "website_url": "https://predict.fun/",
+  "social_links": {
+    "docs": "https://dev.predict.fun/resources/deployed-contracts"
+  },
+  "primary_category_id": "prediction-markets",
+  "tags": [
+    "prediction-markets"
+  ],
+  "chains": [
+    {
+      "chain_id": "bnb-smart-chain",
+      "addresses": [
+        {
+          "address": "0x6bEb5a40C032AFc305961162d8204CDA16DECFa5",
+          "address_kind": "contract"
+        },
+        {
+          "address": "0x8BC070BEdAB741406F4B1Eb65A72bee27894B689",
+          "address_kind": "contract"
+        }
+      ]
+    }
+  ]
+}

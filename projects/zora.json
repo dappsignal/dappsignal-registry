@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "slug": "zora",
+  "name": "Zora",
+  "tagline": "A creator platform for publishing and trading content coins on Base.",
+  "description": "A creator platform for publishing and trading content coins on Base. Activity coverage is limited to Coins factory.",
+  "logo_url": "https://zora.co/favicon.ico",
+  "website_url": "https://zora.co/",
+  "social_links": {
+    "docs": "https://docs.zora.co/coins"
+  },
+  "primary_category_id": "social",
+  "tags": [
+    "social"
+  ],
+  "chains": [
+    {
+      "chain_id": "base",
+      "addresses": [
+        {
+          "address": "0x777777751622c0d3258f214F9DF38E35BF45baF3",
+          "address_kind": "contract"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "slug": "metamask",
+  "name": "MetaMask",
+  "tagline": "A self-custodial wallet for interacting with supported blockchain applications.",
+  "description": "A self-custodial wallet for interacting with supported blockchain applications. This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics.",
+  "logo_url": "https://metamask.com/favicons/default/apple-touch-icon.png",
+  "website_url": "https://metamask.com/",
+  "social_links": {
+    "docs": "https://docs.metamask.io/metamask-connect/multichain/"
+  },
+  "primary_category_id": "wallets",
+  "tags": [
+    "wallets"
+  ],
+  "chains": [
+    {
+      "chain_id": "ethereum",
+      "addresses": []
+    },
+    {
+      "chain_id": "base",
+      "addresses": []
+    },
+    {
+      "chain_id": "bnb-smart-chain",
+      "addresses": []
+    },
+    {
+      "chain_id": "solana",
+      "addresses": []
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "slug": "hivemapper",
+  "name": "Hivemapper",
+  "tagline": "A community-built mapping network with contributor rewards on Solana.",
+  "description": "A community-built mapping network with contributor rewards on Solana. This profile covers the supported product integration. No dedicated activity address is mapped; token transfers are not used as service-usage metrics.",
+  "logo_url": "https://hivemapper.com/favicon.ico",
+  "website_url": "https://hivemapper.com/",
+  "social_links": {},
+  "primary_category_id": "ai-depin",
+  "subcategory_id": "physical-infrastructure",
+  "tags": [
+    "physical-infrastructure"
+  ],
+  "chains": [
+    {
+      "chain_id": "solana",
+      "addresses": []
+    }
+  ]
+}
