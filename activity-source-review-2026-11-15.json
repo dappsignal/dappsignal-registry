@@ -165,7 +165,7 @@
     },
     {
       "name": "Gelato Automate",
-      "reason": "Automation service deprecation and expired documentation endpoints prevent treating the old automation contracts as a current production service."
+      "reason": "Current service deployment could not be confirmed from first-party documentation during this review; the documentation endpoint returned an expired TLS certificate, so no replacement listing was added."
     }
   ]
 }
